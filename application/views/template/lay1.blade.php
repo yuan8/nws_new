@@ -43,6 +43,10 @@
  <script src="{{base_url('dist/js/adminlte.js')}}"></script>
 
 
+ <script src="{{rt('dist/vendor/toas/toas.js')}}"></script>
+<link rel="stylesheet" type="text/css" href="{{rt('dist/vendor/toas/toas.css')}}">
+
+
 
 
 
@@ -75,7 +79,7 @@
 </head>
 <body class=" layout-top-nav">
       @include('component.nav')
-
+      @include('component.alert')
 
   <div class="wrapper bg-def" >
       <div class="container-fluid" >

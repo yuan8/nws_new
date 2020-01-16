@@ -43,6 +43,10 @@
  <script src="<?php echo e(base_url('dist/js/adminlte.js')); ?>"></script>
 
 
+ <script src="<?php echo e(rt('dist/vendor/toas/toas.js')); ?>"></script>
+<link rel="stylesheet" type="text/css" href="<?php echo e(rt('dist/vendor/toas/toas.css')); ?>">
+
+
 
 
 
@@ -75,7 +79,7 @@
 </head>
 <body class=" layout-top-nav">
       <?php echo $__env->make('component.nav', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
-
+      <?php echo $__env->make('component.alert', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
 
   <div class="wrapper bg-def" >
       <div class="container-fluid" >

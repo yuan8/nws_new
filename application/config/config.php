@@ -23,7 +23,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'http://'.$_SERVER['SERVER_NAME'].'/nuwas/';
+$config['base_url'] = 'http://'.$_SERVER['SERVER_NAME'].'/nws/';
 
 /*
 |--------------------------------------------------------------------------
@@ -324,7 +324,7 @@ $config['cache_query_string'] = FALSE;
 | https://codeigniter.com/user_guide/libraries/encryption.html
 |
 */
-$config['encryption_key'] = '';
+$config['encryption_key'] = 'jangan_setuh_aku_aku_ini_tidakmaudisentuh_ya';
 
 /*
 |--------------------------------------------------------------------------

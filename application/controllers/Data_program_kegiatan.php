@@ -2,6 +2,11 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Data_program_kegiatan extends CI_Controller {
+	 function __construct()
+	    {
+	        parent::__construct();
+	        auth();
+	    }
 
 	public function index(){
 
