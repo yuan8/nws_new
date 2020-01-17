@@ -9,6 +9,7 @@ class Catatan extends CI_Controller {
 		$rekomendasi=request('rekomendasi');
 		$rekomendasi=request('judul');
 
+		dd($_POST);
 
 		withInput();
 		redirect(rt('admin'));

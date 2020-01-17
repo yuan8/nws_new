@@ -1,10 +1,19 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
+
 class Test extends CI_Controller {
+
+
   public function index(){
     $query='select * from master_pn';
+       $this->load->library('Test');
+    // $this->Test->a();
+
+ 
+
     $data=(query($this,$query));
+
 
     return view('pages.table.pn',['data'=>$data]);
   }
@@ -13,7 +22,8 @@ class Test extends CI_Controller {
     $query='select * from master_spm as spm where spm.id_urusan = 3';
     $data=(query($this,$query));
 
-    // dd($data);
+
+    dd($data);
 
     return view('pages.table.spm',['data'=>$data]);
   }

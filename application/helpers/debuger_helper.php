@@ -26,3 +26,8 @@ if(!function_exists('query')){
   }
 
 }
+
+
+function back(){
+  redirect($_SERVER['HTTP_REFERER']);
+}

@@ -54,7 +54,17 @@
 <link href="https://cdn.jsdelivr.net/npm/summernote@0.8.15/dist/summernote-bs4.min.css" rel="stylesheet">
 <script src="https://cdn.jsdelivr.net/npm/summernote@0.8.15/dist/summernote-bs4.min.js"></script>
 
+<script type="text/javascript" src="<?php echo e(rt('dist/vendor/jspanel/jspanel.min.js')); ?>"></script>
 
+<link href="<?php echo e(rt('dist/vendor/jspanel/jspanel.css')); ?>" rel="stylesheet">
+<!-- jsPanel JavaScript -->
+
+<!-- optional jsPanel extensions -->
+<script src="<?php echo e(rt('dist/vendor/jspanel/extensions/modal/jspanel.modal.js')); ?>"></script>
+<script src="<?php echo e(rt('dist/vendor/jspanel/extensions/tooltip/jspanel.tooltip.js')); ?>"></script>
+<script src="<?php echo e(rt('dist/vendor/jspanel/extensions/hint/jspanel.hint.js')); ?>"></script>
+<script src="<?php echo e(rt('dist/vendor/jspanel/extensions/layout/jspanel.layout.js')); ?>"></script>
+<script src="<?php echo e(rt('dist/vendor/jspanel/extensions/contextmenu/jspanel.contextmenu.js')); ?>"></script>
 
 
 </head>
@@ -70,9 +80,9 @@
       <li class="nav-item d-none d-sm-inline-block">
         <a href="<?php echo e(rt('/dashboard')); ?>" class="nav-link">Home</a>
       </li>
-      <!-- <li class="nav-item d-none d-sm-inline-block">
-        <a href="#" class="nav-link">Contact</a>
-      </li> -->
+      <li class="nav-item d-none d-sm-inline-block">
+        <a href="#" onclick="showpanelCatatan(true)" class="nav-link">Buat Catatan</a>
+      </li>
     </ul>
 
     <!-- SEARCH FORM -->
@@ -261,6 +271,13 @@
 
 <?php echo $__env->yieldContent('script'); ?>
 
+<?php echo $__env->make('component.panel', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
+
+<style type="text/css">
+.btn-circle{
+  border-radius: 100%!Important;
+}
+</style>
 
 
 </body>

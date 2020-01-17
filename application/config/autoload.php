@@ -80,6 +80,7 @@ $autoload['libraries'] = array('database','session');
 |
 */
 $autoload['drivers'] = array();
+// $autoload['drivers'] = array('session');
 
 /*
 | -------------------------------------------------------------------
@@ -89,7 +90,7 @@ $autoload['drivers'] = array();
 |
 |	$autoload['helper'] = array('url', 'file');
 */
-$autoload['helper'] = array();
+// $autoload['helper'] = array();
 
 /*
 | -------------------------------------------------------------------
@@ -135,4 +136,4 @@ $autoload['language'] = array();
 $autoload['model'] = array();
 
 
-$autoload['helper'] = array('view','url','url_bind','mapper','debuger');
+$autoload['helper'] = array('view','url','url_bind','mapper','debuger','nuwas');

@@ -156,7 +156,14 @@ if ( ! function_exists('load_class'))
 		{
 			if (file_exists($path.$directory.'/'.$class.'.php'))
 			{
+
+				// if(strrpos($class, 'CI_')!==false){
+				// 	$name=$class;
+				// }else{
+
+				// }
 				$name = 'CI_'.$class;
+				
 
 				if (class_exists($name, FALSE) === FALSE)
 				{
