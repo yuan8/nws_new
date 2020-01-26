@@ -4,8 +4,75 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 class Air_minum extends CI_Controller {
 
   public function index(){
+
+
+    $query="select p.nama as nama_daerah, min(p.id_provinsi) as id, sum(a.anggaran) as anggaran from provinsi as p
+    join program_kegiatan_sipd2 as a  on a.kode_daerah ilike (p.id_provinsi||'%')
+    GROUP BY p.id_provinsi  ORDER BY sum(a.anggaran) DESC
+    ";
+
+    $query="select min(p.nama) as nama_daerah,(a.kode_daerah) as id,CASE WHEN (length(a.kode_daerah)=2) then 1 else 0  end as tag_provinsi, sum(a.anggaran) as anggaran 
+            from program_kegiatan_sipd2 as a
+            join  view_daerah as p on a.kode_daerah = p.id
+            where a.kode_daerah ilike (32||'%')
+            GROUP BY a.kode_daerah  ORDER BY sum(a.anggaran) DESC
+    ";
+
+    $PROVINSI='32';
     
+    $query="select
+      min(p.nama) as nama_daerah,
+      min(p.id) as kode_daerah,
+      (CASE WHEN (sum(a.anggaran) IS NOT NULL) THEN sum(a.anggaran) ELSE 0 END)  as anggaran 
+      from view_daerah as p
+      left join program_kegiatan_sipd2 as a on a.kode_daerah=p.id
+      where p.id ilike (".$PROVINSI."||'%')
+      group by p.id  
+      ORDER BY (CASE WHEN (sum(a.anggaran) IS NOT NULL) THEN sum(a.anggaran) ELSE 0 END) DESC
+    ";
+
+    $query="select min(a.kode_daerah) as kode_daerah ,min(u.nama) as nama_urusan, min(u.id) as id_urusan, sum(a.anggaran) as anggaran from master_urusan as u
+    left join program_kegiatan_sipd2 as a on a.id_urusan=u.id
+    where a.kode_daerah=".$PROVINSI."::text  
+    GROUP BY u.id
+    ORDER BY (CASE WHEN (sum(a.anggaran) IS NOT NULL) THEN sum(a.anggaran) ELSE 0 END)  DESC
+
+    ";
+
+
+    $KODEURUSAN=3;
+
+    $query="select min(a.kode_daerah) as kode_daerah ,min(su.nama) as nama_urusan, min(su.id) as id_sub_urusan,(CASE WHEN (sum(a.anggaran) IS NOT NULL) THEN sum(a.anggaran) ELSE 0 END)  as anggaran from master_sub_urusan as su
+    left join program_kegiatan_sipd2 as a on a.id_sub_urusan=su.id
+    where a.kode_daerah=".$PROVINSI."::text  and a.id_urusan=".$KODEURUSAN."
+    GROUP BY su.id
+    ORDER BY (CASE WHEN (sum(a.anggaran) IS NOT NULL) THEN sum(a.anggaran) ELSE 0 END)  DESC
+    ";
+
+
+    $KODEURUSAN=3;
+
+    $query="select min(a.kode_daerah) as kode_daerah ,min(su.nama) as nama_urusan, min(su.id) as id_sub_urusan,(CASE WHEN (sum(a.anggaran) IS NOT NULL) THEN sum(a.anggaran) ELSE 0 END)  as anggaran from master_sub_urusan as su
+    left join program_kegiatan_sipd2 as a on a.id_sub_urusan=su.id
+    where a.kode_daerah=".$PROVINSI."::text  and a.id_urusan=".$KODEURUSAN."
+    GROUP BY su.id
+    ORDER BY (CASE WHEN (sum(a.anggaran) IS NOT NULL) THEN sum(a.anggaran) ELSE 0 END)  DESC
+    ";
+
+    $query2='select 
+    min(kode_daerah) as kode_daerah,
+    sum(anggaran) as anggaran,
+    (select nama from provinsi where id_provinsi=a.kode_daerah) as nama_daerah
+    from program_kegiatan_sipd2 as a where
+    length(kode_daerah)=(4|2) group by kode_daerah order by sum(anggaran) desc';
+
+    // dd(query($this,$query));
+
+
+
     return view('pages.air_minum');
+  
+
   }
 
 

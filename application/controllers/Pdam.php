@@ -5,9 +5,7 @@ class Pdam extends CI_Controller {
 
   public function index(){
 
-  	$query="select a.id,d.nama as nama, a.nilai_kinerja_total,a.nilai_aspek_keuangan,a.nilai_aspek_pelayanan,a.nilai_aspek_operasional from data_sat_nuwas as a
-  	join view_daerah as d on d.id = TO_CHAR(a.kode_pdam,'3311')
-  	";
+  	$query="select * from data_input";
   	$data=query($this,$query);
 
     return view('pages.pdam',['data'=>$data]);
@@ -17,6 +15,12 @@ class Pdam extends CI_Controller {
 
   public function detail($id){
 
-    return view('pages.pdam_detail');
+    $query="select * from data_input where id = ".$id;
+    $data=query($this,$query);
+
+    if(isset($data[0])){
+    return view('pages.pdam_detail',['data'=>$data[0]]);
+
+    }
   }
 }

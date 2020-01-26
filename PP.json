@@ -1,0 +1,197 @@
+[
+    {
+        "id": 1,
+        "data": "PP : Pemenuhan kebutuhan energi dengan mengutamakan peningkatan Energi Baru Terbarukan (EBT)",
+        "id_pn": 0
+    },
+    {
+        "id": 2,
+        "data": "PP : Peningkatan kuantitas\/ketersediaan air untuk mendukung pertumbuhan ekonomi",
+        "id_pn": 0
+    },
+    {
+        "id": 3,
+        "data": "PP : Peningkatan ketersediaan, akses dan kualitas konsumsi pangan",
+        "id_pn": 0
+    },
+    {
+        "id": 4,
+        "data": "PP : Peningkatan pengelolaan kemaritiman dan kelautan",
+        "id_pn": 0
+    },
+    {
+        "id": 5,
+        "data": "PP : Penguatan kewirausahaan dan Usaha Mikro, Kecil dan Menengah (UMKM)",
+        "id_pn": 0
+    },
+    {
+        "id": 6,
+        "data": "PP : Peningkatan nilai tambah, lapangan kerja, dan investasi di sektor riil, dan industrialisasi",
+        "id_pn": 0
+    },
+    {
+        "id": 7,
+        "data": "PP : Peningkatan ekspor bernilai tambah tinggi dan penguatan Tingkat Kandungan Dalam Negeri (TKDN)",
+        "id_pn": 0
+    },
+    {
+        "id": 8,
+        "data": "PP : Penguatan pilar pertumbuhan dan daya saing ekonomi",
+        "id_pn": 0
+    },
+    {
+        "id": 9,
+        "data": "PP : Pembangunan Wilayah Sumatera",
+        "id_pn": 0
+    },
+    {
+        "id": 10,
+        "data": "PP : Pengembangan Wilayah Jawa-Bali",
+        "id_pn": 0
+    },
+    {
+        "id": 11,
+        "data": "PP : Pembangunan Wilayah Nusa\nTenggara",
+        "id_pn": 0
+    },
+    {
+        "id": 12,
+        "data": "PP : Pembangunan Wilayah Kalimantan",
+        "id_pn": 0
+    },
+    {
+        "id": 13,
+        "data": "PP : Pembangunan Wilayah Sulawesi",
+        "id_pn": 0
+    },
+    {
+        "id": 14,
+        "data": "PP : Pembangunan Wilayah Maluku",
+        "id_pn": 0
+    },
+    {
+        "id": 15,
+        "data": "PP : Pengembangan Wilayah Papua",
+        "id_pn": 0
+    },
+    {
+        "id": 16,
+        "data": "PP : PERLINDUNGAN SOSIAL DAN TATA KELOLA KEPENDUDUKAN",
+        "id_pn": 0
+    },
+    {
+        "id": 17,
+        "data": "PP : PENGUATAN PELAKSANAAN PERLINDUNGAN SOSIAL",
+        "id_pn": 0
+    },
+    {
+        "id": 18,
+        "data": "PP : Peningkatan Akses dan Mutu\nPelayanan Kesehatan",
+        "id_pn": 0
+    },
+    {
+        "id": 19,
+        "data": "PP : PENINGKATAN PEMERATAAN LAYANAN PENDIDIKAN BERKUALITAS",
+        "id_pn": 0
+    },
+    {
+        "id": 20,
+        "data": "PP : PENINGKATAN KUALITAS ANAK, PEREMPUAN DAN PEMUDA",
+        "id_pn": 0
+    },
+    {
+        "id": 21,
+        "data": "PP : PENGENTASAN KEMISKINAN",
+        "id_pn": 0
+    },
+    {
+        "id": 22,
+        "data": "PP : PENINGKATAN PRODUKTIVITAS DAN DAYA SAING",
+        "id_pn": 0
+    },
+    {
+        "id": 23,
+        "data": "PP : REVOLUSI MENTAL DAN PEMBINAAN IDEOLOGI PANCASILA UNTUK MEMPERKUKUH KETAHANAN BUDAYA BANGSA DAN MEMBENTUK MENTALITAS BANGSA YANG MAJU, MODERN, DAN BERKARAKTER",
+        "id_pn": 0
+    },
+    {
+        "id": 24,
+        "data": "PP : MENINGKATKAN PEMAJUAN DAN PELESTARIAN KEBUDAYAAN UNTUK MEMPERKUAT KARAKTER DAN MEMPERTEGUH JATI DIRI BANGSA, MENINGKATKAN KESEJAHTERAAN RAKYAT, DAN MEMPENGARUHI ARAH PERKEMBANGAN PERADABAN DUNIA",
+        "id_pn": 0
+    },
+    {
+        "id": 25,
+        "data": "PP : MEMPERKUAT MODERASI BERAGAMA UNTUK MENGUKUHKAN TOLERANSI, KERUKUNAN DAN HARMONI SOSIAL",
+        "id_pn": 0
+    },
+    {
+        "id": 26,
+        "data": "PP : PENINGKATAN BUDAYA LITERASI, INOVASI DAN KREATIVITAS BAGI TERWUJUDNYA MASYARAKAT BERPENGETAHUAN, DAN BERKARAKTER",
+        "id_pn": 0
+    },
+    {
+        "id": 27,
+        "data": "PP : INFRASTRUKTUR PELAYANAN DASAR",
+        "id_pn": 0
+    },
+    {
+        "id": 28,
+        "data": "PP : PENGUATAN KONEKTIVITAS",
+        "id_pn": 0
+    },
+    {
+        "id": 29,
+        "data": "PP : INFRASTRUKTUR PERKOTAAN",
+        "id_pn": 0
+    },
+    {
+        "id": 30,
+        "data": "PP : ENERGI DAN KETENAGALISTRIKAN",
+        "id_pn": 0
+    },
+    {
+        "id": 31,
+        "data": "PP : TRANSFORMASI DIGITAL",
+        "id_pn": 0
+    },
+    {
+        "id": 32,
+        "data": "PP : PENINGKATAN KUALITAS LINGKUNGAN HIDUP",
+        "id_pn": 0
+    },
+    {
+        "id": 33,
+        "data": "PP : PENINGKATAN KETAHANAN BENCANA DAN IKLIM",
+        "id_pn": 0
+    },
+    {
+        "id": 34,
+        "data": "PP : PEMBANGUNAN RENDAH KARBON",
+        "id_pn": 0
+    },
+    {
+        "id": 35,
+        "data": "PP : KONSOLIDASI DEMOKRASI",
+        "id_pn": 0
+    },
+    {
+        "id": 36,
+        "data": "PP : OPTIMALISASI KEBIJAKAN LUAR NEGERI",
+        "id_pn": 0
+    },
+    {
+        "id": 37,
+        "data": "PP : PENEGAKAN HUKUM NASIONAL",
+        "id_pn": 0
+    },
+    {
+        "id": 38,
+        "data": "PP : REFORMASI BIROKRASI DAN TATA KELOLA",
+        "id_pn": 0
+    },
+    {
+        "id": 39,
+        "data": "PP : Menjaga Stabilitas Keamanan\nNasional",
+        "id_pn": 0
+    }
+]

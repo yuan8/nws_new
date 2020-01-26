@@ -1,0 +1,7009 @@
+[
+    {
+        "id": 1,
+        "data": "ProP : Percepatan Pembangunan\nPembangkit Energi Terbarukan",
+        "id_pn": 0,
+        "id_pp": 1,
+        "id_kp": 1
+    },
+    {
+        "id": 2,
+        "data": "ProP : Akselerasi Pengembangan BBN",
+        "id_pn": 0,
+        "id_pp": 1,
+        "id_kp": 2
+    },
+    {
+        "id": 3,
+        "data": "ProP : Perluasan Penerapan Efisiensi\nEnergi",
+        "id_pn": 0,
+        "id_pp": 1,
+        "id_kp": 3
+    },
+    {
+        "id": 4,
+        "data": "ProP : Pemenuhan Energi yang\nKompetitif bagi Energi",
+        "id_pn": 0,
+        "id_pp": 1,
+        "id_kp": 4
+    },
+    {
+        "id": 5,
+        "data": "ProP : Pengembangan Industri EBT",
+        "id_pn": 0,
+        "id_pp": 1,
+        "id_kp": 5
+    },
+    {
+        "id": 6,
+        "data": "ProP : Inventarisasi Jasa Lingkungan\nTinggi",
+        "id_pn": 0,
+        "id_pp": 2,
+        "id_kp": 6
+    },
+    {
+        "id": 7,
+        "data": "ProP : Perlindungan dan Pengamanan Kawasan Lindung Nasional secara Partisipatif",
+        "id_pn": 0,
+        "id_pp": 2,
+        "id_kp": 6
+    },
+    {
+        "id": 8,
+        "data": "ProP : Optimalisasi Hasil Hutan dan\nJasa Lingkungan",
+        "id_pn": 0,
+        "id_pp": 2,
+        "id_kp": 7
+    },
+    {
+        "id": 9,
+        "data": "ProP : Penguatan Kesatuan\nPengelolaan Hutan",
+        "id_pn": 0,
+        "id_pp": 2,
+        "id_kp": 7
+    },
+    {
+        "id": 10,
+        "data": "ProP : Optimalisasi Hasil Hutan",
+        "id_pn": 0,
+        "id_pp": 2,
+        "id_kp": 8
+    },
+    {
+        "id": 11,
+        "data": "ProP : Penguatan Kesatuan\nPengelolaan Hutan",
+        "id_pn": 0,
+        "id_pp": 2,
+        "id_kp": 8
+    },
+    {
+        "id": 12,
+        "data": "ProP : Rehabilitasi hutan dan lahan",
+        "id_pn": 0,
+        "id_pp": 2,
+        "id_kp": 10
+    },
+    {
+        "id": 13,
+        "data": "ProP : Revitalisasi\/ Penyelamatan\nDanau Prioritas Nasional",
+        "id_pn": 0,
+        "id_pp": 2,
+        "id_kp": 10
+    },
+    {
+        "id": 14,
+        "data": "ProP : Pembangunan dan rehabilitasi bendungan",
+        "id_pn": 0,
+        "id_pp": 2,
+        "id_kp": 11
+    },
+    {
+        "id": 15,
+        "data": "ProP : Optimalisasi dan pemanfaatan tampungan",
+        "id_pn": 0,
+        "id_pp": 2,
+        "id_kp": 11
+    },
+    {
+        "id": 16,
+        "data": "ProP : Rehabilitasi hutan dan lahan kritis secara vegetatif dan sipil teknis",
+        "id_pn": 0,
+        "id_pp": 2,
+        "id_kp": 11
+    },
+    {
+        "id": 17,
+        "data": "ProP : Pemulihan dan konservasi daerah tangkapan air",
+        "id_pn": 0,
+        "id_pp": 2,
+        "id_kp": 11
+    },
+    {
+        "id": 18,
+        "data": "ProP : Peningkatan Diversifikasi\nKonsumsi Pangan",
+        "id_pn": 0,
+        "id_pp": 3,
+        "id_kp": 12
+    },
+    {
+        "id": 19,
+        "data": "ProP : Peningkatan Keamanan Pangan",
+        "id_pn": 0,
+        "id_pp": 3,
+        "id_kp": 12
+    },
+    {
+        "id": 20,
+        "data": "ProP : Pengembangan Fortifikasi dan\nBiofortifikasi Pangan",
+        "id_pn": 0,
+        "id_pp": 3,
+        "id_kp": 12
+    },
+    {
+        "id": 21,
+        "data": "ProP : Peningkatan Produksi Padi",
+        "id_pn": 0,
+        "id_pp": 3,
+        "id_kp": 13
+    },
+    {
+        "id": 22,
+        "data": "ProP : Peningkatan Produksi Jagung",
+        "id_pn": 0,
+        "id_pp": 3,
+        "id_kp": 13
+    },
+    {
+        "id": 23,
+        "data": "ProP : Peningkatan Produksi Kedelai",
+        "id_pn": 0,
+        "id_pp": 3,
+        "id_kp": 13
+    },
+    {
+        "id": 24,
+        "data": "ProP : Peningkatan Produksi Daging",
+        "id_pn": 0,
+        "id_pp": 3,
+        "id_kp": 13
+    },
+    {
+        "id": 25,
+        "data": "ProP : Peningkatan Produksi Cabai",
+        "id_pn": 0,
+        "id_pp": 3,
+        "id_kp": 13
+    },
+    {
+        "id": 26,
+        "data": "ProP : Peningkatan Produksi Bawang\nMerah",
+        "id_pn": 0,
+        "id_pp": 3,
+        "id_kp": 13
+    },
+    {
+        "id": 27,
+        "data": "ProP : Peningkatan Mutu Hasil Pangan",
+        "id_pn": 0,
+        "id_pp": 3,
+        "id_kp": 13
+    },
+    {
+        "id": 28,
+        "data": "ProP : Asuransi Pertanian",
+        "id_pn": 0,
+        "id_pp": 3,
+        "id_kp": 14
+    },
+    {
+        "id": 29,
+        "data": "ProP : Pendidikan Pertanian",
+        "id_pn": 0,
+        "id_pp": 3,
+        "id_kp": 14
+    },
+    {
+        "id": 30,
+        "data": "ProP : Penyuluhan dan Pendampingan\nSekolah Lapang",
+        "id_pn": 0,
+        "id_pp": 3,
+        "id_kp": 14
+    },
+    {
+        "id": 31,
+        "data": "ProP : Korporasi Petani",
+        "id_pn": 0,
+        "id_pp": 3,
+        "id_kp": 14
+    },
+    {
+        "id": 32,
+        "data": "ProP : Pengelolaan Sumber Daya Air\nPertanian",
+        "id_pn": 0,
+        "id_pp": 3,
+        "id_kp": 15
+    },
+    {
+        "id": 33,
+        "data": "ProP : Pengelolaan Sumber Daya Lahan\nPertanian",
+        "id_pn": 0,
+        "id_pp": 3,
+        "id_kp": 15
+    },
+    {
+        "id": 34,
+        "data": "ProP : Stabilisasi Harga Pangan",
+        "id_pn": 0,
+        "id_pp": 3,
+        "id_kp": 16
+    },
+    {
+        "id": 35,
+        "data": "ProP : Penanganan Rawan Pangan serta Cadangan Pangan Pemerintah dan Masyarakat",
+        "id_pn": 0,
+        "id_pp": 3,
+        "id_kp": 16
+    },
+    {
+        "id": 36,
+        "data": "ProP : Penyempurnaan Statistik\nPertanian",
+        "id_pn": 0,
+        "id_pp": 3,
+        "id_kp": 16
+    },
+    {
+        "id": 37,
+        "data": "ProP : Pengelolaan Wilayah\nPengelolaan Perikanan (WPP)",
+        "id_pn": 0,
+        "id_pp": 4,
+        "id_kp": 17
+    },
+    {
+        "id": 38,
+        "data": "ProP : Penataan Ruang Laut dan\nRencana Zonasi Pesisir",
+        "id_pn": 0,
+        "id_pp": 4,
+        "id_kp": 17
+    },
+    {
+        "id": 39,
+        "data": "ProP : Pemanfaatan Ruang Laut",
+        "id_pn": 0,
+        "id_pp": 4,
+        "id_kp": 17
+    },
+    {
+        "id": 40,
+        "data": "ProP : Pengembangan wisata bahari",
+        "id_pn": 0,
+        "id_pp": 4,
+        "id_kp": 18
+    },
+    {
+        "id": 41,
+        "data": "ProP : Pengembangan marine bioproduct",
+        "id_pn": 0,
+        "id_pp": 4,
+        "id_kp": 18
+    },
+    {
+        "id": 42,
+        "data": "ProP : Peningkatan Produksi Perikanan",
+        "id_pn": 0,
+        "id_pp": 4,
+        "id_kp": 19
+    },
+    {
+        "id": 43,
+        "data": "ProP : Pengembangan jaringan transportasi laut",
+        "id_pn": 0,
+        "id_pp": 4,
+        "id_kp": 19
+    },
+    {
+        "id": 44,
+        "data": "ProP : Peningkatan Produksi rumput laut",
+        "id_pn": 0,
+        "id_pp": 4,
+        "id_kp": 19
+    },
+    {
+        "id": 45,
+        "data": "ProP : Peningkatan Produksi garam",
+        "id_pn": 0,
+        "id_pp": 4,
+        "id_kp": 19
+    },
+    {
+        "id": 46,
+        "data": "ProP : Karantina Ikan dan jaminan mutu",
+        "id_pn": 0,
+        "id_pp": 4,
+        "id_kp": 19
+    },
+    {
+        "id": 47,
+        "data": "ProP : Peningkatan Perlindungan\nNelayan dan Pembudidaya Ikan",
+        "id_pn": 0,
+        "id_pp": 4,
+        "id_kp": 20
+    },
+    {
+        "id": 48,
+        "data": "ProP : Peningkatan Akses Pembiayaan\nUsaha Perikanan",
+        "id_pn": 0,
+        "id_pp": 4,
+        "id_kp": 20
+    },
+    {
+        "id": 49,
+        "data": "ProP : Peningkatan SDM kelautan dan perikanan",
+        "id_pn": 0,
+        "id_pp": 4,
+        "id_kp": 21
+    },
+    {
+        "id": 50,
+        "data": "ProP : Penguatan Inovasi Teknologi dan\nRiset Kelautan dan Perikanan",
+        "id_pn": 0,
+        "id_pp": 4,
+        "id_kp": 21
+    },
+    {
+        "id": 51,
+        "data": "ProP : Pengembangan Kapasitas Usaha dan Kualitas Produk",
+        "id_pn": 0,
+        "id_pp": 5,
+        "id_kp": 22
+    },
+    {
+        "id": 52,
+        "data": "ProP : Perluasan Kemitraan Usaha",
+        "id_pn": 0,
+        "id_pp": 5,
+        "id_kp": 22
+    },
+    {
+        "id": 53,
+        "data": "ProP : Penguatan Kapasitas\nKelembagaan untuk Bermitra",
+        "id_pn": 0,
+        "id_pp": 5,
+        "id_kp": 22
+    },
+    {
+        "id": 54,
+        "data": "ProP : Dukungan Pemberian Modal\nAwal Usaha",
+        "id_pn": 0,
+        "id_pp": 5,
+        "id_kp": 23
+    },
+    {
+        "id": 55,
+        "data": "ProP : Pendampingan UMKM untuk\nMengakses Kredit",
+        "id_pn": 0,
+        "id_pp": 5,
+        "id_kp": 23
+    },
+    {
+        "id": 56,
+        "data": "ProP : Pengembangan Skema\nPembiayaan bagi Wirausaha dan UMKM",
+        "id_pn": 0,
+        "id_pp": 5,
+        "id_kp": 23
+    },
+    {
+        "id": 57,
+        "data": "ProP : Peningkatan Kapasitas Pengurus dan Manajer Koperasi",
+        "id_pn": 0,
+        "id_pp": 5,
+        "id_kp": 24
+    },
+    {
+        "id": 58,
+        "data": "ProP : Pendampingan kelompok untuk membentuk koperasi",
+        "id_pn": 0,
+        "id_pp": 5,
+        "id_kp": 24
+    },
+    {
+        "id": 59,
+        "data": "ProP : Pengembangan Jangkauan dan\nCakupan Usaha",
+        "id_pn": 0,
+        "id_pp": 5,
+        "id_kp": 24
+    },
+    {
+        "id": 60,
+        "data": "ProP : Pengembangan Inovasi Koperasi",
+        "id_pn": 0,
+        "id_pp": 5,
+        "id_kp": 24
+    },
+    {
+        "id": 61,
+        "data": "ProP : Pelatihan Kewirausahaan",
+        "id_pn": 0,
+        "id_pp": 5,
+        "id_kp": 25
+    },
+    {
+        "id": 62,
+        "data": "ProP : Inkubasi Usaha",
+        "id_pn": 0,
+        "id_pp": 5,
+        "id_kp": 25
+    },
+    {
+        "id": 63,
+        "data": "ProP : Penguatan Kapasitas Layanan\nUsaha",
+        "id_pn": 0,
+        "id_pp": 5,
+        "id_kp": 25
+    },
+    {
+        "id": 64,
+        "data": "ProP : Pengembangan sentra Industri\nKecil dan Menengah",
+        "id_pn": 0,
+        "id_pp": 5,
+        "id_kp": 25
+    },
+    {
+        "id": 65,
+        "data": "ProP : Pendampingan akses permodalan bagi wirausaha sosial berbasis ekonomi kreatif",
+        "id_pn": 0,
+        "id_pp": 5,
+        "id_kp": 26
+    },
+    {
+        "id": 66,
+        "data": "ProP : Pembinaan Wirausaha Sosial",
+        "id_pn": 0,
+        "id_pp": 5,
+        "id_kp": 26
+    },
+    {
+        "id": 67,
+        "data": "ProP : Pengembangan Industri berbasis perkebunan",
+        "id_pn": 0,
+        "id_pp": 6,
+        "id_kp": 27
+    },
+    {
+        "id": 68,
+        "data": "ProP : Pengembangan industri berbasis hortikultura",
+        "id_pn": 0,
+        "id_pp": 6,
+        "id_kp": 27
+    },
+    {
+        "id": 69,
+        "data": "ProP : Pengembangan industri berbasis tanaman obat",
+        "id_pn": 0,
+        "id_pp": 6,
+        "id_kp": 27
+    },
+    {
+        "id": 70,
+        "data": "ProP : Pengembangan industri berbasis kehutanan",
+        "id_pn": 0,
+        "id_pp": 6,
+        "id_kp": 27
+    },
+    {
+        "id": 71,
+        "data": "ProP : Pengembangan industri\nKemaritiman",
+        "id_pn": 0,
+        "id_pp": 6,
+        "id_kp": 27
+    },
+    {
+        "id": 72,
+        "data": "ProP : Pengembangan industri Kimia, Farmasi dan Logam",
+        "id_pn": 0,
+        "id_pp": 6,
+        "id_kp": 27
+    },
+    {
+        "id": 73,
+        "data": "ProP : Pengembangan kawasan industri dan smelter secara terintegrasi",
+        "id_pn": 0,
+        "id_pp": 6,
+        "id_kp": 28
+    },
+    {
+        "id": 74,
+        "data": "ProP : Pemanfaatan Mineral dan Batubara untuk Peningkatan nilai tambah",
+        "id_pn": 0,
+        "id_pp": 6,
+        "id_kp": 28
+    },
+    {
+        "id": 75,
+        "data": "ProP : Pengembangan 25 Kawasan Hutan Prioritas untuk mendukung Destinasi Pariwisata Prioritas",
+        "id_pn": 0,
+        "id_pp": 6,
+        "id_kp": 29
+    },
+    {
+        "id": 76,
+        "data": "ProP : Pengembangan 21 Destinasi\nPariwisata Prioritas (DPP)",
+        "id_pn": 0,
+        "id_pp": 6,
+        "id_kp": 29
+    },
+    {
+        "id": 77,
+        "data": "ProP : Pengembangan 10 Destinasi\nPariwisata Prioritas (DPP) dan 11\nDestinasi Pariwisata Potensial",
+        "id_pn": 0,
+        "id_pp": 6,
+        "id_kp": 29
+    },
+    {
+        "id": 78,
+        "data": "ProP : Pengembangan 12 klaster destinasi wisata alam berbasis hutan dan ekosistem di dalamnya",
+        "id_pn": 0,
+        "id_pp": 6,
+        "id_kp": 29
+    },
+    {
+        "id": 79,
+        "data": "ProP : Pengembangan 19 Destinasi\nPariwisata Geopark",
+        "id_pn": 0,
+        "id_pp": 6,
+        "id_kp": 29
+    },
+    {
+        "id": 80,
+        "data": "ProP : Penyediaan insentif inovasi dan pengembangan brand",
+        "id_pn": 0,
+        "id_pp": 6,
+        "id_kp": 30
+    },
+    {
+        "id": 81,
+        "data": "ProP : Penyediaan insentif penerapan dan komersialisasi HKI",
+        "id_pn": 0,
+        "id_pp": 6,
+        "id_kp": 30
+    },
+    {
+        "id": 82,
+        "data": "ProP : Fasilitasi rantai pasok dan scale- up karya dan platform kreatif unggulan",
+        "id_pn": 0,
+        "id_pp": 6,
+        "id_kp": 30
+    },
+    {
+        "id": 83,
+        "data": "ProP : Peningkatan kerja sama pengembangan kota kreatif",
+        "id_pn": 0,
+        "id_pp": 6,
+        "id_kp": 30
+    },
+    {
+        "id": 84,
+        "data": "ProP : Pengembangan \u2019start-up parks\u2019\ndan center of excellence",
+        "id_pn": 0,
+        "id_pp": 6,
+        "id_kp": 30
+    },
+    {
+        "id": 85,
+        "data": "ProP : Pengembangan pendampingan dan inkubasi di ruang kreatif",
+        "id_pn": 0,
+        "id_pp": 6,
+        "id_kp": 30
+    },
+    {
+        "id": 86,
+        "data": "ProP : Kepastian Hukum Berusaha dan\nInvestasi",
+        "id_pn": 0,
+        "id_pp": 6,
+        "id_kp": 31
+    },
+    {
+        "id": 87,
+        "data": "ProP : Fasilitasi Kemudahan Usaha dan\nInvestasi",
+        "id_pn": 0,
+        "id_pp": 6,
+        "id_kp": 31
+    },
+    {
+        "id": 88,
+        "data": "ProP : Peningkatan Iklim Ketenagakerjaan dan Hubungan Industrial",
+        "id_pn": 0,
+        "id_pp": 6,
+        "id_kp": 31
+    },
+    {
+        "id": 89,
+        "data": "ProP : Peningkatan Kapasitas, Kapabilitas, serta Daya Saing BUMN",
+        "id_pn": 0,
+        "id_pp": 6,
+        "id_kp": 31
+    },
+    {
+        "id": 90,
+        "data": "ProP : Pengembangan Infrastruktur\nIndustri Halal",
+        "id_pn": 0,
+        "id_pp": 6,
+        "id_kp": 32
+    },
+    {
+        "id": 91,
+        "data": "ProP : Peningkatan Diversifikasi\nProduk Ekspor dan Jasa",
+        "id_pn": 0,
+        "id_pp": 7,
+        "id_kp": 33
+    },
+    {
+        "id": 92,
+        "data": "ProP : Peningkatan Nilai Tambah\nProduk Ekspor dan Jasa",
+        "id_pn": 0,
+        "id_pp": 7,
+        "id_kp": 33
+    },
+    {
+        "id": 93,
+        "data": "ProP : Peningkatan pangsa Pasar\nProduk Indonesia",
+        "id_pn": 0,
+        "id_pp": 7,
+        "id_kp": 34
+    },
+    {
+        "id": 94,
+        "data": "ProP : Fasilitasi ekspor",
+        "id_pn": 0,
+        "id_pp": 7,
+        "id_kp": 34
+    },
+    {
+        "id": 95,
+        "data": "ProP : Peningkatan daya saing industri guna mendorong peningkatan ekspor",
+        "id_pn": 0,
+        "id_pp": 7,
+        "id_kp": 34
+    },
+    {
+        "id": 96,
+        "data": "ProP : Penguatan kebijakan perlindungan akses pasar dalam negeri",
+        "id_pn": 0,
+        "id_pp": 7,
+        "id_kp": 35
+    },
+    {
+        "id": 97,
+        "data": "ProP : Pengembangan sistem katalog",
+        "id_pn": 0,
+        "id_pp": 7,
+        "id_kp": 36
+    },
+    {
+        "id": 98,
+        "data": "ProP : Peningkatan investasi (inbound\n& outbound) industri GPN berbasis hilirisasi SDA, teknologi tinggi",
+        "id_pn": 0,
+        "id_pp": 7,
+        "id_kp": 37
+    },
+    {
+        "id": 99,
+        "data": "ProP : Branding Wonderful Indonesia",
+        "id_pn": 0,
+        "id_pp": 7,
+        "id_kp": 38
+    },
+    {
+        "id": 100,
+        "data": "ProP : Peningkatan efektivitas pemasaran melalui pemanfaatan big data",
+        "id_pn": 0,
+        "id_pp": 7,
+        "id_kp": 38
+    },
+    {
+        "id": 101,
+        "data": "ProP : Pendalaman pasar tradisional dan diversifikasi pemasaran ke pasar baru",
+        "id_pn": 0,
+        "id_pp": 7,
+        "id_kp": 38
+    },
+    {
+        "id": 102,
+        "data": "ProP : Perluasan pemasaran produk kreatif, termasuk melalui e-commerce",
+        "id_pn": 0,
+        "id_pp": 7,
+        "id_kp": 38
+    },
+    {
+        "id": 103,
+        "data": "ProP : Perluasan diklat manajemen usaha dan pemasaran",
+        "id_pn": 0,
+        "id_pp": 7,
+        "id_kp": 38
+    },
+    {
+        "id": 104,
+        "data": "ProP : Peningkatan sistem pemasaran terintegrasi",
+        "id_pn": 0,
+        "id_pp": 7,
+        "id_kp": 38
+    },
+    {
+        "id": 105,
+        "data": "ProP : Peningkatan kapasitas dan kualitas sumber daya manusia (negosiator) dan kelembagaan perwakilan RI di luar negeri termasuk\nFTA Center",
+        "id_pn": 0,
+        "id_pp": 7,
+        "id_kp": 39
+    },
+    {
+        "id": 106,
+        "data": "ProP : Peningkatan jumlah kesepakatan dan penyelesaian proses ratifikasi kerjasama ekonomi\ninternasional",
+        "id_pn": 0,
+        "id_pp": 7,
+        "id_kp": 39
+    },
+    {
+        "id": 107,
+        "data": "ProP : Promosi Terintegrasi",
+        "id_pn": 0,
+        "id_pp": 7,
+        "id_kp": 39
+    },
+    {
+        "id": 108,
+        "data": "ProP : Peningkatan inklusi keuangan, inovasi sektor keuangan, dengan menjaga stabilitas dan integritas sistem\nkeuangan",
+        "id_pn": 0,
+        "id_pp": 8,
+        "id_kp": 40
+    },
+    {
+        "id": 109,
+        "data": "ProP : Penguatan industri fintech, e- commerce, on-demand service, dan internet of things",
+        "id_pn": 0,
+        "id_pp": 8,
+        "id_kp": 41
+    },
+    {
+        "id": 110,
+        "data": "ProP : Modernisasi industri hingga 4.0 sesuai karakteristik industri",
+        "id_pn": 0,
+        "id_pp": 8,
+        "id_kp": 41
+    },
+    {
+        "id": 111,
+        "data": "ProP : Pembangunan Sarana dan Prasarana Pendukung Efisiensi Sistem Logistik",
+        "id_pn": 0,
+        "id_pp": 8,
+        "id_kp": 42
+    },
+    {
+        "id": 112,
+        "data": "ProP : Pengendalian Inflasi",
+        "id_pn": 0,
+        "id_pp": 8,
+        "id_kp": 42
+    },
+    {
+        "id": 113,
+        "data": "ProP : Penerapan standar pariwisata berkelanjutan",
+        "id_pn": 0,
+        "id_pp": 8,
+        "id_kp": 43
+    },
+    {
+        "id": 114,
+        "data": "ProP : Penerapan Industri Hijau",
+        "id_pn": 0,
+        "id_pp": 8,
+        "id_kp": 43
+    },
+    {
+        "id": 115,
+        "data": "ProP : Pembaruan Sistem Inti\nAdministrasi Perpajakan",
+        "id_pn": 0,
+        "id_pp": 8,
+        "id_kp": 44
+    },
+    {
+        "id": 116,
+        "data": "ProP : Pengembangan statistik ekonomi kreatif",
+        "id_pn": 0,
+        "id_pp": 8,
+        "id_kp": 45
+    },
+    {
+        "id": 117,
+        "data": "ProP : Pengembangan statistik pariwisata",
+        "id_pn": 0,
+        "id_pp": 8,
+        "id_kp": 45
+    },
+    {
+        "id": 118,
+        "data": "ProP : Pengembangan statistik e- commerce",
+        "id_pn": 0,
+        "id_pp": 8,
+        "id_kp": 45
+    },
+    {
+        "id": 119,
+        "data": "ProP : Pengembangan statistik pangan dan pertanian",
+        "id_pn": 0,
+        "id_pp": 8,
+        "id_kp": 45
+    },
+    {
+        "id": 120,
+        "data": "ProP : Percepatan Peningkatan\nInvestasi KPBPB Sabang",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 121,
+        "data": "ProP : Percepatan Peningkatan\nInvestasi KI\/KEK Arun Lhokseumawe",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 122,
+        "data": "ProP : Fasilitasi Realisasi Investasi dan\nPembangunan KI\/KEK Sei Mangkei",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 123,
+        "data": "ProP : Fasilitasi Koordinasi dan\nPerizinan KI Kuala Tanjung",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 124,
+        "data": "ProP : Perbaikan aksesibilitas, atraksi dan amenitas DPP Danau Toba dan sekitarnya",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 125,
+        "data": "ProP : Pembangunan DPP Baru Padang- Bukittinggi",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 126,
+        "data": "ProP : Fasilitasi Koordinasi dan\nPerizinan KI Kemingking",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 127,
+        "data": "ProP : Percepatan Operasionalisasi KEK Tanjung Api-api",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 128,
+        "data": "ProP : Fasilitasi Koordinasi dan\nPerizinan KI Tanjung Enim",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 129,
+        "data": "ProP : Fasilitasi Koordinasi dan\nPerizinan KI Way Pisang",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 130,
+        "data": "ProP : Fasilitasi Koordinasi dan\nPerizinan KI Sebalang",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 131,
+        "data": "ProP : Perbaikan aksesibilitas, atraksi dan amenitas DPP Tanjung Kelayang\/KEK Tanjung Kelayang",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 132,
+        "data": "ProP : Fasilitasi Realisasi Investasi dan\nPembangunan KI Sadai",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 133,
+        "data": "ProP : Percepatan Peningkatan Investasi KPBPB Batam, Bintan, dan Karimun",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 134,
+        "data": "ProP : Fasilitasi Realisasi Investasi dan\nPembangunan KI\/KEK Galang Batang",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 135,
+        "data": "ProP : Fasilitasi Realisasi Investasi dan\nPembangunan KI Bintan Aerospace",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 136,
+        "data": "ProP : Pembangunan DPP Baru Batam- Bintan",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 137,
+        "data": "ProP : Pengembangan komoditas unggulan kopi",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 138,
+        "data": "ProP : Pengembangan komoditas unggulan nilam",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 139,
+        "data": "ProP : Pengembangan komoditas unggulan kakao",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 140,
+        "data": "ProP : Pengembangan komoditas unggulan karet",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 141,
+        "data": "ProP : Pengembangan komoditas unggulan kelapa sawit",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 142,
+        "data": "ProP : Pengembangan komoditas unggulan kelapa",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 143,
+        "data": "ProP : Pengembangan komoditas unggulan pala",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 144,
+        "data": "ProP : Pengembangan komoditas unggulan perikanan tangkap",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 145,
+        "data": "ProP : Pengembangan komoditas unggulan pertambangan",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 146,
+        "data": "ProP : Pengembangan komoditas unggulan karet",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 147,
+        "data": "ProP : Pengembangan komoditas unggulan kopi",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 148,
+        "data": "ProP : Pengembangan komoditas unggulan kelapa sawit",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 149,
+        "data": "ProP : Pengembangan komoditas unggulan nilam",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 150,
+        "data": "ProP : Pengembangan komoditas unggulan perikanan tangkap",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 151,
+        "data": "ProP : Pengembangan komoditas unggulan gambir",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 152,
+        "data": "ProP : Pengembangan komoditas unggulan kakao",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 153,
+        "data": "ProP : Pengembangan komoditas unggulan kopi",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 154,
+        "data": "ProP : Pengembangan komoditas unggulan karet",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 155,
+        "data": "ProP : Pengembangan komoditas unggulan kelapa sawit",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 156,
+        "data": "ProP : Pengembangan komoditas unggulan kelapa",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 157,
+        "data": "ProP : Pengembangan komoditas unggulan nilam",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 158,
+        "data": "ProP : Pengembangan komoditas unggulan perikanan tangkap",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 159,
+        "data": "ProP : Pengembangan komoditas unggulan kelapa sawit",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 160,
+        "data": "ProP : Pengembangan komoditas unggulan karet",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 161,
+        "data": "ProP : Pengembangan komoditas unggulan kelapa",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 162,
+        "data": "ProP : Pengembangan komoditas unggulan perikanan tangkap",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 163,
+        "data": "ProP : Pengembangan komoditas unggulan emas",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 164,
+        "data": "ProP : Pengembangan komoditas unggulan pertambangan",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 165,
+        "data": "ProP : Pengembangan komoditas unggulan nilam",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 166,
+        "data": "ProP : Pengembangan komoditas unggulan karet",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 167,
+        "data": "ProP : Pengembangan komoditas unggulan kelapa sawit",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 168,
+        "data": "ProP : Pengembangan komoditas unggulan kopi",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 169,
+        "data": "ProP : Pengembangan komoditas unggulan kelapa",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 170,
+        "data": "ProP : Pengembangan komoditas unggulan pertambangan",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 171,
+        "data": "ProP : Pengembangan komoditas unggulan kopi",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 172,
+        "data": "ProP : Pengembangan komoditas unggulan karet",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 173,
+        "data": "ProP : Pengembangan komoditas unggulan kelapa sawit",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 174,
+        "data": "ProP : Pengembangan komoditas unggulan lada",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 175,
+        "data": "ProP : Pengembangan komoditas unggulan pertambangan",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 176,
+        "data": "ProP : Pengembangan komoditas unggulan kopi",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 177,
+        "data": "ProP : Pengembangan komoditas unggulan karet",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 178,
+        "data": "ProP : Pengembangan komoditas unggulan kakao",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 179,
+        "data": "ProP : Pengembangan komoditas unggulan emas",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 180,
+        "data": "ProP : Pengembangan komoditas unggulan kelapa sawit",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 181,
+        "data": "ProP : Pengembangan komoditas unggulan kopi",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 182,
+        "data": "ProP : Pengembangan komoditas unggulan karet",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 183,
+        "data": "ProP : Pengembangan komoditas unggulan lada",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 184,
+        "data": "ProP : Pengembangan komoditas unggulan kakao",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 185,
+        "data": "ProP : Pengembangan komoditas unggulan kelapa",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 186,
+        "data": "ProP : Pengembangan komoditas unggulan tebu",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 187,
+        "data": "ProP : Pengembangan komoditas unggulan perikanan budidaya",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 188,
+        "data": "ProP : Pengembangan komoditas unggulan lada",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 189,
+        "data": "ProP : Pengembangan komoditas unggulan karet",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 190,
+        "data": "ProP : Pengembangan komoditas unggulan timah",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 191,
+        "data": "ProP : Pengembangan komoditas unggulan perikanan tangkap",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 192,
+        "data": "ProP : Pengembangan komoditas unggulan karet",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 193,
+        "data": "ProP : Pengembangan komoditas unggulan perikanan tangkap",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 194,
+        "data": "ProP : Pengembangan komoditas ungggulan perikanan budidaya",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 195,
+        "data": "ProP : Pengembangan Kota Besar, Kota\nSedang, Kota Kecil (Aceh)",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 196,
+        "data": "ProP : Pengembangan Wilayah\nMetropolitan Medan",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 197,
+        "data": "ProP : Pengembangan Kota Besar, Kota\nSedang, Kota Kecil (Sumatera Utara)",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 198,
+        "data": "ProP : Pengembangan Kota Besar, Kota\nSedang, Kota Kecil (Sumatera Barat)",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 199,
+        "data": "ProP : Pengembangan Kota Besar, Kota\nSedang, Kota Kecil (Riau)",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 200,
+        "data": "ProP : Pengembangan Kota Besar, Kota\nSedang, Kota Kecil (Jambi)",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 201,
+        "data": "ProP : Pengembangan Wilayah\nMetropolitan Palembang",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 202,
+        "data": "ProP : Pengembangan Kota Besar, Kota\nSedang, Kota Kecil (Sumatera Selatan)",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 203,
+        "data": "ProP : Pengembangan Kota Besar, Kota\nSedang, Kota Kecil (Bengkulu)",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 204,
+        "data": "ProP : Pengembangan Kota Besar, Kota\nSedang, Kota Kecil (Lampung)",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 205,
+        "data": "ProP : Pengembangan Kota Besar, Kota\nSedang, Kota Kecil (Bangka Belitung)",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 206,
+        "data": "ProP : Pengembangan Kota Besar, Kota\nSedang, Kota Kecil (Kepulauan Riau)",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 207,
+        "data": "ProP : Pembangunan dan peningkatan kualitas perumahan dan permukiman (Aceh)",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 208,
+        "data": "ProP : Pembangunan dan peningkatan kualitas perumahan dan permukiman (Sumatera Utara)",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 209,
+        "data": "ProP : Pembangunan dan peningkatan kualitas perumahan dan permukiman (Sumatera Barat)",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 210,
+        "data": "ProP : Pembangunan dan peningkatan kualitas perumahan dan permukiman (Riau)",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 211,
+        "data": "ProP : Pembangunan dan peningkatan kualitas perumahan dan permukiman (Jambi)",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 212,
+        "data": "ProP : Pembangunan dan peningkatan kualitas perumahan dan permukiman (Sumatera Selatan)",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 213,
+        "data": "ProP : Pembangunan dan peningkatan kualitas perumahan dan permukiman (Bengkulu)",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 214,
+        "data": "ProP : Pembangunan dan peningkatan kualitas perumahan dan permukiman (Lampung)",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 215,
+        "data": "ProP : Pembangunan dan peningkatan kualitas perumahan dan permukiman (Bangka Belitung)",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 216,
+        "data": "ProP : Pembangunan dan peningkatan kualitas perumahan dan permukiman (Kepualauan Riau)",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 217,
+        "data": "ProP : Pembangunan Kawasan Perdesaan Prioritas Nasional Aceh Timur",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 218,
+        "data": "ProP : Revitalisasi Kawasan Transmigrasi Ketapang Nusantara, Samar Kilang, dan Selaut",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 219,
+        "data": "ProP : Pusat Kegiatan Strategis Nasional\n(PKSN) Sabang",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 220,
+        "data": "ProP : Peningkatan Kesejahteraan dan Tata Kelola di Kecamatan Lokasi Prioritas di Provinsi Aceh",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 221,
+        "data": "ProP : Percepatan Pembangunan Daerah Tertinggal di Provinsi Sumatera Utara",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 222,
+        "data": "ProP : Peningkatan Kesejahteraan dan Tata Kelola di Kecamatan Lokasi Prioritas di Provinsi Sumatera Utara",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 223,
+        "data": "ProP : Pembangunan Desa Terpadu",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 224,
+        "data": "ProP : Pembangunan Kawasan Perdesaan Prioritas Nasional Toba Samosir dan Samosir",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 225,
+        "data": "ProP : Percepatan Pembangunan daerah tertinggal di Provinsi Sumatera Barat",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 226,
+        "data": "ProP : Pembangunan Desa Terpadu",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 227,
+        "data": "ProP : Pembangunan Kawasan\nPerdesaan Prioritas Nasional Agam",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 228,
+        "data": "ProP : Revitalisasi Kawasan\nTransmigrasi Lunang Silaut",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 229,
+        "data": "ProP : Peningkatan Kesejahteraan dan Tata Kelola di Kecamatan Lokasi Prioritas di Provinsi Riau",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 230,
+        "data": "ProP : Pembangunan Desa Terpadu",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 231,
+        "data": "ProP : Pembangunan Desa Terpadu",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 232,
+        "data": "ProP : Revitalisasi Kawasan\nTransmigrasi Bathin III Ulu",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 233,
+        "data": "ProP : Pembangunan Kawasan Perdesaan Prioritas Nasional Muaro Jambi",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 234,
+        "data": "ProP : Revitalisasi Kawasan Transmigrasi Parit Rambutan, Telang, dan Kikim",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 235,
+        "data": "ProP : Pembangunan Desa Terpadu",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 236,
+        "data": "ProP : Pembangunan Kawasan Perdesaan Prioritas Nasional Banyuasin",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 237,
+        "data": "ProP : Revitalisasi Kawasan\nTransmigrasi Lagita",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 238,
+        "data": "ProP : Pembangunan Desa Terpadu",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 239,
+        "data": "ProP : Pembangunan Kawasan Perdesaan Prioritas Nasional Bengkulu Tengah",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 240,
+        "data": "ProP : Pembangunan Desa Terpadu",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 241,
+        "data": "ProP : Pembangunan Kawasan Perdesaan Prioritas Nasional Mesuji dan Tulang Bawang",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 242,
+        "data": "ProP : Percepatan Pembangunan\nDaerah Tertinggal di Provinsi Lampung",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 243,
+        "data": "ProP : Revitalisasi Kawasan\nTransmigrasi Rawa Pitu dan Mesuji",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 244,
+        "data": "ProP : Revitalisasi Kawasan\nTransmigrasi Batu Betumpang",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 245,
+        "data": "ProP : Pembangunan Desa Terpadu",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 246,
+        "data": "ProP : Pembangunan Kawasan Perdesaan Prioritas Nasional Belitung, Belitung Timur, dan Bangka Selatan",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 247,
+        "data": "ProP : Pembangunan Desa Terpadu",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 248,
+        "data": "ProP : Pembangunan Kawasan\nPerdesaan Prioritas Nasional Bintan",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 249,
+        "data": "ProP : Pusat Kegiatan Strategis Nasional\n(PKSN) Ranai",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 250,
+        "data": "ProP : Peningkatan Kesejahteraan dan Tata Kelola di Kecamatan Lokasi Prioritas di Provinsi Kepulauan Riau",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 251,
+        "data": "ProP : Peningkatan kapasitas pemerintahan daerah dan hubungan pusat-daerah di Provinsi Aceh",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 252,
+        "data": "ProP : Peningkatan Pelayanan\nPertanahan",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 253,
+        "data": "ProP : Penyelenggaraan Penataan\nRuang",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 254,
+        "data": "ProP : Peningkatan kapasitas pemerintahan daerah dan hubungan pusat-daerah di provinsi Sumatera Utara",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 255,
+        "data": "ProP : Peningkatan Pelayanan\nPertanahan",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 256,
+        "data": "ProP : Penyelenggaraan Penataan\nRuang",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 257,
+        "data": "ProP : Peningkatan kapasitas pemerintahan daerah dan hubungan pusat-daerah di provinsi Sumatera Barat",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 258,
+        "data": "ProP : Peningkatan Pelayanan\nPertanahan",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 259,
+        "data": "ProP : Penyelenggaraan Penataan\nRuang",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 260,
+        "data": "ProP : Peningkatan kapasitas pemerintahan daerah dan hubungan pusat-daerah di provinsi Riau",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 261,
+        "data": "ProP : Peningkatan Pelayanan\nPertanahan",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 262,
+        "data": "ProP : Penyelenggaraan Penataan\nRuang",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 263,
+        "data": "ProP : Peningkatan kapasitas pemerintahan daerah dan hubungan pusat-daerah di provinsi Jambi",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 264,
+        "data": "ProP : Peningkatan Pelayanan\nPertanahan",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 265,
+        "data": "ProP : Penyelenggaraan Penataan\nRuang",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 266,
+        "data": "ProP : Peningkatan kapasitas pemerintahan daerah dan hubungan pusat-daerah di provinsi Sumatera Selatan",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 267,
+        "data": "ProP : Peningkatan Pelayanan\nPertanahan",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 268,
+        "data": "ProP : Penyelenggaraan Penataan\nRuang",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 269,
+        "data": "ProP : Peningkatan kapasitas pemerintahan daerah dan hubungan pusat-daerah di provinsi Bengkulu",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 270,
+        "data": "ProP : Peningkatan Pelayanan\nPertanahan",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 271,
+        "data": "ProP : Penyelenggaraan Penataan\nRuang",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 272,
+        "data": "ProP : Peningkatan kapasitas pemerintahan daerah dan hubungan pusat-daerah di provinsi Lampung",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 273,
+        "data": "ProP : Peningkatan Pelayanan\nPertanahan",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 274,
+        "data": "ProP : Penyelenggaraan Penataan\nRuang",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 275,
+        "data": "ProP : Peningkatan kapasitas pemerintahan daerah dan hubungan pusat-daerah di provinsi Kepulauan Riau",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 276,
+        "data": "ProP : Peningkatan Pelayanan\nPertanahan",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 277,
+        "data": "ProP : Penyelenggaraan Penataan\nRuang",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 278,
+        "data": "ProP : Peningkatan kapasitas pemerintahan daerah dan hubungan pusat-daerah di provinsi Kepulauan Bangka Belitung",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 279,
+        "data": "ProP : Peningkatan Pelayanan\nPertanahan",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 280,
+        "data": "ProP : Penyelenggaraan Penataan\nRuang",
+        "id_pn": 0,
+        "id_pp": 9,
+        "id_kp": 45
+    },
+    {
+        "id": 281,
+        "data": "ProP : Perbaikan Aksesibilitas, Atraksi dan Amenitas DPP Kepulauan Seribu dan Kota Tua Jakarta",
+        "id_pn": 0,
+        "id_pp": 10,
+        "id_kp": 45
+    },
+    {
+        "id": 282,
+        "data": "ProP : Pembangunan DPP Baru\nBandung-Halimun-Cileteuh",
+        "id_pn": 0,
+        "id_pp": 10,
+        "id_kp": 45
+    },
+    {
+        "id": 283,
+        "data": "ProP : Perbaikan aksesibilitas, atraksi, dan amenitas DPP Borobudur dan sekitarnya",
+        "id_pn": 0,
+        "id_pp": 10,
+        "id_kp": 45
+    },
+    {
+        "id": 284,
+        "data": "ProP : Pembangunan KI Brebes",
+        "id_pn": 0,
+        "id_pp": 10,
+        "id_kp": 45
+    },
+    {
+        "id": 285,
+        "data": "ProP : Perbaikan aksesibilitas, atraksi, dan amenitas DPP Borobudur dan sekitarnya",
+        "id_pn": 0,
+        "id_pp": 10,
+        "id_kp": 45
+    },
+    {
+        "id": 286,
+        "data": "ProP : Fasilitasi Koordinasi dan\nPerizinan KI Madura",
+        "id_pn": 0,
+        "id_pp": 10,
+        "id_kp": 45
+    },
+    {
+        "id": 287,
+        "data": "ProP : Perbaikan aksesibilitas, atraksi dan amenitas DPP Bromo-Tengger- Semeru",
+        "id_pn": 0,
+        "id_pp": 10,
+        "id_kp": 45
+    },
+    {
+        "id": 288,
+        "data": "ProP : Pembangunan DPP Baru\nBanyuwangi dan sekitarnya",
+        "id_pn": 0,
+        "id_pp": 10,
+        "id_kp": 45
+    },
+    {
+        "id": 289,
+        "data": "ProP : Percepatan Operasionalisasi KEK Singhasari",
+        "id_pn": 0,
+        "id_pp": 10,
+        "id_kp": 45
+    },
+    {
+        "id": 290,
+        "data": "ProP : Perbaikan aksesibilitas, atraksi dan amenitas DPP Tanjung Lesung\/KEK Tanjung Lesung",
+        "id_pn": 0,
+        "id_pp": 10,
+        "id_kp": 45
+    },
+    {
+        "id": 291,
+        "data": "ProP : Peningkatan keberlanjutan DPP Revitalisasi Bali",
+        "id_pn": 0,
+        "id_pp": 10,
+        "id_kp": 45
+    },
+    {
+        "id": 292,
+        "data": "ProP : Pengembangan komoditas unggulan perikanan tangkap",
+        "id_pn": 0,
+        "id_pp": 10,
+        "id_kp": 45
+    },
+    {
+        "id": 293,
+        "data": "ProP : Pengembangan komoditas unggulan teh",
+        "id_pn": 0,
+        "id_pp": 10,
+        "id_kp": 45
+    },
+    {
+        "id": 294,
+        "data": "ProP : Pengembangan komoditas unggulan cengkeh",
+        "id_pn": 0,
+        "id_pp": 10,
+        "id_kp": 45
+    },
+    {
+        "id": 295,
+        "data": "ProP : Pengembangan komoditas unggulan nilam",
+        "id_pn": 0,
+        "id_pp": 10,
+        "id_kp": 45
+    },
+    {
+        "id": 296,
+        "data": "ProP : Pengembangan komoditas unggulan kopi",
+        "id_pn": 0,
+        "id_pp": 10,
+        "id_kp": 45
+    },
+    {
+        "id": 297,
+        "data": "ProP : Pengembangan komoditas unggulan garam",
+        "id_pn": 0,
+        "id_pp": 10,
+        "id_kp": 45
+    },
+    {
+        "id": 298,
+        "data": "ProP : Pengembangan komoditas unggulan kelapa",
+        "id_pn": 0,
+        "id_pp": 10,
+        "id_kp": 45
+    },
+    {
+        "id": 299,
+        "data": "ProP : Pengembangan komoditas unggulan tebu",
+        "id_pn": 0,
+        "id_pp": 10,
+        "id_kp": 45
+    },
+    {
+        "id": 300,
+        "data": "ProP : Pengembangan komoditas unggulan emas",
+        "id_pn": 0,
+        "id_pp": 10,
+        "id_kp": 45
+    },
+    {
+        "id": 301,
+        "data": "ProP : Pengembangan komoditas unggulan perikanan budidaya",
+        "id_pn": 0,
+        "id_pp": 10,
+        "id_kp": 45
+    },
+    {
+        "id": 302,
+        "data": "ProP : Pengembangan komoditas unggulan teh",
+        "id_pn": 0,
+        "id_pp": 10,
+        "id_kp": 45
+    },
+    {
+        "id": 303,
+        "data": "ProP : Peningkatan komoditas unggulan tebu",
+        "id_pn": 0,
+        "id_pp": 10,
+        "id_kp": 45
+    },
+    {
+        "id": 304,
+        "data": "ProP : Pengembangan komoditas unggulan kopi",
+        "id_pn": 0,
+        "id_pp": 10,
+        "id_kp": 45
+    },
+    {
+        "id": 305,
+        "data": "ProP : Pengembangan komoditas unggulan kelapa",
+        "id_pn": 0,
+        "id_pp": 10,
+        "id_kp": 45
+    },
+    {
+        "id": 306,
+        "data": "ProP : Peningkatan komoditas unggulan perikanan tangkap",
+        "id_pn": 0,
+        "id_pp": 10,
+        "id_kp": 45
+    },
+    {
+        "id": 307,
+        "data": "ProP : Pengembangan komoditas unggulan kelapa",
+        "id_pn": 0,
+        "id_pp": 10,
+        "id_kp": 45
+    },
+    {
+        "id": 308,
+        "data": "ProP : Pengembangan komoditas unggulan kakao",
+        "id_pn": 0,
+        "id_pp": 10,
+        "id_kp": 45
+    },
+    {
+        "id": 309,
+        "data": "ProP : Pengembangan komoditas unggulan perikanan budidaya",
+        "id_pn": 0,
+        "id_pp": 10,
+        "id_kp": 45
+    },
+    {
+        "id": 310,
+        "data": "ProP : Peningkatan komoditas unggulan tebu",
+        "id_pn": 0,
+        "id_pp": 10,
+        "id_kp": 45
+    },
+    {
+        "id": 311,
+        "data": "ProP : Pengembangan komoditas unggulan kopi",
+        "id_pn": 0,
+        "id_pp": 10,
+        "id_kp": 45
+    },
+    {
+        "id": 312,
+        "data": "ProP : Peningkatan produksi Garam",
+        "id_pn": 0,
+        "id_pp": 10,
+        "id_kp": 45
+    },
+    {
+        "id": 313,
+        "data": "ProP : Pengembangan komoditas unggulan kelapa",
+        "id_pn": 0,
+        "id_pp": 10,
+        "id_kp": 45
+    },
+    {
+        "id": 314,
+        "data": "ProP : Pengembangan komoditas unggulan kelapa",
+        "id_pn": 0,
+        "id_pp": 10,
+        "id_kp": 45
+    },
+    {
+        "id": 315,
+        "data": "ProP : Pengembangan komoditas unggulan kakao",
+        "id_pn": 0,
+        "id_pp": 10,
+        "id_kp": 45
+    },
+    {
+        "id": 316,
+        "data": "ProP : Pengembangan komoditas unggulan cengkeh",
+        "id_pn": 0,
+        "id_pp": 10,
+        "id_kp": 45
+    },
+    {
+        "id": 317,
+        "data": "ProP : Pengembangan komoditas unggulan kopi",
+        "id_pn": 0,
+        "id_pp": 10,
+        "id_kp": 45
+    },
+    {
+        "id": 318,
+        "data": "ProP : Pengembangan komoditas unggulan kelapa",
+        "id_pn": 0,
+        "id_pp": 10,
+        "id_kp": 45
+    },
+    {
+        "id": 319,
+        "data": "ProP : Pengembangan komoditas unggulan kakao",
+        "id_pn": 0,
+        "id_pp": 10,
+        "id_kp": 45
+    },
+    {
+        "id": 320,
+        "data": "ProP : Peningkatan Kualitas Wilayah Metropolitan Jakarta (Jabodetabekpunjur)",
+        "id_pn": 0,
+        "id_pp": 10,
+        "id_kp": 45
+    },
+    {
+        "id": 321,
+        "data": "ProP : Peningkatan Kualitas Wilayah Metropolitan Jakarta (Jabodetabekpunjur)",
+        "id_pn": 0,
+        "id_pp": 10,
+        "id_kp": 45
+    },
+    {
+        "id": 322,
+        "data": "ProP : Peningkatan Kualitas Wilayah\nMetropolitan Bandung",
+        "id_pn": 0,
+        "id_pp": 10,
+        "id_kp": 45
+    },
+    {
+        "id": 323,
+        "data": "ProP : Pengembangan Kota Besar, Kota\nSedang, Kota Kecil (Jawa Barat)",
+        "id_pn": 0,
+        "id_pp": 10,
+        "id_kp": 45
+    },
+    {
+        "id": 324,
+        "data": "ProP : Peningkatan Kualitas Wilayah\nMetropolitan Semarang",
+        "id_pn": 0,
+        "id_pp": 10,
+        "id_kp": 45
+    },
+    {
+        "id": 325,
+        "data": "ProP : Pengembangan Kota Besar, Kota\nSedang, Kota Kecil (Jawa Tengah)",
+        "id_pn": 0,
+        "id_pp": 10,
+        "id_kp": 45
+    },
+    {
+        "id": 326,
+        "data": "ProP : Pengembangan Kota Besar, Kota\nSedang, Kota Kecil (DI Yogyakarta)",
+        "id_pn": 0,
+        "id_pp": 10,
+        "id_kp": 45
+    },
+    {
+        "id": 327,
+        "data": "ProP : Peningkatan Kualitas Wilayah\nMetropolitan Surabaya",
+        "id_pn": 0,
+        "id_pp": 10,
+        "id_kp": 45
+    },
+    {
+        "id": 328,
+        "data": "ProP : Pengembangan Kota Besar, Kota\nSedang, Kota Kecil (Jawa Timur)",
+        "id_pn": 0,
+        "id_pp": 10,
+        "id_kp": 45
+    },
+    {
+        "id": 329,
+        "data": "ProP : Peningkatan Kualitas Wilayah Metropolitan Jakarta (Jabodetabekpunjur)",
+        "id_pn": 0,
+        "id_pp": 10,
+        "id_kp": 45
+    },
+    {
+        "id": 330,
+        "data": "ProP : Pembangunan Kota Baru Maja",
+        "id_pn": 0,
+        "id_pp": 10,
+        "id_kp": 45
+    },
+    {
+        "id": 331,
+        "data": "ProP : Pengembangan Kota Besar, Kota\nSedang, Kota Kecil (Banten)",
+        "id_pn": 0,
+        "id_pp": 10,
+        "id_kp": 45
+    },
+    {
+        "id": 332,
+        "data": "ProP : Pengembangan Wilayah\nMetropolitan Denpasar",
+        "id_pn": 0,
+        "id_pp": 10,
+        "id_kp": 45
+    },
+    {
+        "id": 333,
+        "data": "ProP : Pembangunan dan peningkatan kualitas perumahan dan permukiman (DKI Jakarta)",
+        "id_pn": 0,
+        "id_pp": 10,
+        "id_kp": 45
+    },
+    {
+        "id": 334,
+        "data": "ProP : Pembangunan dan peningkatan kualitas perumahan dan permukiman (Jawa Barat)",
+        "id_pn": 0,
+        "id_pp": 10,
+        "id_kp": 45
+    },
+    {
+        "id": 335,
+        "data": "ProP : Pembangunan dan peningkatan kualitas perumahan dan permukiman (Jawa Tengah)",
+        "id_pn": 0,
+        "id_pp": 10,
+        "id_kp": 45
+    },
+    {
+        "id": 336,
+        "data": "ProP : Pembangunan dan peningkatan kualitas perumahan dan permukiman (DI Yogyakarta)",
+        "id_pn": 0,
+        "id_pp": 10,
+        "id_kp": 45
+    },
+    {
+        "id": 337,
+        "data": "ProP : Pembangunan dan peningkatan kualitas perumahan dan permukiman (Jawa Timur)",
+        "id_pn": 0,
+        "id_pp": 10,
+        "id_kp": 45
+    },
+    {
+        "id": 338,
+        "data": "ProP : Pembangunan dan peningkatan kualitas perumahan dan permukiman (Banten)",
+        "id_pn": 0,
+        "id_pp": 10,
+        "id_kp": 45
+    },
+    {
+        "id": 339,
+        "data": "ProP : Pembangunan dan peningkatan kualitas perumahan dan permukiman (Bali)",
+        "id_pn": 0,
+        "id_pp": 10,
+        "id_kp": 45
+    },
+    {
+        "id": 340,
+        "data": "ProP : Pembangunan Desa Terpadu",
+        "id_pn": 0,
+        "id_pp": 10,
+        "id_kp": 45
+    },
+    {
+        "id": 341,
+        "data": "ProP : Pembangunan Kawasan Perdesaan Prioritas Nasional Buleleng dan Klungkung",
+        "id_pn": 0,
+        "id_pp": 10,
+        "id_kp": 45
+    },
+    {
+        "id": 342,
+        "data": "ProP : Pembangunan Desa Terpadu",
+        "id_pn": 0,
+        "id_pp": 10,
+        "id_kp": 45
+    },
+    {
+        "id": 343,
+        "data": "ProP : Pembangunan Kawasan Perdesaan Prioritas Nasional Pandeglang",
+        "id_pn": 0,
+        "id_pp": 10,
+        "id_kp": 45
+    },
+    {
+        "id": 344,
+        "data": "ProP : Pemulihan Pasca Bencana Daerah Terdampak di Kawasan Pesisir Selat Sunda",
+        "id_pn": 0,
+        "id_pp": 10,
+        "id_kp": 45
+    },
+    {
+        "id": 345,
+        "data": "ProP : Pembangunan Desa Terpadu",
+        "id_pn": 0,
+        "id_pp": 10,
+        "id_kp": 45
+    },
+    {
+        "id": 346,
+        "data": "ProP : Pembangunan Desa Terpadu",
+        "id_pn": 0,
+        "id_pp": 10,
+        "id_kp": 45
+    },
+    {
+        "id": 347,
+        "data": "ProP : Pembangunan Kawasan\nPerdesaan Prioritas Nasional Sukabumi",
+        "id_pn": 0,
+        "id_pp": 10,
+        "id_kp": 45
+    },
+    {
+        "id": 348,
+        "data": "ProP : Pembangunan Desa Terpadu",
+        "id_pn": 0,
+        "id_pp": 10,
+        "id_kp": 45
+    },
+    {
+        "id": 349,
+        "data": "ProP : Pembangunan Kawasan Perdesaan Prioritas Nasional Magelang dan Kendal",
+        "id_pn": 0,
+        "id_pp": 10,
+        "id_kp": 45
+    },
+    {
+        "id": 350,
+        "data": "ProP : Pembangunan Desa Terpadu",
+        "id_pn": 0,
+        "id_pp": 10,
+        "id_kp": 45
+    },
+    {
+        "id": 351,
+        "data": "ProP : Pembangunan Kawasan Perdesaan Prioritas Nasional Pamekasan dan Banyuwangi",
+        "id_pn": 0,
+        "id_pp": 10,
+        "id_kp": 45
+    },
+    {
+        "id": 352,
+        "data": "ProP : Peningkatan kapasitas pemerintahan daerah dan hubungan pusat-daerah di provinsi DKI Jakarta",
+        "id_pn": 0,
+        "id_pp": 10,
+        "id_kp": 45
+    },
+    {
+        "id": 353,
+        "data": "ProP : Peningkatan Pelayanan\nPertanahan",
+        "id_pn": 0,
+        "id_pp": 10,
+        "id_kp": 45
+    },
+    {
+        "id": 354,
+        "data": "ProP : Penyelenggaraan Penataan\nRuang",
+        "id_pn": 0,
+        "id_pp": 10,
+        "id_kp": 45
+    },
+    {
+        "id": 355,
+        "data": "ProP : Peningkatan kapasitas pemerintahan daerah dan hubungan pusat-daerah di provinsi Jawa Barat",
+        "id_pn": 0,
+        "id_pp": 10,
+        "id_kp": 45
+    },
+    {
+        "id": 356,
+        "data": "ProP : Peningkatan Pelayanan\nPertanahan",
+        "id_pn": 0,
+        "id_pp": 10,
+        "id_kp": 45
+    },
+    {
+        "id": 357,
+        "data": "ProP : Penyelenggaraan Penataan\nRuang",
+        "id_pn": 0,
+        "id_pp": 10,
+        "id_kp": 45
+    },
+    {
+        "id": 358,
+        "data": "ProP : Peningkatan kapasitas pemerintahan daerah dan hubungan pusat-daerah di provinsi Jawa Tengah",
+        "id_pn": 0,
+        "id_pp": 10,
+        "id_kp": 45
+    },
+    {
+        "id": 359,
+        "data": "ProP : Peningkatan Pelayanan\nPertanahan",
+        "id_pn": 0,
+        "id_pp": 10,
+        "id_kp": 45
+    },
+    {
+        "id": 360,
+        "data": "ProP : Penyelenggaraan Penataan\nRuang",
+        "id_pn": 0,
+        "id_pp": 10,
+        "id_kp": 45
+    },
+    {
+        "id": 361,
+        "data": "ProP : Peningkatan kapasitas pemerintahan daerah dan hubungan pusat-daerah di provinsi DI Yogyakarta",
+        "id_pn": 0,
+        "id_pp": 10,
+        "id_kp": 45
+    },
+    {
+        "id": 362,
+        "data": "ProP : Peningkatan Pelayanan\nPertanahan",
+        "id_pn": 0,
+        "id_pp": 10,
+        "id_kp": 45
+    },
+    {
+        "id": 363,
+        "data": "ProP : Penyelenggaraan Penataan\nRuang",
+        "id_pn": 0,
+        "id_pp": 10,
+        "id_kp": 45
+    },
+    {
+        "id": 364,
+        "data": "ProP : Peningkatan kapasitas pemerintahan daerah dan hubungan pusat-daerah di provinsi Banten",
+        "id_pn": 0,
+        "id_pp": 10,
+        "id_kp": 45
+    },
+    {
+        "id": 365,
+        "data": "ProP : Peningkatan Pelayanan\nPertanahan",
+        "id_pn": 0,
+        "id_pp": 10,
+        "id_kp": 45
+    },
+    {
+        "id": 366,
+        "data": "ProP : Penyelenggaraan Penataan\nRuang",
+        "id_pn": 0,
+        "id_pp": 10,
+        "id_kp": 45
+    },
+    {
+        "id": 367,
+        "data": "ProP : Peningkatan kapasitas pemerintahan daerah dan hubungan pusat-daerah di provinsi Jawa Timur",
+        "id_pn": 0,
+        "id_pp": 10,
+        "id_kp": 45
+    },
+    {
+        "id": 368,
+        "data": "ProP : Peningkatan Pelayanan\nPertanahan",
+        "id_pn": 0,
+        "id_pp": 10,
+        "id_kp": 45
+    },
+    {
+        "id": 369,
+        "data": "ProP : Penyelenggaraan Penataan\nRuang",
+        "id_pn": 0,
+        "id_pp": 10,
+        "id_kp": 45
+    },
+    {
+        "id": 370,
+        "data": "ProP : Peningkatan kapasitas pemerintahan daerah dan hubungan pusat-daerah di provinsi Bali",
+        "id_pn": 0,
+        "id_pp": 10,
+        "id_kp": 45
+    },
+    {
+        "id": 371,
+        "data": "ProP : Peningkatan Pelayanan\nPertanahan",
+        "id_pn": 0,
+        "id_pp": 10,
+        "id_kp": 45
+    },
+    {
+        "id": 372,
+        "data": "ProP : Penyelenggaraan Penataan\nRuang",
+        "id_pn": 0,
+        "id_pp": 10,
+        "id_kp": 45
+    },
+    {
+        "id": 373,
+        "data": "ProP : Perbaikan Atraksi, Aksesibilitas, dan Amenitas DPP Lombok- Mandalika\/KEK Mandalika",
+        "id_pn": 0,
+        "id_pp": 11,
+        "id_kp": 45
+    },
+    {
+        "id": 374,
+        "data": "ProP : Perbaikan aksesibilitas, atraksi, dan amenitas DPP Labuan Bajo",
+        "id_pn": 0,
+        "id_pp": 11,
+        "id_kp": 45
+    },
+    {
+        "id": 375,
+        "data": "ProP : Pengembangan komoditas unggulan jambu mete",
+        "id_pn": 0,
+        "id_pp": 11,
+        "id_kp": 45
+    },
+    {
+        "id": 376,
+        "data": "ProP : Pengembangan komoditas unggulan kopi",
+        "id_pn": 0,
+        "id_pp": 11,
+        "id_kp": 45
+    },
+    {
+        "id": 377,
+        "data": "ProP : Pengembangan komoditas unggulan tebu",
+        "id_pn": 0,
+        "id_pp": 11,
+        "id_kp": 45
+    },
+    {
+        "id": 378,
+        "data": "ProP : Pengembangan komoditas unggulan garam",
+        "id_pn": 0,
+        "id_pp": 11,
+        "id_kp": 45
+    },
+    {
+        "id": 379,
+        "data": "ProP : Pengembangan komoditas unggulan tembaga",
+        "id_pn": 0,
+        "id_pp": 11,
+        "id_kp": 45
+    },
+    {
+        "id": 380,
+        "data": "ProP : Pengembangan komoditas unggulan emas",
+        "id_pn": 0,
+        "id_pp": 11,
+        "id_kp": 45
+    },
+    {
+        "id": 381,
+        "data": "ProP : Pengembangan komoditas unggulan perikanan budidaya",
+        "id_pn": 0,
+        "id_pp": 11,
+        "id_kp": 45
+    },
+    {
+        "id": 382,
+        "data": "ProP : Pengembangan komoditas unggulan perikanan tangkap",
+        "id_pn": 0,
+        "id_pp": 11,
+        "id_kp": 45
+    },
+    {
+        "id": 383,
+        "data": "ProP : Pengembangan komoditas unggulan kopi",
+        "id_pn": 0,
+        "id_pp": 11,
+        "id_kp": 45
+    },
+    {
+        "id": 384,
+        "data": "ProP : Pengembangan komoditas unggulan jambu mete",
+        "id_pn": 0,
+        "id_pp": 11,
+        "id_kp": 45
+    },
+    {
+        "id": 385,
+        "data": "ProP : Pengembangan komoditas unggulan kelapa",
+        "id_pn": 0,
+        "id_pp": 11,
+        "id_kp": 45
+    },
+    {
+        "id": 386,
+        "data": "ProP : Pengembangan komoditas unggulan kakao",
+        "id_pn": 0,
+        "id_pp": 11,
+        "id_kp": 45
+    },
+    {
+        "id": 387,
+        "data": "ProP : Pengembangan komoditas unggulan garam",
+        "id_pn": 0,
+        "id_pp": 11,
+        "id_kp": 45
+    },
+    {
+        "id": 388,
+        "data": "ProP : Pengembangan komoditas unggulan perikanan budidaya",
+        "id_pn": 0,
+        "id_pp": 11,
+        "id_kp": 45
+    },
+    {
+        "id": 389,
+        "data": "ProP : Pengembangan Kota Besar, Kota\nSedang, Kota Kecil (NTB)",
+        "id_pn": 0,
+        "id_pp": 11,
+        "id_kp": 45
+    },
+    {
+        "id": 390,
+        "data": "ProP : Pengembangan Kota Besar, Kota\nSedang, Kota Kecil (NTT)",
+        "id_pn": 0,
+        "id_pp": 11,
+        "id_kp": 45
+    },
+    {
+        "id": 391,
+        "data": "ProP : Pembangunan dan peningkatan kualitas perumahan dan permukiman (NTB)",
+        "id_pn": 0,
+        "id_pp": 11,
+        "id_kp": 45
+    },
+    {
+        "id": 392,
+        "data": "ProP : Pembangunan dan peningkatan kualitas perumahan dan permukiman (NTT)",
+        "id_pn": 0,
+        "id_pp": 11,
+        "id_kp": 45
+    },
+    {
+        "id": 393,
+        "data": "ProP : Pemulihan Pasca Bencana Daerah Terdampak di Pulau Lombok dan Sekitarnya",
+        "id_pn": 0,
+        "id_pp": 11,
+        "id_kp": 45
+    },
+    {
+        "id": 394,
+        "data": "ProP : Percepatan Pembangunan daerah tertinggal di Provinsi Nusa Tenggara Barat",
+        "id_pn": 0,
+        "id_pp": 11,
+        "id_kp": 45
+    },
+    {
+        "id": 395,
+        "data": "ProP : Pembangunan Desa Terpadu",
+        "id_pn": 0,
+        "id_pp": 11,
+        "id_kp": 45
+    },
+    {
+        "id": 396,
+        "data": "ProP : Pembangunan Kawasan Perdesaan Prioritas Nasional Sumbawa, Lombok Timur, Lombok Tengah, dan\nDompu",
+        "id_pn": 0,
+        "id_pp": 11,
+        "id_kp": 45
+    },
+    {
+        "id": 397,
+        "data": "ProP : Revitalisasi Kawasan\nTransmigrasi Tambora dan Labangka",
+        "id_pn": 0,
+        "id_pp": 11,
+        "id_kp": 45
+    },
+    {
+        "id": 398,
+        "data": "ProP : Pusat Kegiatan Strategis Nasional\n(PKSN) Atambua",
+        "id_pn": 0,
+        "id_pp": 11,
+        "id_kp": 45
+    },
+    {
+        "id": 399,
+        "data": "ProP : Pusat Kegiatan Strategis Nasional\n(PKSN) Kefamenanu",
+        "id_pn": 0,
+        "id_pp": 11,
+        "id_kp": 45
+    },
+    {
+        "id": 400,
+        "data": "ProP : Peningkatan Kesejahteraan dan Tata Kelola di Kecamatan Lokasi Prioritas di Provinsi Nusa Tenggara\nTimur",
+        "id_pn": 0,
+        "id_pp": 11,
+        "id_kp": 45
+    },
+    {
+        "id": 401,
+        "data": "ProP : Pembangunan Desa Terpadu",
+        "id_pn": 0,
+        "id_pp": 11,
+        "id_kp": 45
+    },
+    {
+        "id": 402,
+        "data": "ProP : Pembangunan Kawasan Perdesaan Prioritas Nasional Manggarai Barat, Ngada, dan Sumba\nTimur",
+        "id_pn": 0,
+        "id_pp": 11,
+        "id_kp": 45
+    },
+    {
+        "id": 403,
+        "data": "ProP : Revitalisasi Kawasan Transmigrasi Kobalima Timur, Ponu, dan Melolo",
+        "id_pn": 0,
+        "id_pp": 11,
+        "id_kp": 45
+    },
+    {
+        "id": 404,
+        "data": "ProP : Percepatan Pembangunan daerah tertinggal di Provinsi Nusa Tenggara Timur",
+        "id_pn": 0,
+        "id_pp": 11,
+        "id_kp": 45
+    },
+    {
+        "id": 405,
+        "data": "ProP : Peningkatan kapasitas pemerintahan daerah dan hubungan pusat-daerah di provinsi Nusa Tenggara Barat",
+        "id_pn": 0,
+        "id_pp": 11,
+        "id_kp": 45
+    },
+    {
+        "id": 406,
+        "data": "ProP : Peningkatan Pelayanan\nPertanahan",
+        "id_pn": 0,
+        "id_pp": 11,
+        "id_kp": 45
+    },
+    {
+        "id": 407,
+        "data": "ProP : Penyelenggaraan Penataan\nRuang",
+        "id_pn": 0,
+        "id_pp": 11,
+        "id_kp": 45
+    },
+    {
+        "id": 408,
+        "data": "ProP : Peningkatan kapasitas pemerintahan daerah dan hubungan pusat-daerah di provinsi Nusa Tenggara Timur",
+        "id_pn": 0,
+        "id_pp": 11,
+        "id_kp": 45
+    },
+    {
+        "id": 409,
+        "data": "ProP : Peningkatan Pelayanan\nPertanahan",
+        "id_pn": 0,
+        "id_pp": 11,
+        "id_kp": 45
+    },
+    {
+        "id": 410,
+        "data": "ProP : Penyelenggaraan Penataan\nRuang",
+        "id_pn": 0,
+        "id_pp": 11,
+        "id_kp": 45
+    },
+    {
+        "id": 411,
+        "data": "ProP : Fasilitasi Realisasi Investasi dan\nPembangunan KI Ketapang",
+        "id_pn": 0,
+        "id_pp": 12,
+        "id_kp": 45
+    },
+    {
+        "id": 412,
+        "data": "ProP : Pembangunan DPP Baru Sambas- Singkawang",
+        "id_pn": 0,
+        "id_pp": 12,
+        "id_kp": 45
+    },
+    {
+        "id": 413,
+        "data": "ProP : Fasilitasi Realisasi Investasi dan\nPembangunan KI Surya Borneo",
+        "id_pn": 0,
+        "id_pp": 12,
+        "id_kp": 45
+    },
+    {
+        "id": 414,
+        "data": "ProP : Fasilitasi Koordinasi dan\nPerizinan KI Batulicin",
+        "id_pn": 0,
+        "id_pp": 12,
+        "id_kp": 45
+    },
+    {
+        "id": 415,
+        "data": "ProP : Fasilitasi Koordinasi dan\nPerizinan KI Jorong",
+        "id_pn": 0,
+        "id_pp": 12,
+        "id_kp": 45
+    },
+    {
+        "id": 416,
+        "data": "ProP : Pembangunan DPP Baru\nDerawan-Berau",
+        "id_pn": 0,
+        "id_pp": 12,
+        "id_kp": 45
+    },
+    {
+        "id": 417,
+        "data": "ProP : Percepatan Peningkatan Investasi KEK Maloy Batuta Trans Kalimantan",
+        "id_pn": 0,
+        "id_pp": 12,
+        "id_kp": 45
+    },
+    {
+        "id": 418,
+        "data": "ProP : Fasilitasi Koordinasi dan\nPerizinan KI Tanah Kuning",
+        "id_pn": 0,
+        "id_pp": 12,
+        "id_kp": 45
+    },
+    {
+        "id": 419,
+        "data": "ProP : Pengembangan komoditas unggulan karet",
+        "id_pn": 0,
+        "id_pp": 12,
+        "id_kp": 45
+    },
+    {
+        "id": 420,
+        "data": "ProP : Pengembangan komoditas unggulan lada",
+        "id_pn": 0,
+        "id_pp": 12,
+        "id_kp": 45
+    },
+    {
+        "id": 421,
+        "data": "ProP : Pengembangan komoditas unggulan kelapa sawit",
+        "id_pn": 0,
+        "id_pp": 12,
+        "id_kp": 45
+    },
+    {
+        "id": 422,
+        "data": "ProP : Pengembangan komoditas unggulan bauksit",
+        "id_pn": 0,
+        "id_pp": 12,
+        "id_kp": 45
+    },
+    {
+        "id": 423,
+        "data": "ProP : Pengembangan komoditas unggulan emas",
+        "id_pn": 0,
+        "id_pp": 12,
+        "id_kp": 45
+    },
+    {
+        "id": 424,
+        "data": "ProP : Pengembangan komoditas unggulan batu bara",
+        "id_pn": 0,
+        "id_pp": 12,
+        "id_kp": 45
+    },
+    {
+        "id": 425,
+        "data": "ProP : Pengembangan komoditas unggulan kelapa sawit",
+        "id_pn": 0,
+        "id_pp": 12,
+        "id_kp": 45
+    },
+    {
+        "id": 426,
+        "data": "ProP : Pengembangan komoditas unggulan karet",
+        "id_pn": 0,
+        "id_pp": 12,
+        "id_kp": 45
+    },
+    {
+        "id": 427,
+        "data": "ProP : Pengembangan komoditas unggulan kakao",
+        "id_pn": 0,
+        "id_pp": 12,
+        "id_kp": 45
+    },
+    {
+        "id": 428,
+        "data": "ProP : Pengembangan komoditas unggulan emas",
+        "id_pn": 0,
+        "id_pp": 12,
+        "id_kp": 45
+    },
+    {
+        "id": 429,
+        "data": "ProP : Pengembangan komoditas unggulan pertambangan",
+        "id_pn": 0,
+        "id_pp": 12,
+        "id_kp": 45
+    },
+    {
+        "id": 430,
+        "data": "ProP : Pengembangan komoditas unggulan perikanan tangkap",
+        "id_pn": 0,
+        "id_pp": 12,
+        "id_kp": 45
+    },
+    {
+        "id": 431,
+        "data": "ProP : Pengembangan komoditas unggulan kelapa sawit",
+        "id_pn": 0,
+        "id_pp": 12,
+        "id_kp": 45
+    },
+    {
+        "id": 432,
+        "data": "ProP : Pengembangan komoditas unggulan karet",
+        "id_pn": 0,
+        "id_pp": 12,
+        "id_kp": 45
+    },
+    {
+        "id": 433,
+        "data": "ProP : Pengembangan komoditas unggulan pertambangan",
+        "id_pn": 0,
+        "id_pp": 12,
+        "id_kp": 45
+    },
+    {
+        "id": 434,
+        "data": "ProP : Pengembangan komoditas unggulan perikanan tangkap",
+        "id_pn": 0,
+        "id_pp": 12,
+        "id_kp": 45
+    },
+    {
+        "id": 435,
+        "data": "ProP : Pengembangan komoditas unggulan kelapa sawit",
+        "id_pn": 0,
+        "id_pp": 12,
+        "id_kp": 45
+    },
+    {
+        "id": 436,
+        "data": "ProP : Pengembangan komoditas unggulan karet",
+        "id_pn": 0,
+        "id_pp": 12,
+        "id_kp": 45
+    },
+    {
+        "id": 437,
+        "data": "ProP : Pengembangan komoditas unggulan kakao",
+        "id_pn": 0,
+        "id_pp": 12,
+        "id_kp": 45
+    },
+    {
+        "id": 438,
+        "data": "ProP : Pengembangan komoditas unggulan lada",
+        "id_pn": 0,
+        "id_pp": 12,
+        "id_kp": 45
+    },
+    {
+        "id": 439,
+        "data": "ProP : Pengembangan komoditas unggulan pertambangan",
+        "id_pn": 0,
+        "id_pp": 12,
+        "id_kp": 45
+    },
+    {
+        "id": 440,
+        "data": "ProP : Pengembangan komoditas unggulan kelapa sawit",
+        "id_pn": 0,
+        "id_pp": 12,
+        "id_kp": 45
+    },
+    {
+        "id": 441,
+        "data": "ProP : Pengembangan komoditas unggulan karet",
+        "id_pn": 0,
+        "id_pp": 12,
+        "id_kp": 45
+    },
+    {
+        "id": 442,
+        "data": "ProP : Pengembangan komoditas unggulan perikanan tangkap",
+        "id_pn": 0,
+        "id_pp": 12,
+        "id_kp": 45
+    },
+    {
+        "id": 443,
+        "data": "ProP : Pengembangan Kota Besar, Kota\nSedang, Kota Kecil (Kalimantan Barat)",
+        "id_pn": 0,
+        "id_pp": 12,
+        "id_kp": 45
+    },
+    {
+        "id": 444,
+        "data": "ProP : Pengembangan Kota Besar, Kota Sedang, Kota Kecil (Kalimantan Tengah)",
+        "id_pn": 0,
+        "id_pp": 12,
+        "id_kp": 45
+    },
+    {
+        "id": 445,
+        "data": "ProP : Pengembangan Wilayah\nMetropolitan Banjarmasin",
+        "id_pn": 0,
+        "id_pp": 12,
+        "id_kp": 45
+    },
+    {
+        "id": 446,
+        "data": "ProP : Pembangunan Ibu Kota Negara",
+        "id_pn": 0,
+        "id_pp": 12,
+        "id_kp": 45
+    },
+    {
+        "id": 447,
+        "data": "ProP : Pengembangan Kota Besar, Kota\nSedang, Kota Kecil (Kalimantan Timur)",
+        "id_pn": 0,
+        "id_pp": 12,
+        "id_kp": 45
+    },
+    {
+        "id": 448,
+        "data": "ProP : pembangunan kota baru Tanjung\nSelor",
+        "id_pn": 0,
+        "id_pp": 12,
+        "id_kp": 45
+    },
+    {
+        "id": 449,
+        "data": "ProP : Pengembangan Kota Besar, Kota\nSedang, Kota Kecil (Kalimantan Utara)",
+        "id_pn": 0,
+        "id_pp": 12,
+        "id_kp": 45
+    },
+    {
+        "id": 450,
+        "data": "ProP : Pembangunan dan peningkatan kualitas perumahan dan permukiman (Kalimantan Barat)",
+        "id_pn": 0,
+        "id_pp": 12,
+        "id_kp": 45
+    },
+    {
+        "id": 451,
+        "data": "ProP : Pembangunan dan peningkatan kualitas perumahan dan permukiman (Kalimantan Tengah)",
+        "id_pn": 0,
+        "id_pp": 12,
+        "id_kp": 45
+    },
+    {
+        "id": 452,
+        "data": "ProP : Pembangunan dan peningkatan kualitas perumahan dan permukiman (Kalimantan Selatan)",
+        "id_pn": 0,
+        "id_pp": 12,
+        "id_kp": 45
+    },
+    {
+        "id": 453,
+        "data": "ProP : Pembangunan dan peningkatan kualitas perumahan dan permukiman (Kalimantan Timur)",
+        "id_pn": 0,
+        "id_pp": 12,
+        "id_kp": 45
+    },
+    {
+        "id": 454,
+        "data": "ProP : Pembangunan dan peningkatan kualitas perumahan dan permukiman (Kalimantan Utara)",
+        "id_pn": 0,
+        "id_pp": 12,
+        "id_kp": 45
+    },
+    {
+        "id": 455,
+        "data": "ProP : Pusat Kegiatan Strategis Nasional\n(PKSN) Paloh Aruk",
+        "id_pn": 0,
+        "id_pp": 12,
+        "id_kp": 45
+    },
+    {
+        "id": 456,
+        "data": "ProP : Pusat Kegiatan Strategis Nasional\n(PKSN) Jagoi Babang",
+        "id_pn": 0,
+        "id_pp": 12,
+        "id_kp": 45
+    },
+    {
+        "id": 457,
+        "data": "ProP : Peningkatan Kesejahteraan dan Tata Kelola di Kecamatan Lokasi Prioritas di Provinsi Kalimantan Barat",
+        "id_pn": 0,
+        "id_pp": 12,
+        "id_kp": 45
+    },
+    {
+        "id": 458,
+        "data": "ProP : Pembangunan Desa Terpadu",
+        "id_pn": 0,
+        "id_pp": 12,
+        "id_kp": 45
+    },
+    {
+        "id": 459,
+        "data": "ProP : Pembangunan Kawasan Perdesaan Prioritas Nasional Kubu Raya, Mempawah, Bengkayang dan\nSambas",
+        "id_pn": 0,
+        "id_pp": 12,
+        "id_kp": 45
+    },
+    {
+        "id": 460,
+        "data": "ProP : Revitalisasi Kawasan Transmigrasi Rasau Jaya, Gerbang Mas Perkasa, dan Subah",
+        "id_pn": 0,
+        "id_pp": 12,
+        "id_kp": 45
+    },
+    {
+        "id": 461,
+        "data": "ProP : Revitalisasi Kawasan\nTransmigrasi Belantikan Raya",
+        "id_pn": 0,
+        "id_pp": 12,
+        "id_kp": 45
+    },
+    {
+        "id": 462,
+        "data": "ProP : Pembangunan Desa Terpadu",
+        "id_pn": 0,
+        "id_pp": 12,
+        "id_kp": 45
+    },
+    {
+        "id": 463,
+        "data": "ProP : Pembangunan Kawasan Perdesaan Prioritas Nasional Kotawaringin Barat",
+        "id_pn": 0,
+        "id_pp": 12,
+        "id_kp": 45
+    },
+    {
+        "id": 464,
+        "data": "ProP : Revitalisasi Kawasan\nTransmigrasi Cahaya Baru",
+        "id_pn": 0,
+        "id_pp": 12,
+        "id_kp": 45
+    },
+    {
+        "id": 465,
+        "data": "ProP : Pembangunan Desa Terpadu",
+        "id_pn": 0,
+        "id_pp": 12,
+        "id_kp": 45
+    },
+    {
+        "id": 466,
+        "data": "ProP : Pembangunan Kawasan Perdesaan Prioritas Nasional Barito Kuala dan Banjar",
+        "id_pn": 0,
+        "id_pp": 12,
+        "id_kp": 45
+    },
+    {
+        "id": 467,
+        "data": "ProP : Pembangunan Desa Terpadu",
+        "id_pn": 0,
+        "id_pp": 12,
+        "id_kp": 45
+    },
+    {
+        "id": 468,
+        "data": "ProP : Pembangunan Kawasan Perdesaan Prioritas Nasional Berau dan Kutai Timur",
+        "id_pn": 0,
+        "id_pp": 12,
+        "id_kp": 45
+    },
+    {
+        "id": 469,
+        "data": "ProP : Revitalisasi Kawasan Transmigrasi Kerang dan Maloy Kaliorang",
+        "id_pn": 0,
+        "id_pp": 12,
+        "id_kp": 45
+    },
+    {
+        "id": 470,
+        "data": "ProP : Pembangunan Desa Terpadu",
+        "id_pn": 0,
+        "id_pp": 12,
+        "id_kp": 45
+    },
+    {
+        "id": 471,
+        "data": "ProP : Pembangunan Kawasan\nPerdesaan Prioritas Nasional Bulungan",
+        "id_pn": 0,
+        "id_pp": 12,
+        "id_kp": 45
+    },
+    {
+        "id": 472,
+        "data": "ProP : Pusat Kegiatan Strategis Nasional\n(PKSN) Nunukan",
+        "id_pn": 0,
+        "id_pp": 12,
+        "id_kp": 45
+    },
+    {
+        "id": 473,
+        "data": "ProP : Pusat Kegiatan Strategis Nasional\n(PKSN) Long Midang",
+        "id_pn": 0,
+        "id_pp": 12,
+        "id_kp": 45
+    },
+    {
+        "id": 474,
+        "data": "ProP : Pusat Kegiatan Strategis Nasional\n(PKSN) Tou Lumbis",
+        "id_pn": 0,
+        "id_pp": 12,
+        "id_kp": 45
+    },
+    {
+        "id": 475,
+        "data": "ProP : Peningkatan Kesejahteraan dan Tata Kelola di Kecamatan Lokasi Prioritas di Provinsi Kalimantan Utara",
+        "id_pn": 0,
+        "id_pp": 12,
+        "id_kp": 45
+    },
+    {
+        "id": 476,
+        "data": "ProP : Revitalisasi Kawasan Transmigrasi Salim Batu dan Seimenggaris",
+        "id_pn": 0,
+        "id_pp": 12,
+        "id_kp": 45
+    },
+    {
+        "id": 477,
+        "data": "ProP : Peningkatan kapasitas pemerintahan daerah dan hubungan pusat-daerah di provinsi Kalimantan Barat",
+        "id_pn": 0,
+        "id_pp": 12,
+        "id_kp": 45
+    },
+    {
+        "id": 478,
+        "data": "ProP : Peningkatan Pelayanan\nPertanahan",
+        "id_pn": 0,
+        "id_pp": 12,
+        "id_kp": 45
+    },
+    {
+        "id": 479,
+        "data": "ProP : Penyelenggaraan Penataan\nRuang",
+        "id_pn": 0,
+        "id_pp": 12,
+        "id_kp": 45
+    },
+    {
+        "id": 480,
+        "data": "ProP : Peningkatan kapasitas pemerintahan daerah dan hubungan pusat-daerah di provinsi Kalimantan Tengah",
+        "id_pn": 0,
+        "id_pp": 12,
+        "id_kp": 45
+    },
+    {
+        "id": 481,
+        "data": "ProP : Peningkatan Pelayanan\nPertanahan",
+        "id_pn": 0,
+        "id_pp": 12,
+        "id_kp": 45
+    },
+    {
+        "id": 482,
+        "data": "ProP : Penyelenggaraan Penataan\nRuang",
+        "id_pn": 0,
+        "id_pp": 12,
+        "id_kp": 45
+    },
+    {
+        "id": 483,
+        "data": "ProP : Peningkatan kapasitas pemerintahan daerah dan hubungan pusat-daerah di provinsi Kalimantan Selatan",
+        "id_pn": 0,
+        "id_pp": 12,
+        "id_kp": 45
+    },
+    {
+        "id": 484,
+        "data": "ProP : Peningkatan Pelayanan\nPertanahan",
+        "id_pn": 0,
+        "id_pp": 12,
+        "id_kp": 45
+    },
+    {
+        "id": 485,
+        "data": "ProP : Penyelenggaraan Penataan\nRuang",
+        "id_pn": 0,
+        "id_pp": 12,
+        "id_kp": 45
+    },
+    {
+        "id": 486,
+        "data": "ProP : Peningkatan kapasitas pemerintahan daerah dan hubungan pusat-daerah di provinsi Kalimantan Timur",
+        "id_pn": 0,
+        "id_pp": 12,
+        "id_kp": 45
+    },
+    {
+        "id": 487,
+        "data": "ProP : Peningkatan Pelayanan\nPertanahan",
+        "id_pn": 0,
+        "id_pp": 12,
+        "id_kp": 45
+    },
+    {
+        "id": 488,
+        "data": "ProP : Penyelenggaraan Penataan\nRuang",
+        "id_pn": 0,
+        "id_pp": 12,
+        "id_kp": 45
+    },
+    {
+        "id": 489,
+        "data": "ProP : Peningkatan kapasitas pemerintahan daerah dan hubungan pusat-daerah di provinsi Kalimantan Utara",
+        "id_pn": 0,
+        "id_pp": 12,
+        "id_kp": 45
+    },
+    {
+        "id": 490,
+        "data": "ProP : Peningkatan Pelayanan\nPertanahan",
+        "id_pn": 0,
+        "id_pp": 12,
+        "id_kp": 45
+    },
+    {
+        "id": 491,
+        "data": "ProP : Penyelenggaraan Penataan\nRuang",
+        "id_pn": 0,
+        "id_pp": 12,
+        "id_kp": 45
+    },
+    {
+        "id": 492,
+        "data": "ProP : Percepatan Peningkatan\nInvestasi KI\/KEK Bitung",
+        "id_pn": 0,
+        "id_pp": 13,
+        "id_kp": 45
+    },
+    {
+        "id": 493,
+        "data": "ProP : Pembangunan DPP Baru Manado- Likupang",
+        "id_pn": 0,
+        "id_pp": 13,
+        "id_kp": 45
+    },
+    {
+        "id": 494,
+        "data": "ProP : Fasilitasi Koordinasi dan\nPerizinan KI\/KEK Palu",
+        "id_pn": 0,
+        "id_pp": 13,
+        "id_kp": 45
+    },
+    {
+        "id": 495,
+        "data": "ProP : Pembangunan DPP Baru Makassar-Selayar-Toraja dan sekitarnya",
+        "id_pn": 0,
+        "id_pp": 13,
+        "id_kp": 45
+    },
+    {
+        "id": 496,
+        "data": "ProP : Perbaikan aksesibilitas, atraksi dan amenitas DPP Wakatobi",
+        "id_pn": 0,
+        "id_pp": 13,
+        "id_kp": 45
+    },
+    {
+        "id": 497,
+        "data": "ProP : Pengembangan komoditas unggulan kelapa",
+        "id_pn": 0,
+        "id_pp": 13,
+        "id_kp": 45
+    },
+    {
+        "id": 498,
+        "data": "ProP : Pengembangan komoditas unggulan cengkeh",
+        "id_pn": 0,
+        "id_pp": 13,
+        "id_kp": 45
+    },
+    {
+        "id": 499,
+        "data": "ProP : Pengembangan komoditas unggulan pala",
+        "id_pn": 0,
+        "id_pp": 13,
+        "id_kp": 45
+    },
+    {
+        "id": 500,
+        "data": "ProP : Pengembangan komoditas unggulan kopi",
+        "id_pn": 0,
+        "id_pp": 13,
+        "id_kp": 45
+    },
+    {
+        "id": 501,
+        "data": "ProP : Pengembangan komoditas unggulan kakao",
+        "id_pn": 0,
+        "id_pp": 13,
+        "id_kp": 45
+    },
+    {
+        "id": 502,
+        "data": "ProP : Pengembangan komoditas unggulan perikanan tangkap",
+        "id_pn": 0,
+        "id_pp": 13,
+        "id_kp": 45
+    },
+    {
+        "id": 503,
+        "data": "ProP : Pengembangan komoditas unggulan kakao",
+        "id_pn": 0,
+        "id_pp": 13,
+        "id_kp": 45
+    },
+    {
+        "id": 504,
+        "data": "ProP : Pengembangan komoditas unggulan cengkeh",
+        "id_pn": 0,
+        "id_pp": 13,
+        "id_kp": 45
+    },
+    {
+        "id": 505,
+        "data": "ProP : Pengembangan komoditas unggulan kelapa",
+        "id_pn": 0,
+        "id_pp": 13,
+        "id_kp": 45
+    },
+    {
+        "id": 506,
+        "data": "ProP : Pengembangan komoditas unggulan nikel",
+        "id_pn": 0,
+        "id_pp": 13,
+        "id_kp": 45
+    },
+    {
+        "id": 507,
+        "data": "ProP : Pengembangan komoditas unggulan bijih besi",
+        "id_pn": 0,
+        "id_pp": 13,
+        "id_kp": 45
+    },
+    {
+        "id": 508,
+        "data": "ProP : Pengembangan komoditas unggulan pertambangan",
+        "id_pn": 0,
+        "id_pp": 13,
+        "id_kp": 45
+    },
+    {
+        "id": 509,
+        "data": "ProP : Pengembangan komoditas unggulan perikanan budidaya",
+        "id_pn": 0,
+        "id_pp": 13,
+        "id_kp": 45
+    },
+    {
+        "id": 510,
+        "data": "ProP : Pengembangan komoditas unggulan kakao",
+        "id_pn": 0,
+        "id_pp": 13,
+        "id_kp": 45
+    },
+    {
+        "id": 511,
+        "data": "ProP : Pengembangan komoditas unggulan kopi",
+        "id_pn": 0,
+        "id_pp": 13,
+        "id_kp": 45
+    },
+    {
+        "id": 512,
+        "data": "ProP : Pengembangan komoditas unggulan cengkeh",
+        "id_pn": 0,
+        "id_pp": 13,
+        "id_kp": 45
+    },
+    {
+        "id": 513,
+        "data": "ProP : Pengembangan komoditas unggulan jambu mete",
+        "id_pn": 0,
+        "id_pp": 13,
+        "id_kp": 45
+    },
+    {
+        "id": 514,
+        "data": "ProP : Pengembangan komoditas unggulan nilam",
+        "id_pn": 0,
+        "id_pp": 13,
+        "id_kp": 45
+    },
+    {
+        "id": 515,
+        "data": "ProP : Pengembangan komoditas unggulan nikel",
+        "id_pn": 0,
+        "id_pp": 13,
+        "id_kp": 45
+    },
+    {
+        "id": 516,
+        "data": "ProP : Pengembangan komoditas unggulan pertambangan",
+        "id_pn": 0,
+        "id_pp": 13,
+        "id_kp": 45
+    },
+    {
+        "id": 517,
+        "data": "ProP : Pengembangan komoditas unggulan perikanan tangkap",
+        "id_pn": 0,
+        "id_pp": 13,
+        "id_kp": 45
+    },
+    {
+        "id": 518,
+        "data": "ProP : Pengembangan komoditas unggulan perikanan budidaya",
+        "id_pn": 0,
+        "id_pp": 13,
+        "id_kp": 45
+    },
+    {
+        "id": 519,
+        "data": "ProP : Pengembangan komoditas unggulan kakao",
+        "id_pn": 0,
+        "id_pp": 13,
+        "id_kp": 45
+    },
+    {
+        "id": 520,
+        "data": "ProP : Pengembangan komoditas unggulan cengkeh",
+        "id_pn": 0,
+        "id_pp": 13,
+        "id_kp": 45
+    },
+    {
+        "id": 521,
+        "data": "ProP : Pengembangan komoditas jambu mete",
+        "id_pn": 0,
+        "id_pp": 13,
+        "id_kp": 45
+    },
+    {
+        "id": 522,
+        "data": "ProP : Pengembangan komoditas unggulan kelapa",
+        "id_pn": 0,
+        "id_pp": 13,
+        "id_kp": 45
+    },
+    {
+        "id": 523,
+        "data": "ProP : Pengembangan komoditas unggulan nikel",
+        "id_pn": 0,
+        "id_pp": 13,
+        "id_kp": 45
+    },
+    {
+        "id": 524,
+        "data": "ProP : Pengembangan komoditas unggulan perikanan budidaya",
+        "id_pn": 0,
+        "id_pp": 13,
+        "id_kp": 45
+    },
+    {
+        "id": 525,
+        "data": "ProP : Pengembangan komoditas unggulan kelapa",
+        "id_pn": 0,
+        "id_pp": 13,
+        "id_kp": 45
+    },
+    {
+        "id": 526,
+        "data": "ProP : Pengembangan komoditas unggulan kakao",
+        "id_pn": 0,
+        "id_pp": 13,
+        "id_kp": 45
+    },
+    {
+        "id": 527,
+        "data": "ProP : Pengembangan komoditas cengkeh",
+        "id_pn": 0,
+        "id_pp": 13,
+        "id_kp": 45
+    },
+    {
+        "id": 528,
+        "data": "ProP : Pengembangan komoditas unggulan kakao",
+        "id_pn": 0,
+        "id_pp": 13,
+        "id_kp": 45
+    },
+    {
+        "id": 529,
+        "data": "ProP : Pengembangan komoditas unggulan perikanan tangkap",
+        "id_pn": 0,
+        "id_pp": 13,
+        "id_kp": 45
+    },
+    {
+        "id": 530,
+        "data": "ProP : Pengembangan Wilayah\nMetropolitan Manado",
+        "id_pn": 0,
+        "id_pp": 13,
+        "id_kp": 45
+    },
+    {
+        "id": 531,
+        "data": "ProP : Pengembangan Kota Besar, Kota\nSedang, Kota Kecil (Sulawesi Utara)",
+        "id_pn": 0,
+        "id_pp": 13,
+        "id_kp": 45
+    },
+    {
+        "id": 532,
+        "data": "ProP : Pengembangan Kota Besar, Kota\nSedang, Kota Kecil",
+        "id_pn": 0,
+        "id_pp": 13,
+        "id_kp": 45
+    },
+    {
+        "id": 533,
+        "data": "ProP : Pengembangan Wilayah\nMetropolitan Makassar",
+        "id_pn": 0,
+        "id_pp": 13,
+        "id_kp": 45
+    },
+    {
+        "id": 534,
+        "data": "ProP : Pengembangan Kota Besar, Kota\nSedang, Kota Kecil (Sulawesi Selatan)",
+        "id_pn": 0,
+        "id_pp": 13,
+        "id_kp": 45
+    },
+    {
+        "id": 535,
+        "data": "ProP : Pengembangan Kota Besar, Kota\nSedang, Kota Kecil (Sulawesi Tenggara)",
+        "id_pn": 0,
+        "id_pp": 13,
+        "id_kp": 45
+    },
+    {
+        "id": 536,
+        "data": "ProP : Pengembangan Kota Besar, Kota\nSedang, Kota Kecil (Sulawesi Barat)",
+        "id_pn": 0,
+        "id_pp": 13,
+        "id_kp": 45
+    },
+    {
+        "id": 537,
+        "data": "ProP : Pengembangan Kota Besar, Kota\nSedang, Kota Kecil (Gorontalo)",
+        "id_pn": 0,
+        "id_pp": 13,
+        "id_kp": 45
+    },
+    {
+        "id": 538,
+        "data": "ProP : Pembangunan dan peningkatan kualitas rumah layak huni (Sulawesi Utara)",
+        "id_pn": 0,
+        "id_pp": 13,
+        "id_kp": 45
+    },
+    {
+        "id": 539,
+        "data": "ProP : Pembangunan dan peningkatan kualitas rumah layak huni (Sulawesi Tengah)",
+        "id_pn": 0,
+        "id_pp": 13,
+        "id_kp": 45
+    },
+    {
+        "id": 540,
+        "data": "ProP : Pembangunan dan peningkatan kualitas rumah layak huni (Sulawesi Selatan)",
+        "id_pn": 0,
+        "id_pp": 13,
+        "id_kp": 45
+    },
+    {
+        "id": 541,
+        "data": "ProP : Pembangunan dan peningkatan kualitas rumah layak huni (Sulawesi Tenggara)",
+        "id_pn": 0,
+        "id_pp": 13,
+        "id_kp": 45
+    },
+    {
+        "id": 542,
+        "data": "ProP : Pembangunan dan peningkatan kualitas rumah layak huni (Gorontalo)",
+        "id_pn": 0,
+        "id_pp": 13,
+        "id_kp": 45
+    },
+    {
+        "id": 543,
+        "data": "ProP : Pembangunan dan peningkatan kualitas rumah layak huni (Sulawesi Barat)",
+        "id_pn": 0,
+        "id_pp": 13,
+        "id_kp": 45
+    },
+    {
+        "id": 544,
+        "data": "ProP : Pusat Kegiatan Strategis Nasional\n(PKSN) Tahuna",
+        "id_pn": 0,
+        "id_pp": 13,
+        "id_kp": 45
+    },
+    {
+        "id": 545,
+        "data": "ProP : Peningkatan Kesejahteraan dan Tata Kelola di Kecamatan Lokasi Prioritas di Provinsi Sulawesi Utara",
+        "id_pn": 0,
+        "id_pp": 13,
+        "id_kp": 45
+    },
+    {
+        "id": 546,
+        "data": "ProP : Pembangunan Desa Terpadu",
+        "id_pn": 0,
+        "id_pp": 13,
+        "id_kp": 45
+    },
+    {
+        "id": 547,
+        "data": "ProP : Pembangunan Kawasan Perdesaan Prioritas Nasional Minahasa Utara",
+        "id_pn": 0,
+        "id_pp": 13,
+        "id_kp": 45
+    },
+    {
+        "id": 548,
+        "data": "ProP : Pemulihan Pasca Bencana Daerah Terdampak di Kota Palu dan Sekitarnya",
+        "id_pn": 0,
+        "id_pp": 13,
+        "id_kp": 45
+    },
+    {
+        "id": 549,
+        "data": "ProP : Peningkatan Kesejahteraan dan Tata Kelola di Kecamatan Lokasi Prioritas",
+        "id_pn": 0,
+        "id_pp": 13,
+        "id_kp": 45
+    },
+    {
+        "id": 550,
+        "data": "ProP : Revitalisasi Kawasan Transmigrasi Palolo, Bungku, Air Terang, Tampolore, Padauloyo, dan Bahari Tomini Raya",
+        "id_pn": 0,
+        "id_pp": 13,
+        "id_kp": 45
+    },
+    {
+        "id": 551,
+        "data": "ProP : Percepatan Pembangunan daerah tertinggal di Provinsi Sulawesi Tengah",
+        "id_pn": 0,
+        "id_pp": 13,
+        "id_kp": 45
+    },
+    {
+        "id": 552,
+        "data": "ProP : Pembangunan Desa Terpadu",
+        "id_pn": 0,
+        "id_pp": 13,
+        "id_kp": 45
+    },
+    {
+        "id": 553,
+        "data": "ProP : Pembangunan Kawasan Perdesaan Prioritas Nasional Morowali, Buol, dan Poso",
+        "id_pn": 0,
+        "id_pp": 13,
+        "id_kp": 45
+    },
+    {
+        "id": 554,
+        "data": "ProP : Pembangunan Desa Terpadu",
+        "id_pn": 0,
+        "id_pp": 13,
+        "id_kp": 45
+    },
+    {
+        "id": 555,
+        "data": "ProP : Pembangunan Kawasan Perdesaan Prioritas Nasional Barru, Pinrang, Luwu Timur, dan Bone",
+        "id_pn": 0,
+        "id_pp": 13,
+        "id_kp": 45
+    },
+    {
+        "id": 556,
+        "data": "ProP : Revitalisasi Kawasan Transmigrasi Gilireng, Masamba, dan Mahalona",
+        "id_pn": 0,
+        "id_pp": 13,
+        "id_kp": 45
+    },
+    {
+        "id": 557,
+        "data": "ProP : Pembangunan Desa Terpadu",
+        "id_pn": 0,
+        "id_pp": 13,
+        "id_kp": 45
+    },
+    {
+        "id": 558,
+        "data": "ProP : Pembangunan Kawasan Perdesaan Prioritas Nasional Konawe Selatan, Wakatobi, dan Muna",
+        "id_pn": 0,
+        "id_pp": 13,
+        "id_kp": 45
+    },
+    {
+        "id": 559,
+        "data": "ProP : Revitalisasi Kawasan Transmigrasi Tinanggea, Mutiara, dan Asinua\/Routa",
+        "id_pn": 0,
+        "id_pp": 13,
+        "id_kp": 45
+    },
+    {
+        "id": 560,
+        "data": "ProP : Peningkatan Kesejahteraan dan Tata Kelola di Kecamatan Lokasi Prioritas di Provinsi Gorontalo",
+        "id_pn": 0,
+        "id_pp": 13,
+        "id_kp": 45
+    },
+    {
+        "id": 561,
+        "data": "ProP : Pembangunan Desa Terpadu",
+        "id_pn": 0,
+        "id_pp": 13,
+        "id_kp": 45
+    },
+    {
+        "id": 562,
+        "data": "ProP : Pembangunan Kawasan Perdesaan Prioritas Nasional Gorontalo, Boalemo, dan Gorontalo\nUtara",
+        "id_pn": 0,
+        "id_pp": 13,
+        "id_kp": 45
+    },
+    {
+        "id": 563,
+        "data": "ProP : Revitalisasi Kawasan Transmigrasi Sumalata, Paguyaman Pantai, Pawonsari, dan Pulubala",
+        "id_pn": 0,
+        "id_pp": 13,
+        "id_kp": 45
+    },
+    {
+        "id": 564,
+        "data": "ProP : Pembangunan Desa Terpadu",
+        "id_pn": 0,
+        "id_pp": 13,
+        "id_kp": 45
+    },
+    {
+        "id": 565,
+        "data": "ProP : Pembangunan Kawasan Perdesaan Prioritas Nasional Mamuju dan Mamuju Tengah",
+        "id_pn": 0,
+        "id_pp": 13,
+        "id_kp": 45
+    },
+    {
+        "id": 566,
+        "data": "ProP : Revitalisasi Kawasan Transmigrasi Tobadak dan Sarudu Baras",
+        "id_pn": 0,
+        "id_pp": 13,
+        "id_kp": 45
+    },
+    {
+        "id": 567,
+        "data": "ProP : Peningkatan kapasitas pemerintahan daerah dan hubungan pusat-daerah di Provinsi Sulawesi Utara",
+        "id_pn": 0,
+        "id_pp": 13,
+        "id_kp": 45
+    },
+    {
+        "id": 568,
+        "data": "ProP : Peningkatan Pelayanan\nPertanahan",
+        "id_pn": 0,
+        "id_pp": 13,
+        "id_kp": 45
+    },
+    {
+        "id": 569,
+        "data": "ProP : Penyelenggaraan Penataan\nRuang",
+        "id_pn": 0,
+        "id_pp": 13,
+        "id_kp": 45
+    },
+    {
+        "id": 570,
+        "data": "ProP : Peningkatan kapasitas pemerintahan daerah dan hubungan pusat-daerah di provinsi Sulawesi Tengah",
+        "id_pn": 0,
+        "id_pp": 13,
+        "id_kp": 45
+    },
+    {
+        "id": 571,
+        "data": "ProP : Peningkatan Pelayanan\nPertanahan",
+        "id_pn": 0,
+        "id_pp": 13,
+        "id_kp": 45
+    },
+    {
+        "id": 572,
+        "data": "ProP : Penyelenggaraan Penataan\nRuang",
+        "id_pn": 0,
+        "id_pp": 13,
+        "id_kp": 45
+    },
+    {
+        "id": 573,
+        "data": "ProP : Peningkatan kapasitas pemerintahan daerah dan hubungan pusat-daerah di provinsi Sulawesi Selatan",
+        "id_pn": 0,
+        "id_pp": 13,
+        "id_kp": 45
+    },
+    {
+        "id": 574,
+        "data": "ProP : Peningkatan Pelayanan\nPertanahan",
+        "id_pn": 0,
+        "id_pp": 13,
+        "id_kp": 45
+    },
+    {
+        "id": 575,
+        "data": "ProP : Penyelenggaraan Penataan\nRuang",
+        "id_pn": 0,
+        "id_pp": 13,
+        "id_kp": 45
+    },
+    {
+        "id": 576,
+        "data": "ProP : Peningkatan kapasitas pemerintahan daerah dan hubungan pusat-daerah di provinsi Sulawesi Tenggara",
+        "id_pn": 0,
+        "id_pp": 13,
+        "id_kp": 45
+    },
+    {
+        "id": 577,
+        "data": "ProP : Peningkatan Pelayanan\nPertanahan",
+        "id_pn": 0,
+        "id_pp": 13,
+        "id_kp": 45
+    },
+    {
+        "id": 578,
+        "data": "ProP : Penyelenggaraan Penataan\nRuang",
+        "id_pn": 0,
+        "id_pp": 13,
+        "id_kp": 45
+    },
+    {
+        "id": 579,
+        "data": "ProP : Peningkatan kapasitas pemerintahan daerah dan hubungan pusat-daerah di provinsi Gorontalo",
+        "id_pn": 0,
+        "id_pp": 13,
+        "id_kp": 45
+    },
+    {
+        "id": 580,
+        "data": "ProP : Peningkatan Pelayanan\nPertanahan",
+        "id_pn": 0,
+        "id_pp": 13,
+        "id_kp": 45
+    },
+    {
+        "id": 581,
+        "data": "ProP : Penyelenggaraan Penataan\nRuang",
+        "id_pn": 0,
+        "id_pp": 13,
+        "id_kp": 45
+    },
+    {
+        "id": 582,
+        "data": "ProP : Peningkatan kapasitas pemerintahan daerah dan hubungan pusat-daerah di provinsi Sulawesi Barat",
+        "id_pn": 0,
+        "id_pp": 13,
+        "id_kp": 45
+    },
+    {
+        "id": 583,
+        "data": "ProP : Peningkatan Pelayanan\nPertanahan",
+        "id_pn": 0,
+        "id_pp": 13,
+        "id_kp": 45
+    },
+    {
+        "id": 584,
+        "data": "ProP : Penyelenggaraan Penataan\nRuang",
+        "id_pn": 0,
+        "id_pp": 13,
+        "id_kp": 45
+    },
+    {
+        "id": 585,
+        "data": "ProP : Perbaikan aksesibilitas, atraksi dan amenitas DPP Morotai\/KEK Morotai",
+        "id_pn": 0,
+        "id_pp": 14,
+        "id_kp": 45
+    },
+    {
+        "id": 586,
+        "data": "ProP : Fasilitasi Realisasi Investasi dan\nPembangunan KI Teluk Weda",
+        "id_pn": 0,
+        "id_pp": 14,
+        "id_kp": 45
+    },
+    {
+        "id": 587,
+        "data": "ProP : Pengembangan komoditas unggulan pala",
+        "id_pn": 0,
+        "id_pp": 14,
+        "id_kp": 45
+    },
+    {
+        "id": 588,
+        "data": "ProP : Pengembangan komoditas unggulan cengkeh",
+        "id_pn": 0,
+        "id_pp": 14,
+        "id_kp": 45
+    },
+    {
+        "id": 589,
+        "data": "ProP : Pengembangan komoditas unggulan kelapa",
+        "id_pn": 0,
+        "id_pp": 14,
+        "id_kp": 45
+    },
+    {
+        "id": 590,
+        "data": "ProP : Pengembangan komoditas unggulan emas",
+        "id_pn": 0,
+        "id_pp": 14,
+        "id_kp": 45
+    },
+    {
+        "id": 591,
+        "data": "ProP : Pengembangan komoditas unggulan pertambangan",
+        "id_pn": 0,
+        "id_pp": 14,
+        "id_kp": 45
+    },
+    {
+        "id": 592,
+        "data": "ProP : Pengembangan komoditas unggulan perikanan tangkap",
+        "id_pn": 0,
+        "id_pp": 14,
+        "id_kp": 45
+    },
+    {
+        "id": 593,
+        "data": "ProP : Pengembangan komoditas unggulan kelapa",
+        "id_pn": 0,
+        "id_pp": 14,
+        "id_kp": 45
+    },
+    {
+        "id": 594,
+        "data": "ProP : Pengembangan komoditas unggulan pala",
+        "id_pn": 0,
+        "id_pp": 14,
+        "id_kp": 45
+    },
+    {
+        "id": 595,
+        "data": "ProP : Pengembangan komoditas unggulan cengkeh",
+        "id_pn": 0,
+        "id_pp": 14,
+        "id_kp": 45
+    },
+    {
+        "id": 596,
+        "data": "ProP : Pengembangan komoditas unggulan kakao",
+        "id_pn": 0,
+        "id_pp": 14,
+        "id_kp": 45
+    },
+    {
+        "id": 597,
+        "data": "ProP : Pengembangan komoditas unggulan pertambangan",
+        "id_pn": 0,
+        "id_pp": 14,
+        "id_kp": 45
+    },
+    {
+        "id": 598,
+        "data": "ProP : Pengembangan komoditas unggulan pertambangan",
+        "id_pn": 0,
+        "id_pp": 14,
+        "id_kp": 45
+    },
+    {
+        "id": 599,
+        "data": "ProP : Pengembangan komoditas unggulan perikanan tangkap",
+        "id_pn": 0,
+        "id_pp": 14,
+        "id_kp": 45
+    },
+    {
+        "id": 600,
+        "data": "ProP : Pembangunan Kota Baru Sofifi",
+        "id_pn": 0,
+        "id_pp": 14,
+        "id_kp": 45
+    },
+    {
+        "id": 601,
+        "data": "ProP : Pengembangan Kota Besar, Kota Sedang, Kota Kecil (Provinsi Maluku Utara)",
+        "id_pn": 0,
+        "id_pp": 14,
+        "id_kp": 45
+    },
+    {
+        "id": 602,
+        "data": "ProP : Pengembangan Kota Besar, Kota\nSedang, Kota Kecil (Provinsi Maluku)",
+        "id_pn": 0,
+        "id_pp": 14,
+        "id_kp": 45
+    },
+    {
+        "id": 603,
+        "data": "ProP : Pembangunan dan peningkatan kualitas rumah layak huni",
+        "id_pn": 0,
+        "id_pp": 14,
+        "id_kp": 45
+    },
+    {
+        "id": 604,
+        "data": "ProP : Pembangunan dan peningkatan kualitas rumah layak huni",
+        "id_pn": 0,
+        "id_pp": 14,
+        "id_kp": 45
+    },
+    {
+        "id": 605,
+        "data": "ProP : Revitalisasi Kawasan\nTransmigrasi Kobisonta",
+        "id_pn": 0,
+        "id_pp": 14,
+        "id_kp": 45
+    },
+    {
+        "id": 606,
+        "data": "ProP : Percepatan Pembangunan daerah tertinggal di Provinsi Maluku",
+        "id_pn": 0,
+        "id_pp": 14,
+        "id_kp": 45
+    },
+    {
+        "id": 607,
+        "data": "ProP : Pusat Kegiatan Strategis Nasional\n(PKSN) Saumlaki",
+        "id_pn": 0,
+        "id_pp": 14,
+        "id_kp": 45
+    },
+    {
+        "id": 608,
+        "data": "ProP : Peningkatan Kesejahteraan dan Tata Kelola di Kecamatan Lokasi Prioritas di Provinsi Maluku",
+        "id_pn": 0,
+        "id_pp": 14,
+        "id_kp": 45
+    },
+    {
+        "id": 609,
+        "data": "ProP : Pembangunan Desa Terpadu",
+        "id_pn": 0,
+        "id_pp": 14,
+        "id_kp": 45
+    },
+    {
+        "id": 610,
+        "data": "ProP : Pembangunan Kawasan Perdesaan Prioritas Nasional Maluku Tengah",
+        "id_pn": 0,
+        "id_pp": 14,
+        "id_kp": 45
+    },
+    {
+        "id": 611,
+        "data": "ProP : Percepatan Pembangunan daerah tertinggal di Provinsi Maluku Utara",
+        "id_pn": 0,
+        "id_pp": 14,
+        "id_kp": 45
+    },
+    {
+        "id": 612,
+        "data": "ProP : Revitalisasi Kawasan Transmigrasi Pulau Mangoli dan Pulau Morotai",
+        "id_pn": 0,
+        "id_pp": 14,
+        "id_kp": 45
+    },
+    {
+        "id": 613,
+        "data": "ProP : Peningkatan Kesejahteraan dan Tata Kelola di Kecamatan Lokasi Prioritas Provinsi Maluku Utara",
+        "id_pn": 0,
+        "id_pp": 14,
+        "id_kp": 45
+    },
+    {
+        "id": 614,
+        "data": "ProP : Pembangunan Desa Terpadu",
+        "id_pn": 0,
+        "id_pp": 14,
+        "id_kp": 45
+    },
+    {
+        "id": 615,
+        "data": "ProP : Pembangunan Kawasan\nPerdesaan Prioritas Nasional Morotai",
+        "id_pn": 0,
+        "id_pp": 14,
+        "id_kp": 45
+    },
+    {
+        "id": 616,
+        "data": "ProP : Peningkatan kapasitas pemerintahan daerah dan hubungan pusat-daerah di provinsi Maluku",
+        "id_pn": 0,
+        "id_pp": 14,
+        "id_kp": 45
+    },
+    {
+        "id": 617,
+        "data": "ProP : Peningkatan Pelayanan\nPertanahan",
+        "id_pn": 0,
+        "id_pp": 14,
+        "id_kp": 45
+    },
+    {
+        "id": 618,
+        "data": "ProP : Penyelenggaraan Penataan\nRuang",
+        "id_pn": 0,
+        "id_pp": 14,
+        "id_kp": 45
+    },
+    {
+        "id": 619,
+        "data": "ProP : Peningkatan kapasitas pemerintahan daerah dan hubungan pusat-daerah di provinsi Maluku Utara",
+        "id_pn": 0,
+        "id_pp": 14,
+        "id_kp": 45
+    },
+    {
+        "id": 620,
+        "data": "ProP : Peningkatan Pelayanan\nPertanahan",
+        "id_pn": 0,
+        "id_pp": 14,
+        "id_kp": 45
+    },
+    {
+        "id": 621,
+        "data": "ProP : Penyelenggaraan Penataan\nRuang",
+        "id_pn": 0,
+        "id_pp": 14,
+        "id_kp": 45
+    },
+    {
+        "id": 622,
+        "data": "ProP : Pembangunan DPP Baru Biak- Teluk Cenderawasih",
+        "id_pn": 0,
+        "id_pp": 15,
+        "id_kp": 45
+    },
+    {
+        "id": 623,
+        "data": "ProP : Percepatan operasionalisasi KEK Sorong",
+        "id_pn": 0,
+        "id_pp": 15,
+        "id_kp": 45
+    },
+    {
+        "id": 624,
+        "data": "ProP : Fasilitasi Realisasi Investasi dan\nPembangunan KI Teluk Bintuni",
+        "id_pn": 0,
+        "id_pp": 15,
+        "id_kp": 45
+    },
+    {
+        "id": 625,
+        "data": "ProP : Pembangunan DPP Baru Raja\nAmpat dan Sekitarnya",
+        "id_pn": 0,
+        "id_pp": 15,
+        "id_kp": 45
+    },
+    {
+        "id": 626,
+        "data": "ProP : Pengembangan komoditas unggulan pala",
+        "id_pn": 0,
+        "id_pp": 15,
+        "id_kp": 45
+    },
+    {
+        "id": 627,
+        "data": "ProP : Pengembangan komoditas unggulan kelapa",
+        "id_pn": 0,
+        "id_pp": 15,
+        "id_kp": 45
+    },
+    {
+        "id": 628,
+        "data": "ProP : Pengembangan komoditas unggulan sagu",
+        "id_pn": 0,
+        "id_pp": 15,
+        "id_kp": 45
+    },
+    {
+        "id": 629,
+        "data": "ProP : Pengembangan komoditas unggulan pertambangan",
+        "id_pn": 0,
+        "id_pp": 15,
+        "id_kp": 45
+    },
+    {
+        "id": 630,
+        "data": "ProP : Pengembangan komoditas unggulan perikanan tangkap",
+        "id_pn": 0,
+        "id_pp": 15,
+        "id_kp": 45
+    },
+    {
+        "id": 631,
+        "data": "ProP : Pengembangan komoditas unggulan kakao",
+        "id_pn": 0,
+        "id_pp": 15,
+        "id_kp": 45
+    },
+    {
+        "id": 632,
+        "data": "ProP : Pengembangan komoditas unggulan sagu",
+        "id_pn": 0,
+        "id_pp": 15,
+        "id_kp": 45
+    },
+    {
+        "id": 633,
+        "data": "ProP : Pengembangan komoditas unggulan kopi",
+        "id_pn": 0,
+        "id_pp": 15,
+        "id_kp": 45
+    },
+    {
+        "id": 634,
+        "data": "ProP : Pengembangan komoditas unggulan kelapa",
+        "id_pn": 0,
+        "id_pp": 15,
+        "id_kp": 45
+    },
+    {
+        "id": 635,
+        "data": "ProP : Pengembangan komoditas unggulan karet",
+        "id_pn": 0,
+        "id_pp": 15,
+        "id_kp": 45
+    },
+    {
+        "id": 636,
+        "data": "ProP : Pengembangan komoditas unggulan pertambangan",
+        "id_pn": 0,
+        "id_pp": 15,
+        "id_kp": 45
+    },
+    {
+        "id": 637,
+        "data": "ProP : Pengembangan komoditas unggulan perikanan tangkap",
+        "id_pn": 0,
+        "id_pp": 15,
+        "id_kp": 45
+    },
+    {
+        "id": 638,
+        "data": "ProP : Pengembangan komoditas unggulan emas",
+        "id_pn": 0,
+        "id_pp": 15,
+        "id_kp": 45
+    },
+    {
+        "id": 639,
+        "data": "ProP : Pengembangan komoditas unggulan Tembaga",
+        "id_pn": 0,
+        "id_pp": 15,
+        "id_kp": 45
+    },
+    {
+        "id": 640,
+        "data": "ProP : Pembangunan Kota Baru Sorong",
+        "id_pn": 0,
+        "id_pp": 15,
+        "id_kp": 45
+    },
+    {
+        "id": 641,
+        "data": "ProP : Pengembangan Kota Besar, Kota\nSedang, Kota Kecil",
+        "id_pn": 0,
+        "id_pp": 15,
+        "id_kp": 45
+    },
+    {
+        "id": 642,
+        "data": "ProP : Pengembangan Kota Besar, Kota\nSedang, Kota Kecil",
+        "id_pn": 0,
+        "id_pp": 15,
+        "id_kp": 45
+    },
+    {
+        "id": 643,
+        "data": "ProP : Pembangunan dan peningkatan kualitas rumah layak huni (Papua)",
+        "id_pn": 0,
+        "id_pp": 15,
+        "id_kp": 45
+    },
+    {
+        "id": 644,
+        "data": "ProP : Pembangunan dan peningkatan kualitas rumah layak huni (Papua Barat)",
+        "id_pn": 0,
+        "id_pp": 15,
+        "id_kp": 45
+    },
+    {
+        "id": 645,
+        "data": "ProP : Wilayah Adat Papua: Laa Pago",
+        "id_pn": 0,
+        "id_pp": 15,
+        "id_kp": 45
+    },
+    {
+        "id": 646,
+        "data": "ProP : Wilayah Adat Papua : Mee Pago",
+        "id_pn": 0,
+        "id_pp": 15,
+        "id_kp": 45
+    },
+    {
+        "id": 647,
+        "data": "ProP : Wilayah Adat Papua : Saireri",
+        "id_pn": 0,
+        "id_pp": 15,
+        "id_kp": 45
+    },
+    {
+        "id": 648,
+        "data": "ProP : Wilayah Adat Papua : Tabi",
+        "id_pn": 0,
+        "id_pp": 15,
+        "id_kp": 45
+    },
+    {
+        "id": 649,
+        "data": "ProP : Wilayah Adat Papua : Anim Ha",
+        "id_pn": 0,
+        "id_pp": 15,
+        "id_kp": 45
+    },
+    {
+        "id": 650,
+        "data": "ProP : Pusat Kegiatan Strategis Nasional\n(PKSN) Jayapura",
+        "id_pn": 0,
+        "id_pp": 15,
+        "id_kp": 45
+    },
+    {
+        "id": 651,
+        "data": "ProP : Pusat Kegiatan Strategis Nasional\n(PKSN) Merauke",
+        "id_pn": 0,
+        "id_pp": 15,
+        "id_kp": 45
+    },
+    {
+        "id": 652,
+        "data": "ProP : Pusat Kegiatan Strategis Nasional\n(PKSN) Tanah Merah",
+        "id_pn": 0,
+        "id_pp": 15,
+        "id_kp": 45
+    },
+    {
+        "id": 653,
+        "data": "ProP : Peningkatan Kesejahteraan dan Tata Kelola di Kecamatan Lokasi Prioritas di Provinsi Papua",
+        "id_pn": 0,
+        "id_pp": 15,
+        "id_kp": 45
+    },
+    {
+        "id": 654,
+        "data": "ProP : Pembangunan Desa Terpadu",
+        "id_pn": 0,
+        "id_pp": 15,
+        "id_kp": 45
+    },
+    {
+        "id": 655,
+        "data": "ProP : Pembangunan Kawasan Perdesaan Prioritas Nasional Jayapura dan Merauke",
+        "id_pn": 0,
+        "id_pp": 15,
+        "id_kp": 45
+    },
+    {
+        "id": 656,
+        "data": "ProP : Revitalisasi Kawasan\nTransmigrasi Senggi, Salor, dan Muting",
+        "id_pn": 0,
+        "id_pp": 15,
+        "id_kp": 45
+    },
+    {
+        "id": 657,
+        "data": "ProP : Wilayah Adat Papua : Domberay",
+        "id_pn": 0,
+        "id_pp": 15,
+        "id_kp": 45
+    },
+    {
+        "id": 658,
+        "data": "ProP : Wilayah Adat Papua : Bomberay",
+        "id_pn": 0,
+        "id_pp": 15,
+        "id_kp": 45
+    },
+    {
+        "id": 659,
+        "data": "ProP : Peningkatan Kesejahteraan dan Tata Kelola di Kecamatan Lokasi Prioritas di Provinsi Papua Barat",
+        "id_pn": 0,
+        "id_pp": 15,
+        "id_kp": 45
+    },
+    {
+        "id": 660,
+        "data": "ProP : Pembangunan Desa Terpadu",
+        "id_pn": 0,
+        "id_pp": 15,
+        "id_kp": 45
+    },
+    {
+        "id": 661,
+        "data": "ProP : Pembangunan Kawasan Perdesaan Prioritas Nasional Raja Ampat dan Manokwari",
+        "id_pn": 0,
+        "id_pp": 15,
+        "id_kp": 45
+    },
+    {
+        "id": 662,
+        "data": "ProP : Revitalisasi Kawasan Transmigrasi Werianggi Werabur dan Bomberay - Tomage",
+        "id_pn": 0,
+        "id_pp": 15,
+        "id_kp": 45
+    },
+    {
+        "id": 663,
+        "data": "ProP : Peningkatan kapasitas pemerintahan daerah dan hubungan pusat-daerah di provinsi Papua",
+        "id_pn": 0,
+        "id_pp": 15,
+        "id_kp": 45
+    },
+    {
+        "id": 664,
+        "data": "ProP : Peningkatan Pelayanan\nPertanahan",
+        "id_pn": 0,
+        "id_pp": 15,
+        "id_kp": 45
+    },
+    {
+        "id": 665,
+        "data": "ProP : Penyelenggaraan Penataan\nRuang",
+        "id_pn": 0,
+        "id_pp": 15,
+        "id_kp": 45
+    },
+    {
+        "id": 666,
+        "data": "ProP : Peningkatan kapasitas pemerintahan daerah dan hubungan pusat-daerah di provinsi Papua Barat",
+        "id_pn": 0,
+        "id_pp": 15,
+        "id_kp": 45
+    },
+    {
+        "id": 667,
+        "data": "ProP : Peningkatan Pelayanan\nPertanahan",
+        "id_pn": 0,
+        "id_pp": 15,
+        "id_kp": 45
+    },
+    {
+        "id": 668,
+        "data": "ProP : Penyelenggaraan Penataan\nRuang",
+        "id_pn": 0,
+        "id_pp": 15,
+        "id_kp": 45
+    },
+    {
+        "id": 669,
+        "data": "ProP : Perluasan jangkauan layanan administrasi kependudukan",
+        "id_pn": 0,
+        "id_pp": 16,
+        "id_kp": 46
+    },
+    {
+        "id": 670,
+        "data": "ProP : Peningkatan kesadaran dan keaktifan masyarakat terhadap administrasi kependudukan",
+        "id_pn": 0,
+        "id_pp": 16,
+        "id_kp": 46
+    },
+    {
+        "id": 671,
+        "data": "ProP : Percepatan kepemilikan dokumen pendataran penduduk dan pencatatan sipil bagi kelompok khusus",
+        "id_pn": 0,
+        "id_pp": 16,
+        "id_kp": 46
+    },
+    {
+        "id": 672,
+        "data": "ProP : Penguatan integrasi data administrasi kependudukan",
+        "id_pn": 0,
+        "id_pp": 16,
+        "id_kp": 47
+    },
+    {
+        "id": 673,
+        "data": "ProP : Penguatan infrastruktur administrasi kependudukan",
+        "id_pn": 0,
+        "id_pp": 16,
+        "id_kp": 47
+    },
+    {
+        "id": 674,
+        "data": "ProP : Pengembangan data dan informasi kependudukan (statistik hayati) yang akurat, lengkap dan tepat\nwaktu",
+        "id_pn": 0,
+        "id_pp": 16,
+        "id_kp": 47
+    },
+    {
+        "id": 675,
+        "data": "ProP : Penyelenggaraan Sistem Layanan dan Rujukan Terpadu",
+        "id_pn": 0,
+        "id_pp": 16,
+        "id_kp": 48
+    },
+    {
+        "id": 676,
+        "data": "ProP : Penguatan pendampingan masyarakat",
+        "id_pn": 0,
+        "id_pp": 16,
+        "id_kp": 48
+    },
+    {
+        "id": 677,
+        "data": "ProP : Sinergisitas kebijakan dan kelembagaan pengendalian penduduk",
+        "id_pn": 0,
+        "id_pp": 16,
+        "id_kp": 49
+    },
+    {
+        "id": 678,
+        "data": "ProP : Administrasi mobilitas penduduk",
+        "id_pn": 0,
+        "id_pp": 16,
+        "id_kp": 49
+    },
+    {
+        "id": 679,
+        "data": "ProP : Sinergitas kebijakan pengendalian penduduk dalam mewujudkan penduduk tumbuh\nseimbang",
+        "id_pn": 0,
+        "id_pp": 16,
+        "id_kp": 49
+    },
+    {
+        "id": 680,
+        "data": "ProP : Penguatan kapasitas dan kapabilitas kelembagaan kependudukan",
+        "id_pn": 0,
+        "id_pp": 16,
+        "id_kp": 49
+    },
+    {
+        "id": 681,
+        "data": "ProP : Pemanfaatan data dan informasi kependudukan",
+        "id_pn": 0,
+        "id_pp": 16,
+        "id_kp": 49
+    },
+    {
+        "id": 682,
+        "data": "ProP : Penguatan peraturan perundang- undangan jaminan sosial",
+        "id_pn": 0,
+        "id_pp": 17,
+        "id_kp": 50
+    },
+    {
+        "id": 683,
+        "data": "ProP : Pengembangan program jaminan sosial",
+        "id_pn": 0,
+        "id_pp": 17,
+        "id_kp": 50
+    },
+    {
+        "id": 684,
+        "data": "ProP : Penguatan kelembagaan penyelenggara sistem jaminan sosial nasional",
+        "id_pn": 0,
+        "id_pp": 17,
+        "id_kp": 50
+    },
+    {
+        "id": 685,
+        "data": "ProP : Penguatan sistem monitoring, evaluasi dan pengawasan penyelenggaraan sistem jaminan sosial\nnasional",
+        "id_pn": 0,
+        "id_pp": 17,
+        "id_kp": 50
+    },
+    {
+        "id": 686,
+        "data": "ProP : Penyelenggaraan Bantuan dan\nSubsidi Tepat Sasaran",
+        "id_pn": 0,
+        "id_pp": 17,
+        "id_kp": 51
+    },
+    {
+        "id": 687,
+        "data": "ProP : Pelaksanaan Perlindungan Sosial yang Adaptif",
+        "id_pn": 0,
+        "id_pp": 17,
+        "id_kp": 52
+    },
+    {
+        "id": 688,
+        "data": "ProP : Penguatan kelembagaan perlindungan sosial adaptif",
+        "id_pn": 0,
+        "id_pp": 17,
+        "id_kp": 52
+    },
+    {
+        "id": 689,
+        "data": "ProP : Pengembangan sistem pembiayaan perlindungan sosial untuk mengatasi resiko perubahan iklim dan\nbencana alam",
+        "id_pn": 0,
+        "id_pp": 17,
+        "id_kp": 52
+    },
+    {
+        "id": 690,
+        "data": "ProP : Penyelengaraan Kesejahteraan\nSosial yang Inklusif",
+        "id_pn": 0,
+        "id_pp": 17,
+        "id_kp": 53
+    },
+    {
+        "id": 691,
+        "data": "ProP : Penguatan kelembagaan dan pemberdayaan kelanjutusiaan (lansia aktif dan produktif)",
+        "id_pn": 0,
+        "id_pp": 17,
+        "id_kp": 53
+    },
+    {
+        "id": 692,
+        "data": "ProP : Pelaksanaan Perawatan Jangka Panjang berbasis komunitas yang terintegrasi (Long-term Care)",
+        "id_pn": 0,
+        "id_pp": 17,
+        "id_kp": 53
+    },
+    {
+        "id": 693,
+        "data": "ProP : Penguatan pelayanan sosial kelompok rentan lainnya",
+        "id_pn": 0,
+        "id_pp": 17,
+        "id_kp": 53
+    },
+    {
+        "id": 694,
+        "data": "ProP : Penurunan Kematian Ibu dan\nBayi",
+        "id_pn": 0,
+        "id_pp": 18,
+        "id_kp": 54
+    },
+    {
+        "id": 695,
+        "data": "ProP : Peningkatan KB dan Kesehatan\nReproduksi",
+        "id_pn": 0,
+        "id_pp": 18,
+        "id_kp": 54
+    },
+    {
+        "id": 696,
+        "data": "ProP : Penurunan Stunting",
+        "id_pn": 0,
+        "id_pp": 18,
+        "id_kp": 55
+    },
+    {
+        "id": 697,
+        "data": "ProP : Pengendalian Penyakit Menular",
+        "id_pn": 0,
+        "id_pp": 18,
+        "id_kp": 56
+    },
+    {
+        "id": 698,
+        "data": "ProP : Pengendalian Penyakit Tidak\nMenular",
+        "id_pn": 0,
+        "id_pp": 18,
+        "id_kp": 56
+    },
+    {
+        "id": 699,
+        "data": "ProP : Pengembangan Lingkungan\nSehat",
+        "id_pn": 0,
+        "id_pp": 18,
+        "id_kp": 57
+    },
+    {
+        "id": 700,
+        "data": "ProP : Penguatan Promosi Germas",
+        "id_pn": 0,
+        "id_pp": 18,
+        "id_kp": 57
+    },
+    {
+        "id": 701,
+        "data": "ProP : Penguatan Pelayanan Kesehatan\nDasar dan Rujukan",
+        "id_pn": 0,
+        "id_pp": 18,
+        "id_kp": 58
+    },
+    {
+        "id": 702,
+        "data": "ProP : Pemenuhan dan Peningkatan\nKompetensi Tenaga Kesehatan",
+        "id_pn": 0,
+        "id_pp": 18,
+        "id_kp": 58
+    },
+    {
+        "id": 703,
+        "data": "ProP : Pemenuhan dan Peningkatan Daya Saing Sediaan Farmasi dan Alat Kesehatan",
+        "id_pn": 0,
+        "id_pp": 18,
+        "id_kp": 58
+    },
+    {
+        "id": 704,
+        "data": "ProP : Penguatan Tata Kelola, Pembiayaan, Penelitian dan Pengembangan Kesehatan",
+        "id_pn": 0,
+        "id_pp": 18,
+        "id_kp": 58
+    },
+    {
+        "id": 705,
+        "data": "ProP : Peningkatan Efektivitas\nPengawasan Obat dan Makanan",
+        "id_pn": 0,
+        "id_pp": 18,
+        "id_kp": 58
+    },
+    {
+        "id": 706,
+        "data": "ProP : Penerapan Kurikulum dan Pola\nPembelajaran Inovatif",
+        "id_pn": 0,
+        "id_pp": 19,
+        "id_kp": 59
+    },
+    {
+        "id": 707,
+        "data": "ProP : Peningkatan Kompetensi\nPendidik",
+        "id_pn": 0,
+        "id_pp": 19,
+        "id_kp": 59
+    },
+    {
+        "id": 708,
+        "data": "ProP : Penguatan Kualitas Penilaian\nPendidikan",
+        "id_pn": 0,
+        "id_pp": 19,
+        "id_kp": 59
+    },
+    {
+        "id": 709,
+        "data": "ProP : Pemanfaatan Teknologi\nInformasi dan Komunikasi",
+        "id_pn": 0,
+        "id_pp": 19,
+        "id_kp": 59
+    },
+    {
+        "id": 710,
+        "data": "ProP : Integrasi Softskill dalam\nPembelajaran",
+        "id_pn": 0,
+        "id_pp": 19,
+        "id_kp": 59
+    },
+    {
+        "id": 711,
+        "data": "ProP : Sarana dan Prasarana\nPendidikan",
+        "id_pn": 0,
+        "id_pp": 19,
+        "id_kp": 60
+    },
+    {
+        "id": 712,
+        "data": "ProP : Bantuan Pendidikan Bagi Anak Kurang Mampu, Daerah Afirmasi, dan Berbakat",
+        "id_pn": 0,
+        "id_pp": 19,
+        "id_kp": 60
+    },
+    {
+        "id": 713,
+        "data": "ProP : Penanganan Anak Tidak Sekolah",
+        "id_pn": 0,
+        "id_pp": 19,
+        "id_kp": 60
+    },
+    {
+        "id": 714,
+        "data": "ProP : Penguatan Pelayanan 1 Tahun\nPrasekolah",
+        "id_pn": 0,
+        "id_pp": 19,
+        "id_kp": 60
+    },
+    {
+        "id": 715,
+        "data": "ProP : Revitalisasi LPTK",
+        "id_pn": 0,
+        "id_pp": 19,
+        "id_kp": 61
+    },
+    {
+        "id": 716,
+        "data": "ProP : Pendidikan Profesi Guru dan\nPeningkatan Kualifikasi Pendidik",
+        "id_pn": 0,
+        "id_pp": 19,
+        "id_kp": 61
+    },
+    {
+        "id": 717,
+        "data": "ProP : Pemenuhan dan Distribusi\nTenaga Pendidik Berbasis Kebutuhan",
+        "id_pn": 0,
+        "id_pp": 19,
+        "id_kp": 61
+    },
+    {
+        "id": 718,
+        "data": "ProP : Penguatan Kapasitas dan\nAkselerasi Akreditasi",
+        "id_pn": 0,
+        "id_pp": 19,
+        "id_kp": 62
+    },
+    {
+        "id": 719,
+        "data": "ProP : Perluasan Budaya Mutu\nPendidikan",
+        "id_pn": 0,
+        "id_pp": 19,
+        "id_kp": 62
+    },
+    {
+        "id": 720,
+        "data": "ProP : Penguatan Tata Kelola\nPemenuhan SPM Pendidikan",
+        "id_pn": 0,
+        "id_pp": 19,
+        "id_kp": 63
+    },
+    {
+        "id": 721,
+        "data": "ProP : Penguatan Strategi Pembiayaan dan Efektivitas Pemanfaatan Anggaran Pendidikan",
+        "id_pn": 0,
+        "id_pp": 19,
+        "id_kp": 63
+    },
+    {
+        "id": 722,
+        "data": "ProP : Peningkatan Sinkronisasi Data\nPokok Pendidikan",
+        "id_pn": 0,
+        "id_pp": 19,
+        "id_kp": 63
+    },
+    {
+        "id": 723,
+        "data": "ProP : Penjaminan pemenuhan hak anak secara universalnnya",
+        "id_pn": 0,
+        "id_pp": 20,
+        "id_kp": 64
+    },
+    {
+        "id": 724,
+        "data": "ProP : Perlindungan anak dari tindak kekerasan, eksploitasi, penelantaran, dan perlakuan salah lainnya",
+        "id_pn": 0,
+        "id_pp": 20,
+        "id_kp": 64
+    },
+    {
+        "id": 725,
+        "data": "ProP : Perlindungan perempuan, termasuk pekerja migran dari kekerasan dan tindak pidana\nperdagangan orang",
+        "id_pn": 0,
+        "id_pp": 20,
+        "id_kp": 65
+    },
+    {
+        "id": 726,
+        "data": "ProP : Penguatan Kapasitas Kelembagaan dan Koordinasi Lintas Sektor Layanan Kepemudaan",
+        "id_pn": 0,
+        "id_pp": 20,
+        "id_kp": 66
+    },
+    {
+        "id": 727,
+        "data": "ProP : Pencegahan Perilaku Beresiko",
+        "id_pn": 0,
+        "id_pp": 20,
+        "id_kp": 66
+    },
+    {
+        "id": 728,
+        "data": "ProP : Partisipasi Aktif Sosial dan\nPolitik Pemuda",
+        "id_pn": 0,
+        "id_pp": 20,
+        "id_kp": 66
+    },
+    {
+        "id": 729,
+        "data": "ProP : Fasilitasi Modal Usaha",
+        "id_pn": 0,
+        "id_pp": 21,
+        "id_kp": 67
+    },
+    {
+        "id": 730,
+        "data": "ProP : Pembinaan keuangan keluarga dan investasi keluarga",
+        "id_pn": 0,
+        "id_pp": 21,
+        "id_kp": 67
+    },
+    {
+        "id": 731,
+        "data": "ProP : Fasilitasi keperantaraan usaha produktif",
+        "id_pn": 0,
+        "id_pp": 21,
+        "id_kp": 68
+    },
+    {
+        "id": 732,
+        "data": "ProP : Penguatan pemberdayaan berdampak sosial",
+        "id_pn": 0,
+        "id_pp": 21,
+        "id_kp": 68
+    },
+    {
+        "id": 733,
+        "data": "ProP : Penataan penguasaan dan pemilikan TORA (termasuk Pelepasan Kawasan Hutan)",
+        "id_pn": 0,
+        "id_pp": 21,
+        "id_kp": 69
+    },
+    {
+        "id": 734,
+        "data": "ProP : Peningkatan Kualitas Data\nPertanahan dan Legalisasi Atas Tora",
+        "id_pn": 0,
+        "id_pp": 21,
+        "id_kp": 69
+    },
+    {
+        "id": 735,
+        "data": "ProP : Pemberdayaan masyarakat dalam penggunaan, pemanfaatan, dan produksi atas TORA",
+        "id_pn": 0,
+        "id_pp": 21,
+        "id_kp": 69
+    },
+    {
+        "id": 736,
+        "data": "ProP : Penyiapan Prakondisi\nMasyarakat Pedesaan dan Kawasan",
+        "id_pn": 0,
+        "id_pp": 21,
+        "id_kp": 70
+    },
+    {
+        "id": 737,
+        "data": "ProP : Pengembangan Usaha\nPerhutanan Sosial",
+        "id_pn": 0,
+        "id_pp": 21,
+        "id_kp": 70
+    },
+    {
+        "id": 738,
+        "data": "ProP : Peningkatan kapasitas pendamping\/penyuluh kelompok masyarakat\/desa hutan",
+        "id_pn": 0,
+        "id_pp": 21,
+        "id_kp": 70
+    },
+    {
+        "id": 739,
+        "data": "ProP : Peningkatan Peran dan Kerjasama Industri dalam Pendidikan dan Pelatihan Vokasi",
+        "id_pn": 0,
+        "id_pp": 22,
+        "id_kp": 71
+    },
+    {
+        "id": 740,
+        "data": "ProP : Reformasi Penyelenggaraan\nPendidikan dan Pelatihan Vokasi",
+        "id_pn": 0,
+        "id_pp": 22,
+        "id_kp": 71
+    },
+    {
+        "id": 741,
+        "data": "ProP : Penguatan Tata Kelola\nPendidikan dan Pelatihan Vokasi",
+        "id_pn": 0,
+        "id_pp": 22,
+        "id_kp": 71
+    },
+    {
+        "id": 742,
+        "data": "ProP : Penguatan Sistem Sertifikasi\nKompetensi",
+        "id_pn": 0,
+        "id_pp": 22,
+        "id_kp": 71
+    },
+    {
+        "id": 743,
+        "data": "ProP : Perguruan Tinggi sebagai Produsen Iptek Inovasi dan Pusat Keunggulan",
+        "id_pn": 0,
+        "id_pp": 22,
+        "id_kp": 72
+    },
+    {
+        "id": 744,
+        "data": "ProP : Peningkatan Kualitas dan\nPemanfaatan Penelitian",
+        "id_pn": 0,
+        "id_pp": 22,
+        "id_kp": 72
+    },
+    {
+        "id": 745,
+        "data": "ProP : Peningkatan Kualitas Lulusan PT",
+        "id_pn": 0,
+        "id_pp": 22,
+        "id_kp": 72
+    },
+    {
+        "id": 746,
+        "data": "ProP : Pemanfaatan Iptek dan penciptaan Inovasi di Bidang-bidang Fokus Rencana Induk Riset Nasional\n2017-2045 untuk pembangunan yang\nberkelanjutan",
+        "id_pn": 0,
+        "id_pp": 22,
+        "id_kp": 73
+    },
+    {
+        "id": 747,
+        "data": "ProP : Pengembangan Research Power- House",
+        "id_pn": 0,
+        "id_pp": 22,
+        "id_kp": 73
+    },
+    {
+        "id": 748,
+        "data": "ProP : Penciptaan ekosistem inovasi",
+        "id_pn": 0,
+        "id_pp": 22,
+        "id_kp": 73
+    },
+    {
+        "id": 749,
+        "data": "ProP : Peningkatan jumlah dan kualitas belanja litbang",
+        "id_pn": 0,
+        "id_pp": 22,
+        "id_kp": 73
+    },
+    {
+        "id": 750,
+        "data": "ProP : Pengembangan budaya olahraga",
+        "id_pn": 0,
+        "id_pp": 22,
+        "id_kp": 74
+    },
+    {
+        "id": 751,
+        "data": "ProP : Penataan sistem pembinaan olahraga berbasis cabang olahraga Olimpiade",
+        "id_pn": 0,
+        "id_pp": 22,
+        "id_kp": 74
+    },
+    {
+        "id": 752,
+        "data": "ProP : Penataan kelembagaan olahraga",
+        "id_pn": 0,
+        "id_pp": 22,
+        "id_kp": 74
+    },
+    {
+        "id": 753,
+        "data": "ProP : Peningkatan ketersediaan tenaga keolahragaan berstandar internasional",
+        "id_pn": 0,
+        "id_pp": 22,
+        "id_kp": 74
+    },
+    {
+        "id": 754,
+        "data": "ProP : Peningkatan sarana dan prasarana olahraga berstandar internasional",
+        "id_pn": 0,
+        "id_pp": 22,
+        "id_kp": 74
+    },
+    {
+        "id": 755,
+        "data": "ProP : Pengembangan peran swasta dalam pendampingan dan pembiayaan keolahragaan",
+        "id_pn": 0,
+        "id_pp": 22,
+        "id_kp": 74
+    },
+    {
+        "id": 756,
+        "data": "ProP : Pengembangan budaya belajar dan lingkungan sekolah yang menyenangkan dan bebas dari kekerasan (bullying free school environment)",
+        "id_pn": 0,
+        "id_pp": 23,
+        "id_kp": 75
+    },
+    {
+        "id": 757,
+        "data": "ProP : Penguatan pendidikan agama, nilai toleransi beragama, dan budi pekerti dalam sistem pendidikan",
+        "id_pn": 0,
+        "id_pp": 23,
+        "id_kp": 75
+    },
+    {
+        "id": 758,
+        "data": "ProP : Peningkatan kepeloporan dan kesukarelawanan pemuda, serta pengembangan pendidikan kepramukaan",
+        "id_pn": 0,
+        "id_pp": 23,
+        "id_kp": 75
+    },
+    {
+        "id": 759,
+        "data": "ProP : Peningkatan budaya kerja pelayanan publik yang ramah, cepat, efektif, efisien, dan terpercaya",
+        "id_pn": 0,
+        "id_pp": 23,
+        "id_kp": 76
+    },
+    {
+        "id": 760,
+        "data": "ProP : Penerapan disiplin, reward dan punishment dalam birokrasi",
+        "id_pn": 0,
+        "id_pp": 23,
+        "id_kp": 76
+    },
+    {
+        "id": 761,
+        "data": "ProP : penyiapan kehidupan berkeluarga dan kecakapan hidup",
+        "id_pn": 0,
+        "id_pp": 23,
+        "id_kp": 77
+    },
+    {
+        "id": 762,
+        "data": "ProP : peningkatan ketahanan keluarga berdasarkan siklus hidup dengan memperhatikan kesinambungan antargenerasi, sebagai upaya\npenguatan fungsi dan nilai keluarga",
+        "id_pn": 0,
+        "id_pp": 23,
+        "id_kp": 77
+    },
+    {
+        "id": 763,
+        "data": "ProP : Pewujudan lingkungan yang kondusif melalui penguatan masyarakat, kelembagaan, regulasi, penyediaan sarana dan prasarana, serta partisipasi dunia usaha",
+        "id_pn": 0,
+        "id_pp": 23,
+        "id_kp": 77
+    },
+    {
+        "id": 764,
+        "data": "ProP : Pemantapan pelaksanaan lima program Gerakan Nasional Revolusi Mental untuk mewujudkan Indonesia Melayani, Indonesia Bersih, Indonesia Tertib, Indonesia Mandiri, dan Indonesia Bersatu",
+        "id_pn": 0,
+        "id_pp": 23,
+        "id_kp": 78
+    },
+    {
+        "id": 765,
+        "data": "ProP : Penguatan pusat-pusat perubahan gerakan revolusi mental di daerah",
+        "id_pn": 0,
+        "id_pp": 23,
+        "id_kp": 78
+    },
+    {
+        "id": 766,
+        "data": "ProP : Membangun budaya ekonomi nasional dengan platform koperasi dalam kegiatan usaha produktif",
+        "id_pn": 0,
+        "id_pp": 23,
+        "id_kp": 79
+    },
+    {
+        "id": 767,
+        "data": "ProP : Peningkatan etos kerja dan kewirausahaan berlandaskan semangat gotong royong",
+        "id_pn": 0,
+        "id_pp": 23,
+        "id_kp": 79
+    },
+    {
+        "id": 768,
+        "data": "ProP : Penumbuhan budaya konsumen cerdas dan cinta produk dalam negeri",
+        "id_pn": 0,
+        "id_pp": 23,
+        "id_kp": 79
+    },
+    {
+        "id": 769,
+        "data": "ProP : Pembinaan ideologi Pancasila, penguatan pendidikan kewargaan, nilai-nilai kebangsaan dan bela negara",
+        "id_pn": 0,
+        "id_pp": 23,
+        "id_kp": 80
+    },
+    {
+        "id": 770,
+        "data": "ProP : Peningkatkan peran dan fungsi Badan Pembinaan Ideologi Pancasila (BPIP)",
+        "id_pn": 0,
+        "id_pp": 23,
+        "id_kp": 80
+    },
+    {
+        "id": 771,
+        "data": "ProP : Harmonisasi dan evaluasi peraturan perundang-undangan yang bertentangan dengan ideologi Pancasila.",
+        "id_pn": 0,
+        "id_pp": 23,
+        "id_kp": 80
+    },
+    {
+        "id": 772,
+        "data": "ProP : Membersihkan unsur-unsur yang mengancam ideologi negara",
+        "id_pn": 0,
+        "id_pp": 23,
+        "id_kp": 80
+    },
+    {
+        "id": 773,
+        "data": "ProP : Pelindungan, pengembangan, dan pemanfaatan nilai budaya, tradisi, sejarah dan kearifan lokal",
+        "id_pn": 0,
+        "id_pp": 24,
+        "id_kp": 81
+    },
+    {
+        "id": 774,
+        "data": "ProP : Peningkatan akses dan kualitas pelayanan museum dan arsip",
+        "id_pn": 0,
+        "id_pp": 24,
+        "id_kp": 81
+    },
+    {
+        "id": 775,
+        "data": "ProP : Pelestarian, pengembangan dan pemanfaatan manuskrip dan arsip sebagai sumber nilai budaya, sejarah, dan memori kolektif bangsa",
+        "id_pn": 0,
+        "id_pp": 24,
+        "id_kp": 81
+    },
+    {
+        "id": 776,
+        "data": "ProP : Pengembangan produk seni, budaya, dan film",
+        "id_pn": 0,
+        "id_pp": 24,
+        "id_kp": 82
+    },
+    {
+        "id": 777,
+        "data": "ProP : Penyelenggaraan festival budaya dan membangun opera berkelas internasional",
+        "id_pn": 0,
+        "id_pp": 24,
+        "id_kp": 82
+    },
+    {
+        "id": 778,
+        "data": "ProP : Pengelolaan cagar budaya untuk meningkatkan kesejahteraan rakyat",
+        "id_pn": 0,
+        "id_pp": 24,
+        "id_kp": 82
+    },
+    {
+        "id": 779,
+        "data": "ProP : Pengembangan budaya bahari dan sumber daya maritim",
+        "id_pn": 0,
+        "id_pp": 24,
+        "id_kp": 82
+    },
+    {
+        "id": 780,
+        "data": "ProP : Pengembangan wilayah adat sebagai pusat pelestarian budaya dan lingkungan hidup",
+        "id_pn": 0,
+        "id_pp": 24,
+        "id_kp": 83
+    },
+    {
+        "id": 781,
+        "data": "ProP : Pemberdayaan masyarakat adat dan komunitas budaya",
+        "id_pn": 0,
+        "id_pp": 24,
+        "id_kp": 83
+    },
+    {
+        "id": 782,
+        "data": "ProP : Pelindungan kekayaan budaya komunal dan hak cipta",
+        "id_pn": 0,
+        "id_pp": 24,
+        "id_kp": 83
+    },
+    {
+        "id": 783,
+        "data": "ProP : Pengembangan diplomasi budaya melalui pengembangan Bahasa Indonesia sebagai bahasa internasional, muhibah seni budaya, dan kuliner nusantara",
+        "id_pn": 0,
+        "id_pp": 24,
+        "id_kp": 84
+    },
+    {
+        "id": 784,
+        "data": "ProP : penguatan pusat studi dan rumah budaya Indonesia di luar negeri",
+        "id_pn": 0,
+        "id_pp": 24,
+        "id_kp": 84
+    },
+    {
+        "id": 785,
+        "data": "ProP : Pengelolaan dana perwalian kebudayaan",
+        "id_pn": 0,
+        "id_pp": 24,
+        "id_kp": 85
+    },
+    {
+        "id": 786,
+        "data": "ProP : Peningkatan kualitas sumber daya manusia kebudayaan",
+        "id_pn": 0,
+        "id_pp": 24,
+        "id_kp": 85
+    },
+    {
+        "id": 787,
+        "data": "ProP : Peningkatan sarana dan prasarana kebudayaan",
+        "id_pn": 0,
+        "id_pp": 24,
+        "id_kp": 85
+    },
+    {
+        "id": 788,
+        "data": "ProP : Pengembangan sistem pendataan kebudayaan terpadu",
+        "id_pn": 0,
+        "id_pp": 24,
+        "id_kp": 85
+    },
+    {
+        "id": 789,
+        "data": "ProP : Pengembangan kerja sama dan kemitraan dalam pemajuan kebudayaan",
+        "id_pn": 0,
+        "id_pp": 24,
+        "id_kp": 85
+    },
+    {
+        "id": 790,
+        "data": "ProP : Pengembangan penyiaran agama untuk perdamaian dan kemaslahatan umat",
+        "id_pn": 0,
+        "id_pp": 25,
+        "id_kp": 86
+    },
+    {
+        "id": 791,
+        "data": "ProP : Penguatan sistem pendidikan yang berperspektif moderat mencakup pengembangan kurikulum, materi dan proses pengajaran, pendidikan guru dan tenaga kependidikan, dan rekrutmen guru",
+        "id_pn": 0,
+        "id_pp": 25,
+        "id_kp": 86
+    },
+    {
+        "id": 792,
+        "data": "ProP : Penguatan peran pesantren dalam mengembangkan moderasi beragama melalui peningkatan pemahaman dan pengamalan ajaran agama untuk kemaslahatan",
+        "id_pn": 0,
+        "id_pp": 25,
+        "id_kp": 86
+    },
+    {
+        "id": 793,
+        "data": "ProP : Pengelolaan rumah ibadah sebagai pusat syiar agama yang toleran",
+        "id_pn": 0,
+        "id_pp": 25,
+        "id_kp": 86
+    },
+    {
+        "id": 794,
+        "data": "ProP : Pemanfaatan ruang publik untuk pertukaran ide dan gagasan di\nkalangan pelajar, mahasiswa, dan pemuda lintas budaya, lintas agama, dan lintas suku bangsa",
+        "id_pn": 0,
+        "id_pp": 25,
+        "id_kp": 86
+    },
+    {
+        "id": 795,
+        "data": "ProP : Pelindungan umat beragama untuk menjamin hak-hak sipil dan beragama",
+        "id_pn": 0,
+        "id_pp": 25,
+        "id_kp": 87
+    },
+    {
+        "id": 796,
+        "data": "ProP : Penguatan peran lembaga agama, organisasi sosial keagamaan, tokoh agama, tokoh masyarakat, ASN, TNI, dan Polri sebagai perekat persatuan dan kesatuan bangsa",
+        "id_pn": 0,
+        "id_pp": 25,
+        "id_kp": 87
+    },
+    {
+        "id": 797,
+        "data": "ProP : Penguatan Forum Kerukunan Umat Beragama (FKUB) untuk membangun solidaritas sosial, toleransi, dan gotong royong",
+        "id_pn": 0,
+        "id_pp": 25,
+        "id_kp": 87
+    },
+    {
+        "id": 798,
+        "data": "ProP : Penghargaan atas ekspresi budaya berbasis nilai-nilai agama",
+        "id_pn": 0,
+        "id_pp": 25,
+        "id_kp": 88
+    },
+    {
+        "id": 799,
+        "data": "ProP : Pengembangan literasi khazanah budaya bernafas agama",
+        "id_pn": 0,
+        "id_pp": 25,
+        "id_kp": 88
+    },
+    {
+        "id": 800,
+        "data": "ProP : Pelestarian situs keagamaan dan pemanfaatan perayaan keagamaan dan budaya untuk memperkuat toleransi",
+        "id_pn": 0,
+        "id_pp": 25,
+        "id_kp": 88
+    },
+    {
+        "id": 801,
+        "data": "ProP : Peningkatan Fasilitasi Pelayanan\nKeagamaan",
+        "id_pn": 0,
+        "id_pp": 25,
+        "id_kp": 89
+    },
+    {
+        "id": 802,
+        "data": "ProP : Peningkatan pelayanan bimbingan perkawinan dan keluarga",
+        "id_pn": 0,
+        "id_pp": 25,
+        "id_kp": 89
+    },
+    {
+        "id": 803,
+        "data": "ProP : Penguatan Penyelenggaraan\nJaminan Produk Halal",
+        "id_pn": 0,
+        "id_pp": 25,
+        "id_kp": 89
+    },
+    {
+        "id": 804,
+        "data": "ProP : Peningkatan Kualitas\nPenyelenggaran Haji dan Umrah",
+        "id_pn": 0,
+        "id_pp": 25,
+        "id_kp": 89
+    },
+    {
+        "id": 805,
+        "data": "ProP : Pengembangan sistem perbukuan dan penguatan konten literasi",
+        "id_pn": 0,
+        "id_pp": 25,
+        "id_kp": 89
+    },
+    {
+        "id": 806,
+        "data": "ProP : Peningkatan akses dan kualitas perpustakaan berbasis inklusi sosial",
+        "id_pn": 0,
+        "id_pp": 25,
+        "id_kp": 89
+    },
+    {
+        "id": 807,
+        "data": "ProP : Pemberdayaan dana sosial keagamaan",
+        "id_pn": 0,
+        "id_pp": 25,
+        "id_kp": 90
+    },
+    {
+        "id": 808,
+        "data": "ProP : Pengembangan Kelembagaan\nEkonomi Umat",
+        "id_pn": 0,
+        "id_pp": 25,
+        "id_kp": 90
+    },
+    {
+        "id": 809,
+        "data": "ProP : Pengelolaan Dana Haji secara profesional, transparan, dan akuntabel",
+        "id_pn": 0,
+        "id_pp": 25,
+        "id_kp": 90
+    },
+    {
+        "id": 810,
+        "data": "ProP : Pengembangan budaya kegemaran membaca",
+        "id_pn": 0,
+        "id_pp": 26,
+        "id_kp": 91
+    },
+    {
+        "id": 811,
+        "data": "ProP : Peningkatan fungsi Bahasa Indonesia menjadi bahasa internasional",
+        "id_pn": 0,
+        "id_pp": 26,
+        "id_kp": 92
+    },
+    {
+        "id": 812,
+        "data": "ProP : Pengembangan pendidikan sastra di satuan pendidikan dan komunitas",
+        "id_pn": 0,
+        "id_pp": 26,
+        "id_kp": 92
+    },
+    {
+        "id": 813,
+        "data": "ProP : Revitalisasi bahasa dan aksara daerah sebagai khazanah budaya bangsa",
+        "id_pn": 0,
+        "id_pp": 26,
+        "id_kp": 92
+    },
+    {
+        "id": 814,
+        "data": "ProP : Peningkatan budaya riset dan ekperimentasi ilmiah sejak usia dini",
+        "id_pn": 0,
+        "id_pp": 26,
+        "id_kp": 93
+    },
+    {
+        "id": 815,
+        "data": "ProP : Pengembangan budaya produksi dan kreativitas berbasis inovasi",
+        "id_pn": 0,
+        "id_pp": 26,
+        "id_kp": 93
+    },
+    {
+        "id": 816,
+        "data": "ProP : Pengembangan mitra perpustakaan (library supporter)",
+        "id_pn": 0,
+        "id_pp": 26,
+        "id_kp": 94
+    },
+    {
+        "id": 817,
+        "data": "ProP : Pengembangan inovasi sosial yang didukung dari pendanaan filantropi",
+        "id_pn": 0,
+        "id_pp": 26,
+        "id_kp": 94
+    },
+    {
+        "id": 818,
+        "data": "ProP : Peningkatan Fasilitasi\nPenyediaan Hunian Baru",
+        "id_pn": 0,
+        "id_pp": 27,
+        "id_kp": 95
+    },
+    {
+        "id": 819,
+        "data": "ProP : Peningkatan Fasilitasi\nPembiayaan Perumahan",
+        "id_pn": 0,
+        "id_pp": 27,
+        "id_kp": 95
+    },
+    {
+        "id": 820,
+        "data": "ProP : Pengembangan Fasilitasi\nPeningkatan Kualitas Rumah",
+        "id_pn": 0,
+        "id_pp": 27,
+        "id_kp": 95
+    },
+    {
+        "id": 821,
+        "data": "ProP : Penyediaan Prasarana, Sarana dan Utilitas Perumahan dan Permukiman",
+        "id_pn": 0,
+        "id_pp": 27,
+        "id_kp": 95
+    },
+    {
+        "id": 822,
+        "data": "ProP : Fasilitasi Peningkatan Standar Keandalan Bangunan dan Keamanan Bermukim (IMB dan SLF)",
+        "id_pn": 0,
+        "id_pp": 27,
+        "id_kp": 95
+    },
+    {
+        "id": 823,
+        "data": "ProP : Fasilitasi Pengentasan\nPermukiman Kumuh Perkotaan",
+        "id_pn": 0,
+        "id_pp": 27,
+        "id_kp": 95
+    },
+    {
+        "id": 824,
+        "data": "ProP : Pengembangan Sistem Penyelenggaraan Air Minum dan Sanitasi Layak dan Aman",
+        "id_pn": 0,
+        "id_pp": 27,
+        "id_kp": 96
+    },
+    {
+        "id": 825,
+        "data": "ProP : Pembinaan Penyelenggaraan Air\nMinum dan Sanitasi Layak dan Aman",
+        "id_pn": 0,
+        "id_pp": 27,
+        "id_kp": 96
+    },
+    {
+        "id": 826,
+        "data": "ProP : Pengaturan Penyelenggaraan Air\nMinum dan Sanitasi Layak dan Aman",
+        "id_pn": 0,
+        "id_pp": 27,
+        "id_kp": 96
+    },
+    {
+        "id": 827,
+        "data": "ProP : Pengawasan Kualitas Air Minum dan Sanitasi",
+        "id_pn": 0,
+        "id_pp": 27,
+        "id_kp": 96
+    },
+    {
+        "id": 828,
+        "data": "ProP : Penyediaan dan pengamanan air baku dan air tanah",
+        "id_pn": 0,
+        "id_pp": 27,
+        "id_kp": 97
+    },
+    {
+        "id": 829,
+        "data": "ProP : Penataan regulasi serta perkuatan kelembagaan SDA",
+        "id_pn": 0,
+        "id_pp": 27,
+        "id_kp": 97
+    },
+    {
+        "id": 830,
+        "data": "ProP : Pengembangan SISDA Terpadu berbasis teknologi cerdas (smart water management)",
+        "id_pn": 0,
+        "id_pp": 27,
+        "id_kp": 97
+    },
+    {
+        "id": 831,
+        "data": "ProP : Pemenuhan fasilitas keselamatan dan keamanan transportasi & SAR",
+        "id_pn": 0,
+        "id_pp": 27,
+        "id_kp": 98
+    },
+    {
+        "id": 832,
+        "data": "ProP : Pembinaan dan Pendidikan SDM keselamatan dan keamanan transportasi, pencarian dan\npertolongan",
+        "id_pn": 0,
+        "id_pp": 27,
+        "id_kp": 98
+    },
+    {
+        "id": 833,
+        "data": "ProP : Pengembangan kebijakan wilayah untuk ketahanan bencana dan penguatan infrastruktur vital tahan bencana",
+        "id_pn": 0,
+        "id_pp": 27,
+        "id_kp": 99
+    },
+    {
+        "id": 834,
+        "data": "ProP : Pembangunan dan rehabilitasi infrastruktur ketahanan bencana",
+        "id_pn": 0,
+        "id_pp": 27,
+        "id_kp": 99
+    },
+    {
+        "id": 835,
+        "data": "ProP : Penyediaan sistem terpadu peringatan dini dan tanggap darurat bencana",
+        "id_pn": 0,
+        "id_pp": 27,
+        "id_kp": 99
+    },
+    {
+        "id": 836,
+        "data": "ProP : Restorasi dan konservasi infrastruktur alami",
+        "id_pn": 0,
+        "id_pp": 27,
+        "id_kp": 99
+    },
+    {
+        "id": 837,
+        "data": "ProP : Perencanaan pengembangan bendungan multiguna dan pemanfaatan tampungan alami",
+        "id_pn": 0,
+        "id_pp": 27,
+        "id_kp": 100
+    },
+    {
+        "id": 838,
+        "data": "ProP : Pembangunan dan rehabilitasi bendungan",
+        "id_pn": 0,
+        "id_pp": 27,
+        "id_kp": 100
+    },
+    {
+        "id": 839,
+        "data": "ProP : Optimalisasi dan pemanfaatan tampungan",
+        "id_pn": 0,
+        "id_pp": 27,
+        "id_kp": 100
+    },
+    {
+        "id": 840,
+        "data": "ProP : Peningkatan OP dan keamanan bendungan",
+        "id_pn": 0,
+        "id_pp": 27,
+        "id_kp": 100
+    },
+    {
+        "id": 841,
+        "data": "ProP : Pembangunan dan rehabilitasi jaringan irigasi",
+        "id_pn": 0,
+        "id_pp": 27,
+        "id_kp": 100
+    },
+    {
+        "id": 842,
+        "data": "ProP : Peningkatan pengelolaan alokasi air dan kapasitas kelembagaan irigasi",
+        "id_pn": 0,
+        "id_pp": 27,
+        "id_kp": 100
+    },
+    {
+        "id": 843,
+        "data": "ProP : Pembangunan sistem penyediaan air untuk komoditas pertanian bernilai ekonomi tinggi",
+        "id_pn": 0,
+        "id_pp": 27,
+        "id_kp": 100
+    },
+    {
+        "id": 844,
+        "data": "ProP : Pembangunan Jalan Strategis",
+        "id_pn": 0,
+        "id_pp": 28,
+        "id_kp": 101
+    },
+    {
+        "id": 845,
+        "data": "ProP : Pembangunan Jalan Tol",
+        "id_pn": 0,
+        "id_pp": 28,
+        "id_kp": 101
+    },
+    {
+        "id": 846,
+        "data": "ProP : Pembangunan Jalan Mendukung\nKawasan Prioritas (KI, KEK, dan KSPN)",
+        "id_pn": 0,
+        "id_pp": 28,
+        "id_kp": 101
+    },
+    {
+        "id": 847,
+        "data": "ProP : Pembangunan Jalan Akses Simpul Transportasi (Pelabuhan, Bandara, Terminal)",
+        "id_pn": 0,
+        "id_pp": 28,
+        "id_kp": 101
+    },
+    {
+        "id": 848,
+        "data": "ProP : Preservasi jalan nasional\n(termasuk peningkatan\/pelebaran)",
+        "id_pn": 0,
+        "id_pp": 28,
+        "id_kp": 101
+    },
+    {
+        "id": 849,
+        "data": "ProP : Pembangunan dan pemeliharaan jalan daerah",
+        "id_pn": 0,
+        "id_pp": 28,
+        "id_kp": 101
+    },
+    {
+        "id": 850,
+        "data": "ProP : Pengembangan Wilayah\nSuramadu",
+        "id_pn": 0,
+        "id_pp": 28,
+        "id_kp": 101
+    },
+    {
+        "id": 851,
+        "data": "ProP : Pembangunan Jalur Kereta Api Antar Kota (angkutan Barang dan Penumpang)",
+        "id_pn": 0,
+        "id_pp": 28,
+        "id_kp": 102
+    },
+    {
+        "id": 852,
+        "data": "ProP : Pemeliharaan, Perawatan dan Pengoperasian Jaringan Prasarana Kereta Api",
+        "id_pn": 0,
+        "id_pp": 28,
+        "id_kp": 102
+    },
+    {
+        "id": 853,
+        "data": "ProP : Pembangunan KA akses Bandara:",
+        "id_pn": 0,
+        "id_pp": 28,
+        "id_kp": 102
+    },
+    {
+        "id": 854,
+        "data": "ProP : Penyediaan PSO dan Subsidi",
+        "id_pn": 0,
+        "id_pp": 28,
+        "id_kp": 102
+    },
+    {
+        "id": 855,
+        "data": "ProP : Pengembangan pelabuhan utama\n(hub)",
+        "id_pn": 0,
+        "id_pp": 28,
+        "id_kp": 103
+    },
+    {
+        "id": 856,
+        "data": "ProP : Pembangunan dan\nPengembangan Pelabuhan laut",
+        "id_pn": 0,
+        "id_pp": 28,
+        "id_kp": 103
+    },
+    {
+        "id": 857,
+        "data": "ProP : Pelabuhan Mendukung Kawasan\nPariwisata Prioritas",
+        "id_pn": 0,
+        "id_pp": 28,
+        "id_kp": 103
+    },
+    {
+        "id": 858,
+        "data": "ProP : Penyelenggaraan layanan subsidi\nTol Laut dan perintis angkutan laut",
+        "id_pn": 0,
+        "id_pp": 28,
+        "id_kp": 103
+    },
+    {
+        "id": 859,
+        "data": "ProP : Pengembangan teknologi informasi pelayaran",
+        "id_pn": 0,
+        "id_pp": 28,
+        "id_kp": 103
+    },
+    {
+        "id": 860,
+        "data": "ProP : Pengembangan teknologi informasi pelayaran",
+        "id_pn": 0,
+        "id_pp": 28,
+        "id_kp": 103
+    },
+    {
+        "id": 861,
+        "data": "ProP : Jembatan udara",
+        "id_pn": 0,
+        "id_pp": 28,
+        "id_kp": 104
+    },
+    {
+        "id": 862,
+        "data": "ProP : Pengembangan Bandara mendukung kawasan prioritas",
+        "id_pn": 0,
+        "id_pp": 28,
+        "id_kp": 104
+    },
+    {
+        "id": 863,
+        "data": "ProP : Pengembangan 10 bandara hub primer",
+        "id_pn": 0,
+        "id_pp": 28,
+        "id_kp": 104
+    },
+    {
+        "id": 864,
+        "data": "ProP : Pembangunan 25 bandara baru",
+        "id_pn": 0,
+        "id_pp": 28,
+        "id_kp": 104
+    },
+    {
+        "id": 865,
+        "data": "ProP : Pembangunan bandara perairan (waterbased airport) untuk mendukung destinasi pariwisata",
+        "id_pn": 0,
+        "id_pp": 28,
+        "id_kp": 104
+    },
+    {
+        "id": 866,
+        "data": "ProP : Pembangunan 35 pelabuhan penyeberangan baru",
+        "id_pn": 0,
+        "id_pp": 28,
+        "id_kp": 105
+    },
+    {
+        "id": 867,
+        "data": "ProP : Pembangunan terminal penumpang dan barang antarnegara",
+        "id_pn": 0,
+        "id_pp": 28,
+        "id_kp": 105
+    },
+    {
+        "id": 868,
+        "data": "ProP : Pembangunan kapal penyeberangan perintis baru",
+        "id_pn": 0,
+        "id_pp": 28,
+        "id_kp": 105
+    },
+    {
+        "id": 869,
+        "data": "ProP : Pengembangan unit pelaksana penimbangan kendaraan bermotor (UPPKB)",
+        "id_pn": 0,
+        "id_pp": 28,
+        "id_kp": 105
+    },
+    {
+        "id": 870,
+        "data": "ProP : Pengembangan Sistem Angkutan Umum Massal Perkotaan di 6 kota metropolitan (Jakarta, Surabaya, Medan, Bandung, Makassar, Semarang)",
+        "id_pn": 0,
+        "id_pp": 29,
+        "id_kp": 106
+    },
+    {
+        "id": 871,
+        "data": "ProP : Pembangunan fasilitas alih moda yang terintegrasi dengan pusat\nkegiatan perekonomian, permukiman dan fasilitas umum pada simpul-simpul\ntransportasi",
+        "id_pn": 0,
+        "id_pp": 29,
+        "id_kp": 106
+    },
+    {
+        "id": 872,
+        "data": "ProP : Perkotaan Besar Lainnya",
+        "id_pn": 0,
+        "id_pp": 29,
+        "id_kp": 106
+    },
+    {
+        "id": 873,
+        "data": "ProP : pembangunan perlintasan tidak sebidang antara jalan dan KA di perkotaan",
+        "id_pn": 0,
+        "id_pp": 29,
+        "id_kp": 106
+    },
+    {
+        "id": 874,
+        "data": "ProP : Pembangunan jalan lingkar perkotaan",
+        "id_pn": 0,
+        "id_pp": 29,
+        "id_kp": 106
+    },
+    {
+        "id": 875,
+        "data": "ProP : Penyediaan subsidi angkutan umum massal perkotaan",
+        "id_pn": 0,
+        "id_pp": 29,
+        "id_kp": 106
+    },
+    {
+        "id": 876,
+        "data": "ProP : Pengembangan TIK Perkotaan",
+        "id_pn": 0,
+        "id_pp": 29,
+        "id_kp": 107
+    },
+    {
+        "id": 877,
+        "data": "ProP : Penyediaan dan Penyelenggaraan Air Minum dan Sanitasi yang Handal dan Terintegrasi",
+        "id_pn": 0,
+        "id_pp": 29,
+        "id_kp": 108
+    },
+    {
+        "id": 878,
+        "data": "ProP : Penyediaan dan Penyelenggaraan Air Minum dan Sanitasi yang Handal dan Terintegrasi",
+        "id_pn": 0,
+        "id_pp": 29,
+        "id_kp": 109
+    },
+    {
+        "id": 879,
+        "data": "ProP : Fasilitasi Pengentasan\nPermukiman Kumuh Perkotaan",
+        "id_pn": 0,
+        "id_pp": 29,
+        "id_kp": 110
+    },
+    {
+        "id": 880,
+        "data": "ProP : Perbaikan efisiensi dan emisi energi dan ketenagalistrikan",
+        "id_pn": 0,
+        "id_pp": 30,
+        "id_kp": 111
+    },
+    {
+        "id": 881,
+        "data": "ProP : Perluasan Jaringan Gas Kota",
+        "id_pn": 0,
+        "id_pp": 30,
+        "id_kp": 112
+    },
+    {
+        "id": 882,
+        "data": "ProP : Perluasan akses dan keterjangkauan energi dan ketenagalistrikan",
+        "id_pn": 0,
+        "id_pp": 30,
+        "id_kp": 112
+    },
+    {
+        "id": 883,
+        "data": "ProP : Peningkatan kehandalan infrastruktur energi dan ketenagalistrikan",
+        "id_pn": 0,
+        "id_pp": 30,
+        "id_kp": 113
+    },
+    {
+        "id": 884,
+        "data": "ProP : Pembangunan Kilang Minyak\nBumi",
+        "id_pn": 0,
+        "id_pp": 30,
+        "id_kp": 113
+    },
+    {
+        "id": 885,
+        "data": "ProP : Pembangunan Pipa gas Bumi\nTrans Kalimantan",
+        "id_pn": 0,
+        "id_pp": 30,
+        "id_kp": 113
+    },
+    {
+        "id": 886,
+        "data": "ProP : Pengembangan infrastruktur pitalebar",
+        "id_pn": 0,
+        "id_pp": 31,
+        "id_kp": 114
+    },
+    {
+        "id": 887,
+        "data": "ProP : Pengembangan infrastruktur penyiaran",
+        "id_pn": 0,
+        "id_pp": 31,
+        "id_kp": 114
+    },
+    {
+        "id": 888,
+        "data": "ProP : Pengembangan infrastruktur TIK\npemerintahan",
+        "id_pn": 0,
+        "id_pp": 31,
+        "id_kp": 114
+    },
+    {
+        "id": 889,
+        "data": "ProP : Pemanfaatan TIK layanan pemerintah",
+        "id_pn": 0,
+        "id_pp": 31,
+        "id_kp": 115
+    },
+    {
+        "id": 890,
+        "data": "ProP : Pemanfaatan TIK layanan masyarakat dan dunia usaha",
+        "id_pn": 0,
+        "id_pp": 31,
+        "id_kp": 115
+    },
+    {
+        "id": 891,
+        "data": "ProP : Pengelolaan informasi secara aman dan terintegrasi",
+        "id_pn": 0,
+        "id_pp": 31,
+        "id_kp": 116
+    },
+    {
+        "id": 892,
+        "data": "ProP : Pengembangan literasi dan keahlian TIK",
+        "id_pn": 0,
+        "id_pp": 31,
+        "id_kp": 116
+    },
+    {
+        "id": 893,
+        "data": "ProP : Pengembangan dan fasilitasi industri TIK",
+        "id_pn": 0,
+        "id_pp": 31,
+        "id_kp": 116
+    },
+    {
+        "id": 894,
+        "data": "ProP : Pemantauan Kualitas Udara, Air, dan Air Laut",
+        "id_pn": 0,
+        "id_pp": 32,
+        "id_kp": 117
+    },
+    {
+        "id": 895,
+        "data": "ProP : Pemantauan Kinerja Pengelolaan Lingkungan pada Usaha dan\/atau Kegiatan",
+        "id_pn": 0,
+        "id_pp": 32,
+        "id_kp": 117
+    },
+    {
+        "id": 896,
+        "data": "ProP : Penyediaan Informasi Cuaca dan\nIklim",
+        "id_pn": 0,
+        "id_pp": 32,
+        "id_kp": 117
+    },
+    {
+        "id": 897,
+        "data": "ProP : Pencegahan Kebakaran Lahan dan Hutan",
+        "id_pn": 0,
+        "id_pp": 32,
+        "id_kp": 117
+    },
+    {
+        "id": 898,
+        "data": "ProP : Peningkatan Kesadaran dan Kapasitas Pemerintah, Swasta dan Masyarakat terhadap Lingkungan\nHidup",
+        "id_pn": 0,
+        "id_pp": 32,
+        "id_kp": 117
+    },
+    {
+        "id": 899,
+        "data": "ProP : Pencegahan Kehilangan Keanekaragaman Hayati dan Kerusakan Ekosistem",
+        "id_pn": 0,
+        "id_pp": 32,
+        "id_kp": 117
+    },
+    {
+        "id": 900,
+        "data": "ProP : Penyediaan Data dan Informasi\nKeanekaragaman Hayati dan Ekosistem",
+        "id_pn": 0,
+        "id_pp": 32,
+        "id_kp": 117
+    },
+    {
+        "id": 901,
+        "data": "ProP : Penanganan Pencemaran dan\nKerusakan Lingkungan",
+        "id_pn": 0,
+        "id_pp": 32,
+        "id_kp": 118
+    },
+    {
+        "id": 902,
+        "data": "ProP : Pengelolaan Sampah Rumah\nTangga dan Sampah Plastik",
+        "id_pn": 0,
+        "id_pp": 32,
+        "id_kp": 118
+    },
+    {
+        "id": 903,
+        "data": "ProP : Pengurangan dan Penghapusan\nMerkuri",
+        "id_pn": 0,
+        "id_pp": 32,
+        "id_kp": 118
+    },
+    {
+        "id": 904,
+        "data": "ProP : Pembangunan Fasilitas Pengolahan Limbah B3 Medis dan Limbah B3 Terpadu",
+        "id_pn": 0,
+        "id_pp": 32,
+        "id_kp": 118
+    },
+    {
+        "id": 905,
+        "data": "ProP : Restorasi dan Pemulihan Lahan\nGambut",
+        "id_pn": 0,
+        "id_pp": 32,
+        "id_kp": 119
+    },
+    {
+        "id": 906,
+        "data": "ProP : Pemulihan Lahan Bekas Tambang dan Lahan Terkontaminasi Limbah B3",
+        "id_pn": 0,
+        "id_pp": 32,
+        "id_kp": 119
+    },
+    {
+        "id": 907,
+        "data": "ProP : Pemulihan Kerusakan\nLingkungan Pesisir dan Laut",
+        "id_pn": 0,
+        "id_pp": 32,
+        "id_kp": 119
+    },
+    {
+        "id": 908,
+        "data": "ProP : Pemulihan Habitat Spesies\nTerancam Punah",
+        "id_pn": 0,
+        "id_pp": 32,
+        "id_kp": 119
+    },
+    {
+        "id": 909,
+        "data": "ProP : Peningkatan Populasi Spesies Tumbuhan dan Satwa Liar Terancam Punah",
+        "id_pn": 0,
+        "id_pp": 32,
+        "id_kp": 119
+    },
+    {
+        "id": 910,
+        "data": "ProP : Penguatan Regulasi dan Kelembagaan Bidang Sumber Daya Alam dan Lingkungan Hidup di Pusat\ndan Daerah",
+        "id_pn": 0,
+        "id_pp": 32,
+        "id_kp": 120
+    },
+    {
+        "id": 911,
+        "data": "ProP : Penguatan Sistem Perizinan, Pengawasan, dan Pengamanan Pengelolaan Sumber Daya Alam dan\nLingkungan Hidup",
+        "id_pn": 0,
+        "id_pp": 32,
+        "id_kp": 120
+    },
+    {
+        "id": 912,
+        "data": "ProP : Penguatan Mekanisme Pidana, Perdata, dan Mediasi dalam Proses Penegakan Hukum Bidang Sumber Daya Alam dan Lingkungan Hidup",
+        "id_pn": 0,
+        "id_pp": 32,
+        "id_kp": 120
+    },
+    {
+        "id": 913,
+        "data": "ProP : Penguatan Data, Informasi, dan\nLiterasi Bencana",
+        "id_pn": 0,
+        "id_pp": 33,
+        "id_kp": 121
+    },
+    {
+        "id": 914,
+        "data": "ProP : Penguatan Sistem, Regulasi dan\nTata Kelola Bencana",
+        "id_pn": 0,
+        "id_pp": 33,
+        "id_kp": 121
+    },
+    {
+        "id": 915,
+        "data": "ProP : Peningkatan Sarana Prasarana\nKebencanaan",
+        "id_pn": 0,
+        "id_pp": 33,
+        "id_kp": 121
+    },
+    {
+        "id": 916,
+        "data": "ProP : Integrasi Kerjasama Kebijakan dan Penataan Ruang berbasis Risiko Bencana",
+        "id_pn": 0,
+        "id_pp": 33,
+        "id_kp": 121
+    },
+    {
+        "id": 917,
+        "data": "ProP : Penguatan Penanganan Darurat\nBencana",
+        "id_pn": 0,
+        "id_pp": 33,
+        "id_kp": 121
+    },
+    {
+        "id": 918,
+        "data": "ProP : Pelaksanaan Rehabilitasi dan Rekonstruksi di daerah terdampak bencana",
+        "id_pn": 0,
+        "id_pp": 33,
+        "id_kp": 121
+    },
+    {
+        "id": 919,
+        "data": "ProP : Penguatan sistem mitigasi multi ancaman bencana terpadu",
+        "id_pn": 0,
+        "id_pp": 33,
+        "id_kp": 121
+    },
+    {
+        "id": 920,
+        "data": "ProP : Perlindungan Kerentanan\nPesisir dan Sektor Kelautan",
+        "id_pn": 0,
+        "id_pp": 33,
+        "id_kp": 122
+    },
+    {
+        "id": 921,
+        "data": "ProP : Perlindungan Ketahanan Air pada Wilayah Berisiko Iklim",
+        "id_pn": 0,
+        "id_pp": 33,
+        "id_kp": 122
+    },
+    {
+        "id": 922,
+        "data": "ProP : Perlindungan Ketahanan Pangan terhadap Perubahan Iklim",
+        "id_pn": 0,
+        "id_pp": 33,
+        "id_kp": 122
+    },
+    {
+        "id": 923,
+        "data": "ProP : Perlindungan Kesehatan Masyarakat dan Lingkungan dari Dampak Perubahan Iklim",
+        "id_pn": 0,
+        "id_pp": 33,
+        "id_kp": 122
+    },
+    {
+        "id": 924,
+        "data": "ProP : Pengelolaan Energi Baru\nTerbarukan",
+        "id_pn": 0,
+        "id_pp": 34,
+        "id_kp": 123
+    },
+    {
+        "id": 925,
+        "data": "ProP : Efisiensi dan Konservasi Energi",
+        "id_pn": 0,
+        "id_pp": 34,
+        "id_kp": 123
+    },
+    {
+        "id": 926,
+        "data": "ProP : Restorasi dan Pengelolaan Lahan\nGambut",
+        "id_pn": 0,
+        "id_pp": 34,
+        "id_kp": 124
+    },
+    {
+        "id": 927,
+        "data": "ProP : Reforestasi",
+        "id_pn": 0,
+        "id_pp": 34,
+        "id_kp": 124
+    },
+    {
+        "id": 928,
+        "data": "ProP : Pengurangan Laju Deforestasi",
+        "id_pn": 0,
+        "id_pp": 34,
+        "id_kp": 124
+    },
+    {
+        "id": 929,
+        "data": "ProP : Peningkatan Produktivitas dan\nE\ufb01siensi Pertanian",
+        "id_pn": 0,
+        "id_pp": 34,
+        "id_kp": 124
+    },
+    {
+        "id": 930,
+        "data": "ProP : Pengelolaan Sampah Rumah\nTangga",
+        "id_pn": 0,
+        "id_pp": 34,
+        "id_kp": 125
+    },
+    {
+        "id": 931,
+        "data": "ProP : Penerapan Modi\ufb01kasi Proses dan Teknologi",
+        "id_pn": 0,
+        "id_pp": 34,
+        "id_kp": 126
+    },
+    {
+        "id": 932,
+        "data": "ProP : Manajemen Limbah Industri",
+        "id_pn": 0,
+        "id_pp": 34,
+        "id_kp": 126
+    },
+    {
+        "id": 933,
+        "data": "ProP : Inventarisasi dan Rehabilitasi\nEkosistem Pesisir dan Kelautan",
+        "id_pn": 0,
+        "id_pp": 34,
+        "id_kp": 127
+    },
+    {
+        "id": 934,
+        "data": "ProP : Penguatan Penyelenggara Pemilu",
+        "id_pn": 0,
+        "id_pp": 35,
+        "id_kp": 128
+    },
+    {
+        "id": 935,
+        "data": "ProP : Penguatan Peraturan\nPerundangan Bidang Politik",
+        "id_pn": 0,
+        "id_pp": 35,
+        "id_kp": 128
+    },
+    {
+        "id": 936,
+        "data": "ProP : Peningkatan Bantuan Keuangan\nPartai Politik",
+        "id_pn": 0,
+        "id_pp": 35,
+        "id_kp": 128
+    },
+    {
+        "id": 937,
+        "data": "ProP : Penguatan Demokrasi Internal\nPartai Politik",
+        "id_pn": 0,
+        "id_pp": 35,
+        "id_kp": 128
+    },
+    {
+        "id": 938,
+        "data": "ProP : Penguatan Transparansi dan\nAkuntabilitas Partai Politik",
+        "id_pn": 0,
+        "id_pp": 35,
+        "id_kp": 128
+    },
+    {
+        "id": 939,
+        "data": "ProP : Penguatan Pokja Demokrasi",
+        "id_pn": 0,
+        "id_pp": 35,
+        "id_kp": 128
+    },
+    {
+        "id": 940,
+        "data": "ProP : Pendidikan Politik dan\nPendidikan Pemilih",
+        "id_pn": 0,
+        "id_pp": 35,
+        "id_kp": 129
+    },
+    {
+        "id": 941,
+        "data": "ProP : Peningkatan Kualitas dan\nKapasitas Organisasi Masyarakat Sipil",
+        "id_pn": 0,
+        "id_pp": 35,
+        "id_kp": 129
+    },
+    {
+        "id": 942,
+        "data": "ProP : Peningkatan Kualitas\nPenyelenggaraan Kepemiluan",
+        "id_pn": 0,
+        "id_pp": 35,
+        "id_kp": 129
+    },
+    {
+        "id": 943,
+        "data": "ProP : Penguatan tata kelola informasi dan komunikasi publik di pusat dan daerah",
+        "id_pn": 0,
+        "id_pp": 35,
+        "id_kp": 130
+    },
+    {
+        "id": 944,
+        "data": "ProP : Penyediaan konten dan akses informasi publik secara merata dan berkeadilan terutama di wilayah 3T",
+        "id_pn": 0,
+        "id_pp": 35,
+        "id_kp": 130
+    },
+    {
+        "id": 945,
+        "data": "ProP : Peningkatan kualitas SDM Bidang Komunikasi dan Informatika",
+        "id_pn": 0,
+        "id_pp": 35,
+        "id_kp": 130
+    },
+    {
+        "id": 946,
+        "data": "ProP : Peningkatan literasi TIK\nmasyarakat",
+        "id_pn": 0,
+        "id_pp": 35,
+        "id_kp": 130
+    },
+    {
+        "id": 947,
+        "data": "ProP : Penelitian Strategis Bidang\nKomunikasi dan Informatika",
+        "id_pn": 0,
+        "id_pp": 35,
+        "id_kp": 130
+    },
+    {
+        "id": 948,
+        "data": "ProP : Penguatan peran lembaga pers dan jurnalis",
+        "id_pn": 0,
+        "id_pp": 35,
+        "id_kp": 130
+    },
+    {
+        "id": 949,
+        "data": "ProP : Peningkatan kualitas lembaga penyiaran",
+        "id_pn": 0,
+        "id_pp": 35,
+        "id_kp": 130
+    },
+    {
+        "id": 950,
+        "data": "ProP : Peningkatan dan Intensifikasi efektivitas penyelesaian perbatasan dan percepatan pemetaan batas negara",
+        "id_pn": 0,
+        "id_pp": 36,
+        "id_kp": 131
+    },
+    {
+        "id": 951,
+        "data": "ProP : Penguatan perlindungan WNI dan BHI di tingkat bilateral, regional, multilateral",
+        "id_pn": 0,
+        "id_pp": 36,
+        "id_kp": 131
+    },
+    {
+        "id": 952,
+        "data": "ProP : Peningkatan penggunaan sumber sumber dan mekanisme pendanaan baru kerjasama pembangunan\ninternasional",
+        "id_pn": 0,
+        "id_pp": 36,
+        "id_kp": 132
+    },
+    {
+        "id": 953,
+        "data": "ProP : Penciptaan lingkungan yang mendukung (enabling environment) peningkatan keterlibatan swasta dalam kerjasama pembangunan internasional",
+        "id_pn": 0,
+        "id_pp": 36,
+        "id_kp": 132
+    },
+    {
+        "id": 954,
+        "data": "ProP : Penyusunan kebijakan diplomasi publik dan turunannya",
+        "id_pn": 0,
+        "id_pp": 36,
+        "id_kp": 133
+    },
+    {
+        "id": 955,
+        "data": "ProP : Peningkatan inisiatif\/posisi\nIndonesia yang diterima",
+        "id_pn": 0,
+        "id_pp": 36,
+        "id_kp": 134
+    },
+    {
+        "id": 956,
+        "data": "ProP : Optimalisasi Keanggotaan Tidak Tetap Indonesia pada Dewan Keamanan PBB",
+        "id_pn": 0,
+        "id_pp": 36,
+        "id_kp": 134
+    },
+    {
+        "id": 957,
+        "data": "ProP : Optimalisasi Kontribusi Indonesia dalam Jajaran 10 Besar Negara Kontributor MPP PBB",
+        "id_pn": 0,
+        "id_pp": 36,
+        "id_kp": 134
+    },
+    {
+        "id": 958,
+        "data": "ProP : Pembentukan Pusat Legislasi\nNasional",
+        "id_pn": 0,
+        "id_pp": 37,
+        "id_kp": 135
+    },
+    {
+        "id": 959,
+        "data": "ProP : Pembaruan Substansi Hukum",
+        "id_pn": 0,
+        "id_pp": 37,
+        "id_kp": 135
+    },
+    {
+        "id": 960,
+        "data": "ProP : Optimalisasi Sistem Perdata",
+        "id_pn": 0,
+        "id_pp": 37,
+        "id_kp": 136
+    },
+    {
+        "id": 961,
+        "data": "ProP : Keadilan Restoratif",
+        "id_pn": 0,
+        "id_pp": 37,
+        "id_kp": 136
+    },
+    {
+        "id": 962,
+        "data": "ProP : Dukungan TIK di Bidang Hukum dan Peradilan",
+        "id_pn": 0,
+        "id_pp": 37,
+        "id_kp": 136
+    },
+    {
+        "id": 963,
+        "data": "ProP : Optimalisasi Upaya Anti Korupsi",
+        "id_pn": 0,
+        "id_pp": 37,
+        "id_kp": 137
+    },
+    {
+        "id": 964,
+        "data": "ProP : Penguatan akses layanan keadilan",
+        "id_pn": 0,
+        "id_pp": 37,
+        "id_kp": 138
+    },
+    {
+        "id": 965,
+        "data": "ProP : Pemberdayaan Hukum\nMasyarakat",
+        "id_pn": 0,
+        "id_pp": 37,
+        "id_kp": 138
+    },
+    {
+        "id": 966,
+        "data": "ProP : Manajemen Talenta Nasional ASN",
+        "id_pn": 0,
+        "id_pp": 38,
+        "id_kp": 139
+    },
+    {
+        "id": 967,
+        "data": "ProP : Peningkatan Profesionalitas ASN",
+        "id_pn": 0,
+        "id_pp": 38,
+        "id_kp": 139
+    },
+    {
+        "id": 968,
+        "data": "ProP : Pelayanan publik berbasis elektronik (e-services) yang terintegrasi",
+        "id_pn": 0,
+        "id_pp": 38,
+        "id_kp": 140
+    },
+    {
+        "id": 969,
+        "data": "ProP : Penguatan pengawasan masyarakat atas kinerja pelayanan publik",
+        "id_pn": 0,
+        "id_pp": 38,
+        "id_kp": 140
+    },
+    {
+        "id": 970,
+        "data": "ProP : Penguatan ekosistem inovasi",
+        "id_pn": 0,
+        "id_pp": 38,
+        "id_kp": 140
+    },
+    {
+        "id": 971,
+        "data": "ProP : Penguatan pelayanan terpadu",
+        "id_pn": 0,
+        "id_pp": 38,
+        "id_kp": 140
+    },
+    {
+        "id": 972,
+        "data": "ProP : Penataan kelembagaan dan proses bisnis instansi pemerintah",
+        "id_pn": 0,
+        "id_pp": 38,
+        "id_kp": 141
+    },
+    {
+        "id": 973,
+        "data": "ProP : Penerapan SPBE terintegrasi",
+        "id_pn": 0,
+        "id_pp": 38,
+        "id_kp": 141
+    },
+    {
+        "id": 974,
+        "data": "ProP : Perluasan implementasi sistem integritas",
+        "id_pn": 0,
+        "id_pp": 38,
+        "id_kp": 142
+    },
+    {
+        "id": 975,
+        "data": "ProP : Penguatan sistem akuntabilitas kinerja organisasi",
+        "id_pn": 0,
+        "id_pp": 38,
+        "id_kp": 142
+    },
+    {
+        "id": 976,
+        "data": "ProP : Penguatan perencanaan dan penganggaran",
+        "id_pn": 0,
+        "id_pp": 38,
+        "id_kp": 142
+    },
+    {
+        "id": 977,
+        "data": "ProP : Peningkatan Deradikalisasi dan\nPenanganan Terorisme",
+        "id_pn": 0,
+        "id_pp": 39,
+        "id_kp": 143
+    },
+    {
+        "id": 978,
+        "data": "ProP : Pengamanan Obyek Vital dan\nTarget Rentan",
+        "id_pn": 0,
+        "id_pp": 39,
+        "id_kp": 143
+    },
+    {
+        "id": 979,
+        "data": "ProP : Penguatan Pertahanan dan Keamanan di Perbatasan dan Pulau Terluar",
+        "id_pn": 0,
+        "id_pp": 39,
+        "id_kp": 143
+    },
+    {
+        "id": 980,
+        "data": "ProP : Penanganan Konflik Secara\nHumanis",
+        "id_pn": 0,
+        "id_pp": 39,
+        "id_kp": 143
+    },
+    {
+        "id": 981,
+        "data": "ProP : Keselamatan dan Reintegrasi di\nWilayah Rawan dan Bencana",
+        "id_pn": 0,
+        "id_pp": 39,
+        "id_kp": 143
+    },
+    {
+        "id": 982,
+        "data": "ProP : Pengadaan Alutsista",
+        "id_pn": 0,
+        "id_pp": 39,
+        "id_kp": 144
+    },
+    {
+        "id": 983,
+        "data": "ProP : Pemeliharaan dan perawatan alutsista",
+        "id_pn": 0,
+        "id_pp": 39,
+        "id_kp": 144
+    },
+    {
+        "id": 984,
+        "data": "ProP : Pembangunan sarana-prasarana pertahanan",
+        "id_pn": 0,
+        "id_pp": 39,
+        "id_kp": 144
+    },
+    {
+        "id": 985,
+        "data": "ProP : Peningkatan Profesionalisme dan Kesejahteraan Prajurit",
+        "id_pn": 0,
+        "id_pp": 39,
+        "id_kp": 144
+    },
+    {
+        "id": 986,
+        "data": "ProP : Pembangunan Pertahanan Siber",
+        "id_pn": 0,
+        "id_pp": 39,
+        "id_kp": 144
+    },
+    {
+        "id": 987,
+        "data": "ProP : Pembangunan dan\nPengembangan Industri Pertahanan",
+        "id_pn": 0,
+        "id_pp": 39,
+        "id_kp": 144
+    },
+    {
+        "id": 988,
+        "data": "ProP : Penguatan Kapasitas Sistem\nPeringatan Dini Terpadu",
+        "id_pn": 0,
+        "id_pp": 39,
+        "id_kp": 145
+    },
+    {
+        "id": 989,
+        "data": "ProP : Penguatan Kapasitas Operasi\nKeamanan Laut",
+        "id_pn": 0,
+        "id_pp": 39,
+        "id_kp": 145
+    },
+    {
+        "id": 990,
+        "data": "ProP : Peningkatan Penyelesaian Kasus\nKeamanan Laut",
+        "id_pn": 0,
+        "id_pp": 39,
+        "id_kp": 145
+    },
+    {
+        "id": 991,
+        "data": "ProP : Pencegahan dan Pemberantasan Peredaran Gelap Narkotika dan Prekursor Narkotika",
+        "id_pn": 0,
+        "id_pp": 39,
+        "id_kp": 146
+    },
+    {
+        "id": 992,
+        "data": "ProP : Peningkatan Pencegahan Penyalahgunaan dan Rehabilitasi Penyalahguna Narkotika",
+        "id_pn": 0,
+        "id_pp": 39,
+        "id_kp": 146
+    },
+    {
+        "id": 993,
+        "data": "ProP : Penanganan Kasus TPPO, serta Kejahatan terhadap Perempuan, Anak, dan Kelompok Rentan Lainnya",
+        "id_pn": 0,
+        "id_pp": 39,
+        "id_kp": 146
+    },
+    {
+        "id": 994,
+        "data": "ProP : Peningkatan Layanan Kepolisian yang Profesional, Modern, dan Terpercaya",
+        "id_pn": 0,
+        "id_pp": 39,
+        "id_kp": 146
+    },
+    {
+        "id": 995,
+        "data": "ProP : Pengadaan Almatsus dan Alpalkam Dukungan Layanan Kepolisian",
+        "id_pn": 0,
+        "id_pp": 39,
+        "id_kp": 146
+    },
+    {
+        "id": 996,
+        "data": "ProP : Peningkatan Profesionalisme, dan Kesejahteraan Anggota POLRI",
+        "id_pn": 0,
+        "id_pp": 39,
+        "id_kp": 146
+    },
+    {
+        "id": 997,
+        "data": "ProP : Penguatan Pengamanan\nInfrastruktur Siber",
+        "id_pn": 0,
+        "id_pp": 39,
+        "id_kp": 147
+    },
+    {
+        "id": 998,
+        "data": "ProP : Pembangunan dan Penguatan CERT (ComputerEmergency Response Team)",
+        "id_pn": 0,
+        "id_pp": 39,
+        "id_kp": 147
+    },
+    {
+        "id": 999,
+        "data": "ProP : Pencegahan Kejahatan Siber dan Peningkatan Kerjasama Internasional Bidang Siber",
+        "id_pn": 0,
+        "id_pp": 39,
+        "id_kp": 147
+    },
+    {
+        "id": 1000,
+        "data": "ProP : Penguatan Kapasitas SDM Keamanan Siber",
+        "id_pn": 0,
+        "id_pp": 39,
+        "id_kp": 147
+    },
+    {
+        "id": 1001,
+        "data": "ProP : Penyelesaian Kejahatan Siber",
+        "id_pn": 0,
+        "id_pp": 39,
+        "id_kp": 147
+    }
+]

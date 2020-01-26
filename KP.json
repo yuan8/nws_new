@@ -1,0 +1,884 @@
+[
+    {
+        "id": 1,
+        "data": "KP : Akselerasi pengembangan pembangkit energi terbarukan",
+        "id_pn": 0,
+        "id_pp": 1
+    },
+    {
+        "id": 2,
+        "data": "KP : Peningkatan pasokan bahan bakar nabati",
+        "id_pn": 0,
+        "id_pp": 1
+    },
+    {
+        "id": 3,
+        "data": "KP : Peningkatan pelaksanaan konservasi dan efisiensi energi",
+        "id_pn": 0,
+        "id_pp": 1
+    },
+    {
+        "id": 4,
+        "data": "KP : Peningkatan pemenuhan energi bagi industri",
+        "id_pn": 0,
+        "id_pp": 1
+    },
+    {
+        "id": 5,
+        "data": "KP : Pengembangan industri pendukung EBT",
+        "id_pn": 0,
+        "id_pp": 1
+    },
+    {
+        "id": 6,
+        "data": "KP : Pemantapan Kawasan berfungsi\nLindung (kumulatif)",
+        "id_pn": 0,
+        "id_pp": 2
+    },
+    {
+        "id": 7,
+        "data": "KP : Pengelolaan hutan berkelanjutan",
+        "id_pn": 0,
+        "id_pp": 2
+    },
+    {
+        "id": 8,
+        "data": "KP : Penyediaan air untuk pertanian",
+        "id_pn": 0,
+        "id_pp": 2
+    },
+    {
+        "id": 9,
+        "data": "KP : Penyediaan air untuk domestik dan industri",
+        "id_pn": 0,
+        "id_pp": 2
+    },
+    {
+        "id": 10,
+        "data": "KP : Pemeliharaan, pemulihan, dan konservasi sumber daya air dan ekosistemnya termasuk revitalisasi\/penyelamatan  danau dan\ninfrastruktur hijau",
+        "id_pn": 0,
+        "id_pp": 2
+    },
+    {
+        "id": 11,
+        "data": "KP : Optimalisasi pemanfaatan waduk multiguna",
+        "id_pn": 0,
+        "id_pp": 2
+    },
+    {
+        "id": 12,
+        "data": "KP : Peningkatan kualitas konsumsi, keamanan, fortifikasi dan biofortifikasi pangan",
+        "id_pn": 0,
+        "id_pp": 3
+    },
+    {
+        "id": 13,
+        "data": "KP : Peningkatan ketersediaan pangan hasil pertanian dan pangan hasil laut secara berkelanjutan untuk menjaga stabilitas pasokan dan harga\nkebutuhan pokok",
+        "id_pn": 0,
+        "id_pp": 3
+    },
+    {
+        "id": 14,
+        "data": "KP : Peningkatan produktivitas, kesejahteraan sumber daya manusia (SDM) pertanian, dan kepastian pasar",
+        "id_pn": 0,
+        "id_pp": 3
+    },
+    {
+        "id": 15,
+        "data": "KP : Peningkatan produktivitas, keberlanjutan sumber daya pertanian, dan digitalisasi pertanian",
+        "id_pn": 0,
+        "id_pp": 3
+    },
+    {
+        "id": 16,
+        "data": "KP : Peningkatan tata kelola sistem pangan nasional",
+        "id_pn": 0,
+        "id_pp": 3
+    },
+    {
+        "id": 17,
+        "data": "KP : Peningkatan pengelolaan Wilayah Pengelolaan Perikanan (WPP) dan penataan ruang laut dan rencana zonasi pesisir serta pengelolaan ruang\nlaut",
+        "id_pn": 0,
+        "id_pp": 4
+    },
+    {
+        "id": 18,
+        "data": "KP : Peningkatan ekosistem kelautan dan pemanfaatan jasa kelautan",
+        "id_pn": 0,
+        "id_pp": 4
+    },
+    {
+        "id": 19,
+        "data": "KP : Peningkatan produksi, produktivitas, standardisasi mutu dan nilai tambah produk kelautan dan perikanan termasuk ikan, rumput laut\ndan garam",
+        "id_pn": 0,
+        "id_pp": 4
+    },
+    {
+        "id": 20,
+        "data": "KP : Peningkatan fasilitasi usaha, pembiayaan, dan akses perlindungan usaha kelautan dan perikanan skala kecil serta akses terhadap pengelolaan\nsumber daya",
+        "id_pn": 0,
+        "id_pp": 4
+    },
+    {
+        "id": 21,
+        "data": "KP : Peningkatan SDM dan riset kemaritiman dan kelautan serta database kelautan dan perikanan",
+        "id_pn": 0,
+        "id_pp": 4
+    },
+    {
+        "id": 22,
+        "data": "KP : Peningkatan kemitraan usaha antara Usaha Mikro Kecil dan Usaha Menengah Besar",
+        "id_pn": 0,
+        "id_pp": 5
+    },
+    {
+        "id": 23,
+        "data": "KP : Peningkatan kapasitas usaha dan akses pembiayaan bagi wirausaha",
+        "id_pn": 0,
+        "id_pp": 5
+    },
+    {
+        "id": 24,
+        "data": "KP : Peningkatan kapasitas, jangkauan, dan inovasi koperasi",
+        "id_pn": 0,
+        "id_pp": 5
+    },
+    {
+        "id": 25,
+        "data": "KP : Peningkatan penciptaan start-up dan peluang usaha",
+        "id_pn": 0,
+        "id_pp": 5
+    },
+    {
+        "id": 26,
+        "data": "KP : Peningkatan nilai tambah usaha sosial",
+        "id_pn": 0,
+        "id_pp": 5
+    },
+    {
+        "id": 27,
+        "data": "KP : Peningkatan industri pengolahan berbasis pertanian, kemaritiman, dan non agro yang terintegrasi hulu-hilir",
+        "id_pn": 0,
+        "id_pp": 6
+    },
+    {
+        "id": 28,
+        "data": "KP : Peningkatan industrialisasi berbasis hilirisasi sumber daya alam, termasuk melalui pengembangan smelter dan kawasan industri terutama di luar Jawa",
+        "id_pn": 0,
+        "id_pp": 6
+    },
+    {
+        "id": 29,
+        "data": "KP : Peningkatan daya saing destinasi dan industri pengolahan pariwisata, termasuk wisata alam, yang didukung penguatan rantai pasok",
+        "id_pn": 0,
+        "id_pp": 6
+    },
+    {
+        "id": 30,
+        "data": "KP : Peningkatan nilai tambah dan daya saing produk dan usaha kreatif dan digital",
+        "id_pn": 0,
+        "id_pp": 6
+    },
+    {
+        "id": 31,
+        "data": "KP : Perbaikan iklim usaha dan peningkatan investasi, termasuk reformasi ketenagakerjaan",
+        "id_pn": 0,
+        "id_pp": 6
+    },
+    {
+        "id": 32,
+        "data": "KP : Pengembangan industri halal",
+        "id_pn": 0,
+        "id_pp": 6
+    },
+    {
+        "id": 33,
+        "data": "KP : Peningkatan diversifikasi, nilai tambah, dan daya saing produk ekspor dan jasa",
+        "id_pn": 0,
+        "id_pp": 7
+    },
+    {
+        "id": 34,
+        "data": "KP : Peningkatan akses dan pendalaman pasar ekspor",
+        "id_pn": 0,
+        "id_pp": 7
+    },
+    {
+        "id": 35,
+        "data": "KP : Pengelolaan impor",
+        "id_pn": 0,
+        "id_pp": 7
+    },
+    {
+        "id": 36,
+        "data": "KP : Peningkatan kandungan dan penggunaan produk dalam negeri termasuk melalui pengadaan\npemerintah yang efektif",
+        "id_pn": 0,
+        "id_pp": 7
+    },
+    {
+        "id": 37,
+        "data": "KP : Peningkatan partisipasi dalam jaringan produksi global",
+        "id_pn": 0,
+        "id_pp": 7
+    },
+    {
+        "id": 38,
+        "data": "KP : Peningkatan citra dan diversifikasi pemasaran destinasi pariwisata prioritas dan destinasi branding, dan\nproduk kreatif",
+        "id_pn": 0,
+        "id_pp": 7
+    },
+    {
+        "id": 39,
+        "data": "KP : Peningkatan efektivitas Prefrential Trade Agreement (PTA)\/Free Trade Agreement (FTA)\/Comprehensive Economic Partnership Agreement (CEPA) dan diplomasi ekonomi",
+        "id_pn": 0,
+        "id_pp": 7
+    },
+    {
+        "id": 40,
+        "data": "KP : Peningkatan pendalaman sektor keuangan",
+        "id_pn": 0,
+        "id_pp": 8
+    },
+    {
+        "id": 41,
+        "data": "KP : Optimalisasi pemanfaatan teknologi digital dan industry 4.0",
+        "id_pn": 0,
+        "id_pp": 8
+    },
+    {
+        "id": 42,
+        "data": "KP : Peningkatan sistem logistik dan stabilitas harga",
+        "id_pn": 0,
+        "id_pp": 8
+    },
+    {
+        "id": 43,
+        "data": "KP : Peningkatan penerapan praktik berkelanjutan di industri pengolahan dan pariwisata",
+        "id_pn": 0,
+        "id_pp": 8
+    },
+    {
+        "id": 44,
+        "data": "KP : Reformasi Fiskal",
+        "id_pn": 0,
+        "id_pp": 8
+    },
+    {
+        "id": 45,
+        "data": "KP : Peningkatan ketersediaan dan kualitas data dan informasi perkembangan ekonomi, terutama pangan, kemaritiman, pariwisata, ekonomi kreatif, dan ekonomi digital",
+        "id_pn": 0,
+        "id_pp": 8
+    },
+    {
+        "id": 46,
+        "data": "KP : Percepatan Cakupan Administrasi\nKependudukan",
+        "id_pn": 0,
+        "id_pp": 16
+    },
+    {
+        "id": 47,
+        "data": "KP : Integrasi Sistem Administrasi\nKependudukan",
+        "id_pn": 0,
+        "id_pp": 16
+    },
+    {
+        "id": 48,
+        "data": "KP : Pendampingan dan Layanan\nTerpadu",
+        "id_pn": 0,
+        "id_pp": 16
+    },
+    {
+        "id": 49,
+        "data": "KP : Pemaduan dan Sinkronisasi\nKebijakan Pengendalian Penduduk",
+        "id_pn": 0,
+        "id_pp": 16
+    },
+    {
+        "id": 50,
+        "data": "KP : Sistem jaminan sosial nasional",
+        "id_pn": 0,
+        "id_pp": 17
+    },
+    {
+        "id": 51,
+        "data": "KP : Bantuan sosial dan subsidi tepat sasaran",
+        "id_pn": 0,
+        "id_pp": 17
+    },
+    {
+        "id": 52,
+        "data": "KP : Perlindungan sosial adaptif",
+        "id_pn": 0,
+        "id_pp": 17
+    },
+    {
+        "id": 53,
+        "data": "KP : Kesejahteraan Sosial",
+        "id_pn": 0,
+        "id_pp": 17
+    },
+    {
+        "id": 54,
+        "data": "KP : Peningkatan kesehatan ibu, anak, keluarga berencana (KB), dan kesehatan reproduksi",
+        "id_pn": 0,
+        "id_pp": 18
+    },
+    {
+        "id": 55,
+        "data": "KP : Percepatan Perbaikan Gizi\nMasyarakat",
+        "id_pn": 0,
+        "id_pp": 18
+    },
+    {
+        "id": 56,
+        "data": "KP : Peningkatan Pengendalian\nPenyakit",
+        "id_pn": 0,
+        "id_pp": 18
+    },
+    {
+        "id": 57,
+        "data": "KP : Penguatan Gerakan Masyarakat\nHidup Sehat (Germas)",
+        "id_pn": 0,
+        "id_pp": 18
+    },
+    {
+        "id": 58,
+        "data": "KP : Penguatan Sistem Kesehatan dan\nPengawasan Obat dan Makanan",
+        "id_pn": 0,
+        "id_pp": 18
+    },
+    {
+        "id": 59,
+        "data": "KP : Peningkatan Kualitas Pengajaran dan Pembelajaran",
+        "id_pn": 0,
+        "id_pp": 19
+    },
+    {
+        "id": 60,
+        "data": "KP : Pemerataan Akses dan Wajib\nBelajar 12 Tahun",
+        "id_pn": 0,
+        "id_pp": 19
+    },
+    {
+        "id": 61,
+        "data": "KP : Peningkatan Pengelolaan dan Penempatan Pendidik dan Tenaga Kependidikan",
+        "id_pn": 0,
+        "id_pp": 19
+    },
+    {
+        "id": 62,
+        "data": "KP : Penjaminan Mutu Pendidikan",
+        "id_pn": 0,
+        "id_pp": 19
+    },
+    {
+        "id": 63,
+        "data": "KP : Peningkatan Tata Kelola\nPendidikan",
+        "id_pn": 0,
+        "id_pp": 19
+    },
+    {
+        "id": 64,
+        "data": "KP : Pemenuhan hak dan Perlindungan\nAnak",
+        "id_pn": 0,
+        "id_pp": 20
+    },
+    {
+        "id": 65,
+        "data": "KP : Peningkatan Perlindungan\nPerempuan",
+        "id_pn": 0,
+        "id_pp": 20
+    },
+    {
+        "id": 66,
+        "data": "KP : Kualitas Pemuda",
+        "id_pn": 0,
+        "id_pp": 20
+    },
+    {
+        "id": 67,
+        "data": "KP : Akselerasi penguatan ekonomi keluarga",
+        "id_pn": 0,
+        "id_pp": 21
+    },
+    {
+        "id": 68,
+        "data": "KP : Keperantaraan Usaha dan Dampak\nSosial",
+        "id_pn": 0,
+        "id_pp": 21
+    },
+    {
+        "id": 69,
+        "data": "KP : Reforma Agraria",
+        "id_pn": 0,
+        "id_pp": 21
+    },
+    {
+        "id": 70,
+        "data": "KP : Perhutanan Sosial",
+        "id_pn": 0,
+        "id_pp": 21
+    },
+    {
+        "id": 71,
+        "data": "KP : Pendidikan dan Pelatihan Vokasi\nBerbasis Kerjasama Industri",
+        "id_pn": 0,
+        "id_pp": 22
+    },
+    {
+        "id": 72,
+        "data": "KP : Penguatan Pendidikan Tinggi\nBerkualitas",
+        "id_pn": 0,
+        "id_pp": 22
+    },
+    {
+        "id": 73,
+        "data": "KP : Peningkatan Kapabilitas Iptek dan\nPenciptaan Inovasi",
+        "id_pn": 0,
+        "id_pp": 22
+    },
+    {
+        "id": 74,
+        "data": "KP : Prestasi Olahraga",
+        "id_pn": 0,
+        "id_pp": 22
+    },
+    {
+        "id": 75,
+        "data": "KP : Revolusi mental dalam sistem pendidikan untuk memperkuat nilai integritas, etos kerja, gotong royong, dan budi pekerti",
+        "id_pn": 0,
+        "id_pp": 23
+    },
+    {
+        "id": 76,
+        "data": "KP : Revolusi mental dalam tata kelola pemerintahan untuk penguatan budaya birokrasi yang bersih, melayani, dan responsif",
+        "id_pn": 0,
+        "id_pp": 23
+    },
+    {
+        "id": 77,
+        "data": "KP : Revolusi mental dalam sistem sosial untuk memperkuat ketahanan, kualitas dan peran keluarga dan masyarakat dalam pembentukan karakter sejak usia dini",
+        "id_pn": 0,
+        "id_pp": 23
+    },
+    {
+        "id": 78,
+        "data": "KP : Penguatan pusat-pusat perubahan gerakan revolusi mental",
+        "id_pn": 0,
+        "id_pp": 23
+    },
+    {
+        "id": 79,
+        "data": "KP : Pembangunan dan Pembudayaan Sistem Ekonomi Kerakyatan berlandaskan Pancasila",
+        "id_pn": 0,
+        "id_pp": 23
+    },
+    {
+        "id": 80,
+        "data": "KP : Pembinaan Ideologi Pancasila, pendidikan kewarganegaraan, wawasan kebangsaan dan bela negara untuk menumbuhkan jiwa nasionalisme dan patriotisme",
+        "id_pn": 0,
+        "id_pp": 23
+    },
+    {
+        "id": 81,
+        "data": "KP : Revitalisasi dan aktualisasi nilai budaya dan kearifan lokal",
+        "id_pn": 0,
+        "id_pp": 24
+    },
+    {
+        "id": 82,
+        "data": "KP : Pengembangan dan Pemanfaatan Kekayaan Budaya untuk memperkuat karakter bangsa dan kesejahteraan rakyat",
+        "id_pn": 0,
+        "id_pp": 24
+    },
+    {
+        "id": 83,
+        "data": "KP : Pelindungan Hak Kebudayaan dan Ekspresi Budaya untuk memperkuat kebudayaan yang inklusif",
+        "id_pn": 0,
+        "id_pp": 24
+    },
+    {
+        "id": 84,
+        "data": "KP : Pengembangan Diplomasi Budaya untuk memperkuat pengaruh Indonesia dalam perkembangan peradaban dunia",
+        "id_pn": 0,
+        "id_pp": 24
+    },
+    {
+        "id": 85,
+        "data": "KP : Pengembangan tata kelola pembangunan kebudayaan",
+        "id_pn": 0,
+        "id_pp": 24
+    },
+    {
+        "id": 86,
+        "data": "KP : Penguatan cara pandang, sikap, dan praktik beragama dalam perspektif jalan tengah untuk memantapkan persaudaraan dan kebersamaan di kalangan umat beragama",
+        "id_pn": 0,
+        "id_pp": 25
+    },
+    {
+        "id": 87,
+        "data": "KP : Penguatan Harmoni dan\nKerukunan Umat Beragama",
+        "id_pn": 0,
+        "id_pp": 25
+    },
+    {
+        "id": 88,
+        "data": "KP : Penyelarasan relasi agama dan budaya",
+        "id_pn": 0,
+        "id_pp": 25
+    },
+    {
+        "id": 89,
+        "data": "KP : Peningkatan Kualitas Pelayanan\nKehidupan Beragama",
+        "id_pn": 0,
+        "id_pp": 25
+    },
+    {
+        "id": 90,
+        "data": "KP : Pengembangan Ekonomi dan\nSumber Daya Keagamaan",
+        "id_pn": 0,
+        "id_pp": 25
+    },
+    {
+        "id": 91,
+        "data": "KP : Peningkatan Budaya Literasi",
+        "id_pn": 0,
+        "id_pp": 26
+    },
+    {
+        "id": 92,
+        "data": "KP : Pengembangan, Pembinaan, dan Pelindungan Bahasa Indonesia, bahasa dan aksara daerah, serta sastra",
+        "id_pn": 0,
+        "id_pp": 26
+    },
+    {
+        "id": 93,
+        "data": "KP : Pengembangan budaya Iptek, inovasi, kreativitas, dan daya cipta",
+        "id_pn": 0,
+        "id_pp": 26
+    },
+    {
+        "id": 94,
+        "data": "KP : Penguatan institusi sosial penggerak literasi dan inovasi",
+        "id_pn": 0,
+        "id_pp": 26
+    },
+    {
+        "id": 95,
+        "data": "KP : Penyediaan Akses Perumahan dan Permukiman Layak, Aman dan Terjangkau",
+        "id_pn": 0,
+        "id_pp": 27
+    },
+    {
+        "id": 96,
+        "data": "KP : Penyediaan Akses Air Minum dan\nSanitasi Layak dan Aman",
+        "id_pn": 0,
+        "id_pp": 27
+    },
+    {
+        "id": 97,
+        "data": "KP : Pengelolaan Air Tanah dan Air\nBaku Berkelanjutan",
+        "id_pn": 0,
+        "id_pp": 27
+    },
+    {
+        "id": 98,
+        "data": "KP : Keselamatan dan Keamanan\nTransportasi",
+        "id_pn": 0,
+        "id_pp": 27
+    },
+    {
+        "id": 99,
+        "data": "KP : Ketahanan Kebencanaan\nInfrastruktur",
+        "id_pn": 0,
+        "id_pp": 27
+    },
+    {
+        "id": 100,
+        "data": "KP : Waduk Multipurpose dan\nModernisasi Irigasi",
+        "id_pn": 0,
+        "id_pp": 27
+    },
+    {
+        "id": 101,
+        "data": "KP : Konektivitas Jalan",
+        "id_pn": 0,
+        "id_pp": 28
+    },
+    {
+        "id": 102,
+        "data": "KP : Konektivitas Kereta Api",
+        "id_pn": 0,
+        "id_pp": 28
+    },
+    {
+        "id": 103,
+        "data": "KP : Konektivitas Laut",
+        "id_pn": 0,
+        "id_pp": 28
+    },
+    {
+        "id": 104,
+        "data": "KP : Konektivitas Udara",
+        "id_pn": 0,
+        "id_pp": 28
+    },
+    {
+        "id": 105,
+        "data": "KP : Konektivitas Darat",
+        "id_pn": 0,
+        "id_pp": 28
+    },
+    {
+        "id": 106,
+        "data": "KP : Transportasi Perkotaan",
+        "id_pn": 0,
+        "id_pp": 29
+    },
+    {
+        "id": 107,
+        "data": "KP : Infrastruktur dan Ekosistem TIK\nperkotaan",
+        "id_pn": 0,
+        "id_pp": 29
+    },
+    {
+        "id": 108,
+        "data": "KP : Penyediaan Akses Air Minum dan\nSanitasi Layak dan Aman di Perkotaan",
+        "id_pn": 0,
+        "id_pp": 29
+    },
+    {
+        "id": 109,
+        "data": "KP : Penyediaan Akses Air Minum dan\nSanitasi Layak dan Aman di Perkotaan",
+        "id_pn": 0,
+        "id_pp": 29
+    },
+    {
+        "id": 110,
+        "data": "KP : Penyediaan Akses Perumahan dan Permukiman Layak, Aman dan Terjangkau di Perkotaan",
+        "id_pn": 0,
+        "id_pp": 29
+    },
+    {
+        "id": 111,
+        "data": "KP : Keberlanjutan Penyediaan Energi dan Ketenagalistrikan",
+        "id_pn": 0,
+        "id_pp": 30
+    },
+    {
+        "id": 112,
+        "data": "KP : Akses dan Keterjangkauan Energi dan Ketenagalistrikan",
+        "id_pn": 0,
+        "id_pp": 30
+    },
+    {
+        "id": 113,
+        "data": "KP : Kecukupan Penyediaan Energi dan\nTenaga Listrik",
+        "id_pn": 0,
+        "id_pp": 30
+    },
+    {
+        "id": 114,
+        "data": "KP : Penuntasan Infrastruktur TIK",
+        "id_pn": 0,
+        "id_pp": 31
+    },
+    {
+        "id": 115,
+        "data": "KP : Pemanfaatan Infrastruktur TIK",
+        "id_pn": 0,
+        "id_pp": 31
+    },
+    {
+        "id": 116,
+        "data": "KP : Fasilitas Pendukung Transformasi\nDigital",
+        "id_pn": 0,
+        "id_pp": 31
+    },
+    {
+        "id": 117,
+        "data": "KP : Pencegahan Pencemaran dan Kerusakan Sumber Daya Alam dan Lingkungan Hidup",
+        "id_pn": 0,
+        "id_pp": 32
+    },
+    {
+        "id": 118,
+        "data": "KP : Penanggulangan Pencemaran dan Kerusakan Sumber Daya Alam dan Lingkungan Hidup",
+        "id_pn": 0,
+        "id_pp": 32
+    },
+    {
+        "id": 119,
+        "data": "KP : Pemulihan Pencemaran dan Kerusakan Sumber Daya Alam dan Lingkungan Hidup",
+        "id_pn": 0,
+        "id_pp": 32
+    },
+    {
+        "id": 120,
+        "data": "KP : Penguatan Kelembagaan dan Penegakan Hukum di Bidang Sumber Daya Alam dan Lingkungan Hidup",
+        "id_pn": 0,
+        "id_pp": 32
+    },
+    {
+        "id": 121,
+        "data": "KP : Penanggulangan Bencana",
+        "id_pn": 0,
+        "id_pp": 33
+    },
+    {
+        "id": 122,
+        "data": "KP : Peningkatan Ketahanan Iklim",
+        "id_pn": 0,
+        "id_pp": 33
+    },
+    {
+        "id": 123,
+        "data": "KP : Pembangunan Energi\nBerkelanjutan",
+        "id_pn": 0,
+        "id_pp": 34
+    },
+    {
+        "id": 124,
+        "data": "KP : Pemulihan Lahan Berkelanjutan",
+        "id_pn": 0,
+        "id_pp": 34
+    },
+    {
+        "id": 125,
+        "data": "KP : Pengelolaan Limbah",
+        "id_pn": 0,
+        "id_pp": 34
+    },
+    {
+        "id": 126,
+        "data": "KP : Pengembangan Industri Hijau",
+        "id_pn": 0,
+        "id_pp": 34
+    },
+    {
+        "id": 127,
+        "data": "KP : Rendah Karbon Pesisir dan Laut",
+        "id_pn": 0,
+        "id_pp": 34
+    },
+    {
+        "id": 128,
+        "data": "KP : Penataan Lembaga Demokrasi",
+        "id_pn": 0,
+        "id_pp": 35
+    },
+    {
+        "id": 129,
+        "data": "KP : Penguatan Kesetaraan dan\nKebebasan",
+        "id_pn": 0,
+        "id_pp": 35
+    },
+    {
+        "id": 130,
+        "data": "KP : Peningkatan Kualitas Komunikasi\nPublik",
+        "id_pn": 0,
+        "id_pp": 35
+    },
+    {
+        "id": 131,
+        "data": "KP : Penguatan Integritas NKRI dan\nPerlindungan WNI di Luar Negeri",
+        "id_pn": 0,
+        "id_pp": 36
+    },
+    {
+        "id": 132,
+        "data": "KP : Penguatan Kerjasama\nPembangunan Internasional",
+        "id_pn": 0,
+        "id_pp": 36
+    },
+    {
+        "id": 133,
+        "data": "KP : Peningkatan Citra Positif di Dunia\nInternasional",
+        "id_pn": 0,
+        "id_pp": 36
+    },
+    {
+        "id": 134,
+        "data": "KP : Peningkatan Peran Indonesia di tingkat Regional dan Global",
+        "id_pn": 0,
+        "id_pp": 36
+    },
+    {
+        "id": 135,
+        "data": "KP : Penataan Regulasi",
+        "id_pn": 0,
+        "id_pp": 37
+    },
+    {
+        "id": 136,
+        "data": "KP : Perbaikan Sistem Peradilan",
+        "id_pn": 0,
+        "id_pp": 37
+    },
+    {
+        "id": 137,
+        "data": "KP : Penguatan Sistem Anti Korupsi",
+        "id_pn": 0,
+        "id_pp": 37
+    },
+    {
+        "id": 138,
+        "data": "KP : Peningkatan Akses terhadap\nKeadilan",
+        "id_pn": 0,
+        "id_pp": 37
+    },
+    {
+        "id": 139,
+        "data": "KP : Penguatan Implementasi\nManajemen ASN",
+        "id_pn": 0,
+        "id_pp": 38
+    },
+    {
+        "id": 140,
+        "data": "KP : Transformasi pelayanan publik",
+        "id_pn": 0,
+        "id_pp": 38
+    },
+    {
+        "id": 141,
+        "data": "KP : Penataan kelembagaan berbasis prioritas pembangunan nasional",
+        "id_pn": 0,
+        "id_pp": 38
+    },
+    {
+        "id": 142,
+        "data": "KP : Reformasi Sistem Akuntabilitas\nKinerja",
+        "id_pn": 0,
+        "id_pp": 38
+    },
+    {
+        "id": 143,
+        "data": "KP : Penguatan Keamanan Dalam\nNegeri",
+        "id_pn": 0,
+        "id_pp": 39
+    },
+    {
+        "id": 144,
+        "data": "KP : Penguatan Kemampuan Pertahanan dibarengi Confidence Building Measures (CBM)",
+        "id_pn": 0,
+        "id_pp": 39
+    },
+    {
+        "id": 145,
+        "data": "KP : Penguatan Keamanan Laut",
+        "id_pn": 0,
+        "id_pp": 39
+    },
+    {
+        "id": 146,
+        "data": "KP : Penguatan Keamanan dan\nKetertiban Masyarakat",
+        "id_pn": 0,
+        "id_pp": 39
+    },
+    {
+        "id": 147,
+        "data": "KP : Penguatan Ketahanan dan\nKeamanan Siber",
+        "id_pn": 0,
+        "id_pp": 39
+    }
+]

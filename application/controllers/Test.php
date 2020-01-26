@@ -37,4 +37,20 @@ class Test extends CI_Controller {
     return view('pages.table.sdgs',['data'=>$data]);
   }
 
+
+  public function sat(){
+
+      $data=$_POST['data'];
+
+      $fp = fopen('./SAT/ENCODELINK.json', 'w');
+      fwrite($fp, json_encode($data,JSON_PRETTY_PRINT));
+      echo 'done';
+  }
+
+
+  public function link(){
+
+    return view('test.link'); 
+  }
+
 }
