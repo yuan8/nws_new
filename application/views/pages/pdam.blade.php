@@ -10,7 +10,9 @@
 						<table class="table">
 							<thead>
 								<tr>
+									<th>No</th>
 									<th>Daerah</th>
+									<th>Tahun</th>
 									<th>Nilai Kinerja Total</th>
 									<th>Nilai Aspek Keuangan</th>
 									<th>Nilai Aspek Pelayanan</th>
@@ -19,9 +21,11 @@
 								</tr>
 							</thead>
 							<tbody>
-								@foreach($data as $d)
+								@foreach($data as $k=>$d)
 									<tr>
+										<td>{{($k+1)}}</td>
 										<td>{{$d['kabkota']}}</td>
+										<td>{{$d['tahun']}}</td>
 										<td>{{$d['nilai_kinerja_total']}}</td>
 										<td>{{$d['nilai_aspek_keuangan']}}</td>
 										<td>{{$d['nilai_aspek_pelayanan']}}</td>

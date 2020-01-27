@@ -7,7 +7,9 @@
 						<table class="table">
 							<thead>
 								<tr>
+									<th>No</th>
 									<th>Daerah</th>
+									<th>Tahun</th>
 									<th>Nilai Kinerja Total</th>
 									<th>Nilai Aspek Keuangan</th>
 									<th>Nilai Aspek Pelayanan</th>
@@ -16,9 +18,11 @@
 								</tr>
 							</thead>
 							<tbody>
-								<?php $__currentLoopData = $data; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $d): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+								<?php $__currentLoopData = $data; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $k=>$d): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
 									<tr>
+										<td><?php echo e(($k+1)); ?></td>
 										<td><?php echo e($d['kabkota']); ?></td>
+										<td><?php echo e($d['tahun']); ?></td>
 										<td><?php echo e($d['nilai_kinerja_total']); ?></td>
 										<td><?php echo e($d['nilai_aspek_keuangan']); ?></td>
 										<td><?php echo e($d['nilai_aspek_pelayanan']); ?></td>

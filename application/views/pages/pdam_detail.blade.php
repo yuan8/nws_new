@@ -32,10 +32,19 @@
                     </tr>
                     <tr>
                         <th colspan="2">D. Periode laporan yang digunakan</th>
-                        <td colspan="1">{{$data['tanggal']}}</td>
                         <td colspan="1">
-                            {{{$data['tanggal']}}} </td>
-                        <td colspan="2"></td>
+                          @php
+                            $date = DateTime::createFromFormat("Y-m-d", $data['tanggal']);
+                          @endphp
+
+                        
+                        {{ "".$date->format("Y")}}</td>
+                        <td colspan="1">
+                          {{ "".$date->format("F")}}
+                          
+                             </td>
+                        <td colspan="2">
+                        </td>
                     </tr>
                     <tr>
                         <th colspan="2">D. Keterangan Umum</th>
@@ -302,9 +311,9 @@
                     <tr>
                         <td>3.8.Kapasitas produksi air yang terpasang</td>
                         <td class="text-center">
-                            2016 </td>
+                             </td>
                         <td class="text-right">
-                            672 &nbsp;
+                            {{$data['kap_prod_air_terpasang']}} &nbsp;
                             <i class="icon-info" title="Silahkan masukkan total kapasitas produksi air yang terpasang"></i>
                         </td>
                         <td>l/d</td>
@@ -313,9 +322,9 @@
                     <tr>
                         <td>3.9.Jam operasional pelayanan (rata-rata)</td>
                         <td class="text-center">
-                            2016 </td>
+                             </td>
                         <td class="text-right">
-                            24.00 &nbsp;
+                            {{$data['jam_ops']}} &nbsp;
                             <i class="icon-info" title="Silahkan masukkan rata-rata waktu pelayanan air per hari"></i>
                         </td>
                         <td>jam / hari</td>
@@ -326,7 +335,7 @@
                         <td class="text-center">
                         </td>
                         <td class="text-right">
-                            0.00 &nbsp;
+                            {{$data['total_pakai_listrik']}} &nbsp;
                             <i class="icon-info" title=""></i>
                         </td>
                         <td>kWh</td>
@@ -337,7 +346,7 @@
                         <td class="text-center">
                         </td>
                         <td class="text-right">
-                            0.00 &nbsp;
+                            {{$data['total_pakai_bbm']}} &nbsp;
                             <i class="icon-info" title=""></i>
                         </td>
                         <td>Liter</td>
@@ -350,9 +359,9 @@
                     <tr>
                         <td>4.1.Total biaya listrik (kumulatif selama periode laporan)</td>
                         <td class="text-center">
-                            2016 </td>
+                             </td>
                         <td class="text-right">
-                            9,021,464,933 &nbsp;
+                            {{$data['total_biaya_listrik']}} &nbsp;
                             <i class="icon-info" title="Silahkan masukkan total biaya listrik yang dikeluarkan selama periode laporan"></i>
                         </td>
                         <td>Rp</td>
@@ -361,9 +370,9 @@
                     <tr>
                         <td>4.2.Tarif listrik PLN untuk PDAM</td>
                         <td class="text-center">
-                            2016 </td>
+                             </td>
                         <td class="text-right">
-                            1,834 &nbsp;
+                            {{$data['tarif_listrik']}} &nbsp;
                             <i class="icon-info" title="Silahkan masukkan tarif listrik PLN yang diberlakukan untuk PDAM"></i>
                         </td>
                         <td>Rp / kWh</td>
@@ -372,9 +381,9 @@
                     <tr>
                         <td>4.3.Total biaya BBM (kumulatif selama periode laporan)</td>
                         <td class="text-center">
-                            2016 </td>
+                             </td>
                         <td class="text-right">
-                            209,611,728 &nbsp;
+                            {{$data['total_biaya_bbm']}} &nbsp;
                             <i class="icon-info" title="Silahkan masukkan total biaya BBM yang dikeluarkan selama periode laporan"></i>
                         </td>
                         <td>Rp</td>
@@ -383,9 +392,9 @@
                     <tr>
                         <td>4.4.harga BBM</td>
                         <td class="text-center">
-                            2016 </td>
+                           </td>
                         <td class="text-right">
-                            10,000 &nbsp;
+                            {{$data['harga_bbm']}} &nbsp;
                             <i class="icon-info" title="Silahkan masukkan harga solar yang diberlakukan untuk PDAM"></i>
                         </td>
                         <td>Rp/Liter</td>
@@ -394,9 +403,9 @@
                     <tr>
                         <td>4.5.Total biaya usaha tanpa penyusutan (kumulatif selama periode laporan)</td>
                         <td class="text-center">
-                            2016 </td>
+                             </td>
                         <td class="text-right">
-                            21,971,248,289 &nbsp;
+                            {{$data['total_biaya_usaha']}} &nbsp;
                             <i class="icon-info" title="Silahkan masukkan total biaya langsung (biaya operasional) tanpa depresiasi selama periode laporan"></i>
                         </td>
                         <td>Rp</td>
@@ -407,7 +416,7 @@
                         <td class="text-center">
                         </td>
                         <td class="text-right">
-                            0 &nbsp;
+                            {{$data['total_biaya_usaha_susut']}} &nbsp;
                             <i class="icon-info" title="Silahkan masukkan total biaya usaha (biaya operasional) tanpa depresiasi selama periode laporan"></i>
                         </td>
                         <td>Rp</td>
@@ -416,9 +425,9 @@
                     <tr>
                         <td>4.7.Tarif air rata-rata</td>
                         <td class="text-center">
-                            2016 </td>
+                             </td>
                         <td class="text-right">
-                            3,750 &nbsp;
+                            {{$data['pendapatan_air']}} &nbsp;
                             <i class="icon-info" title="Silahkan masukkan tarif air rata-rata"></i>
                         </td>
                         <td>Rp / m3</td>
@@ -427,9 +436,9 @@
                     <tr>
                         <td>4.8.Pendapatan air - data rekening ditagih (kumulatif selama period laporan)</td>
                         <td class="text-center">
-                            2016 </td>
+                             </td>
                         <td class="text-right">
-                            44,786,558,228 &nbsp;
+                            {{$data['penerimaan_air']}} &nbsp;
                             <i class="icon-info" title="Silahkan masukan DRD kumulatif semalam periode laporan"></i>
                         </td>
                         <td>Rp</td>
@@ -438,9 +447,9 @@
                     <tr>
                         <td>4.9.Penerimaan dari penjualan air (kumulatif selama periode laporan)</td>
                         <td class="text-center">
-                            2016 </td>
+                             </td>
                         <td class="text-right">
-                            44,786,558,228 &nbsp;
+                            &nbsp;
                             <i class="icon-info" title="Silahkan masukkan total penerimaan dari DRD kumulatif selama periode laporan"></i>
                         </td>
                         <td>Rp</td>
@@ -449,9 +458,9 @@
                     <tr>
                         <td>4.10.Pendapatan yang lain-lain (kumulatif selama periode laporan)</td>
                         <td class="text-center">
-                            2016 </td>
+                             </td>
                         <td class="text-right">
-                            5,204,188,111 &nbsp;
+                            {{$data['pendapatan_lain']}} &nbsp;
                             <i class="icon-info" title="Silahkan masukkan total pendapatan lain-laiin selama periode laporan"></i>
                         </td>
                         <td>Rp</td>
@@ -463,17 +472,17 @@
                     </tr>
                     <tr>
                         <td>5.1.Nama Pemerintah Daerah</td>
-                        <td colspan="5">KABUPATEN SUKOHARJO, JAWA TENGAH</td>
+                        <td colspan="5">{{$data['kabkota']}}</td>
                     </tr>
                     <tr>
                         <td>5.2.Apakah Pemda mempunyai RISPAM?</td>
                         <td class="text-center">
                         </td>
                         <td class="text-right">
-                            YA &nbsp;
+                            &nbsp;
                             <i class="icon-info" title="Silahkan pilih jawaban dari " dropdown "=" " menu,=" " jika=" " jawaban=" " anda=" " "tidak ",=" " langsung=" " the=" " pertanyaan=" " no=" " 5.5"=""></i>
                         </td>
-                        <td>YA / TIDAK</td>
+                        <td>{{$data['ada_rispam']}}</td>
                         <td></td>
                     </tr>
                     <tr>
@@ -481,7 +490,7 @@
                         <td class="text-center">
                         </td>
                         <td class="text-right">
-                            2014 &nbsp;
+                            {{$data['tahun_rispam']}} &nbsp;
                             <i class="icon-info" title="Silahkan masukkan tahun di mana RISPAM diterbitkan"></i>
                         </td>
                         <td>tahun</td>
@@ -492,7 +501,7 @@
                         <td class="text-center">
                         </td>
                         <td class="text-right">
-                            15 &nbsp;
+                            {{$data['masa_rispam']}} &nbsp;
                             <i class="icon-info" title="Silahkan masukkan masa berlaku RISPAM"></i>
                         </td>
                         <td>tahun</td>
@@ -503,8 +512,7 @@
                         <td class="text-center">
                         </td>
                         <td class="text-right">
-                            TIDAK &nbsp;
-                            <i class="icon-info" title="Silahkan pilih jawaban dari " dropdown "=" " menu,=" " jika=" " jawaban=" " anda=" " "tidak "=" " berikan=" " penjelasan=" " di=" " kolom=" " komentar"=""></i>
+                         {{$data['sedang_persiapan_rispam']}}
                         </td>
                         <td>YA / TIDAK</td>
                         <td></td>
@@ -514,7 +522,7 @@
                         <td class="text-center">
                         </td>
                         <td class="text-right">
-                            0 &nbsp;
+                            {{$data['tahun_rispam_terbit']}} &nbsp;
                             <i class="icon-info" title="Silahkan masukkan tahun di mana RISPAM akan diterbitkan"></i>
                         </td>
                         <td>tahun</td>
@@ -525,7 +533,7 @@
                         <td class="text-center">
                         </td>
                         <td class="text-right">
-                            0 &nbsp;
+                           {{$data['masa_rispam_terbit']}}   &nbsp;
                             <i class="icon-info" title="Silahkan masukkan masa berlaku RISPAM"></i>
                         </td>
                         <td>tahun</td>
@@ -536,7 +544,7 @@
                         <td class="text-center">
                             2029 </td>
                         <td class="text-right">
-                            3,329,641 &nbsp;
+                             {{$data['jum_pdd_proyeksi']}} &nbsp;
                             <i class="icon-info" title="Silahkan masukkan perkiraan jumlah penduduk di akhir tahun perencanaan RISPAM"></i>
                         </td>
                         <td>orang</td>
@@ -545,9 +553,9 @@
                     <tr>
                         <td>5.9.Target populasi yang akan terlayani dengan jaringan perpipaan</td>
                         <td class="text-center">
-                            2029 </td>
+                             </td>
                         <td class="text-right">
-                            3,163,159 &nbsp;
+                            {{$data['target_populasi_pipa']}} &nbsp;
                             <i class="icon-info" title="Silahkan masukkan target populasi yang akan dilayani jaringan perpipaan pada akhir tahun perencanaan RISPAM"></i>
                         </td>
                         <td>orang</td>
@@ -556,9 +564,9 @@
                     <tr>
                         <td>5.10.Target populasi yang akan terlayani dengan jaringan bukan perpipaan</td>
                         <td class="text-center">
-                            2029 </td>
+                             </td>
                         <td class="text-right">
-                            166,482 &nbsp;
+                            {{$data['target_populasi_nonpipa']}} &nbsp;
                             <i class="icon-info" title="Silahkan masukkan target populasi yang akan dilayani dengan jaringan bukan perpipaan pada akhir tahun perencanaan RISPAM"></i>
                         </td>
                         <td>orang</td>
@@ -567,9 +575,9 @@
                     <tr>
                         <td>5.11.Target cakupan pelayanan jaringan perpipaan di tahun target</td>
                         <td class="text-center">
-                            2029 </td>
+                             </td>
                         <td class="text-right">
-                            95 &nbsp;
+                            {{$data['target_cakupan_jaringan_pipa']}} &nbsp;
                             <i class="icon-info" title="Silahkan masukkan target cakupan pelayanan jaringan perpipaan di tahun target"></i>
                         </td>
                         <td>%</td>
@@ -578,9 +586,9 @@
                     <tr>
                         <td>5.12.Target cakupan pelayanan jaringan bukan perpipaan di tahun target</td>
                         <td class="text-center">
-                            2029 </td>
+                             </td>
                         <td class="text-right">
-                            5 &nbsp;
+                             {{$data['target_cakupan_jaringan_nonpipa']}} &nbsp;
                             <i class="icon-info" title="Silahkan masukkan target cakupan pelayanan jaringan bukan perpipaan di tahun target"></i>
                         </td>
                         <td>%</td>
@@ -589,9 +597,9 @@
                     <tr>
                         <td>5.13.Alokasi APBD untuk penyertaan modal PDAM</td>
                         <td class="text-center">
-                            2016 </td>
+                             </td>
                         <td class="text-right">
-                            640,323,784 &nbsp;
+                             {{$data['apbd_alokasi']}} &nbsp;
                             <i class="icon-info" title="Silahkan masukkan jumlah penyertaan modal dari APBD untuk PDAM pada tahun anggaran periode laporan"></i>
                         </td>
                         <td>Rp</td>
@@ -600,9 +608,9 @@
                     <tr>
                         <td>5.14.Alokasi DAK untuk penyediaan air minum</td>
                         <td class="text-center">
-                            2016 </td>
+                             </td>
                         <td class="text-right">
-                            640,633,000 &nbsp;
+                            {{$data['dak_alokasi']}} &nbsp;
                             <i class="icon-info" title="Silahkan masukkan jumlah DAK yang dialokasikan untuk penyediaan air minum pada tahun anggaran periode laporan"></i>
                         </td>
                         <td>Rp</td>
@@ -611,9 +619,9 @@
                     <tr>
                         <td>5.15.Alokasi APBD lainnya untuk penyediaan air minum</td>
                         <td class="text-center">
-                            2016 </td>
+                             </td>
                         <td class="text-right">
-                            2,049,887,000 &nbsp;
+                            {{$data['apbd_alokasi_lain']}} &nbsp;
                             <i class="icon-info" title="Silahkan masukkan jumplah APBD lainnya yang dialokasikan untuk pengembangan penyediaan air minum pada tahun anggaran periode laporan"></i>
                         </td>
                         <td>Rp</td>
@@ -622,9 +630,9 @@
                     <tr>
                         <td>5.16.Jumlah total APBD Pemda</td>
                         <td class="text-center">
-                            2016 </td>
+                             </td>
                         <td class="text-right">
-                            2,116,873,093,000 &nbsp;
+                            {{$data['total_apbd']}} &nbsp;
                             <i class="icon-info" title="Silahkan masukkan jumlah total APBD pada tahun anggaran periode laporan"></i>
                         </td>
                         <td>Rp</td>
@@ -633,9 +641,9 @@
                     <tr>
                         <td>5.17.Kapasitas Fiskal Pemda</td>
                         <td class="text-center">
-                            2016 </td>
+                             </td>
                         <td class="text-right">
-                            Sedang &nbsp;
+                            {{$data['kapasitas_fiskal']}} &nbsp;
                             <i class="icon-info" title="Silahkan masukkan index kapasitas fiskal PemDa pada tahun anggaran periode laporan"></i>
                         </td>
                         <td>kategori</td>
@@ -644,9 +652,9 @@
                     <tr>
                         <td>5.18.Dana investasi non - Pemerintah</td>
                         <td class="text-center">
-                            2016 </td>
+                             </td>
                         <td class="text-right">
-                            0 &nbsp;
+                            {{$data['dana_inv_non_gov']}} &nbsp;
                             <i class="icon-info" title="Silahkan masukkan dana investasi Non Pemerintah"></i>
                         </td>
                         <td>Rp</td>

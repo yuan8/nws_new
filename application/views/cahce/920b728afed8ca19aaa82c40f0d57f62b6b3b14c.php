@@ -34,7 +34,7 @@
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
             <a class="dropdown-item" href="<?php echo e(rt('pdam')); ?>">Seluruhnya</a>
             <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="<?php echo e(rt('Keuangan_nuwas')); ?>">Daerah NUWAS</a>
+            <a class="dropdown-item" href="<?php echo e(rt('pdam/nuwas')); ?>">Daerah NUWAS</a>
           </div>
         </li>
         <li class=" nav-item d-none d-sm-inline-block">
