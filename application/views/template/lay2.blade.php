@@ -79,6 +79,8 @@
 </head>
 <body class=" layout-top-nav">
       @include('component.alert')
+      @include('component.nav2')
+
 
   <div class="wrapper bg-def" >
       <div class="container-fluid" >

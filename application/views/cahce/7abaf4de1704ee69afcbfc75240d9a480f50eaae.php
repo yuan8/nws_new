@@ -79,6 +79,8 @@
 </head>
 <body class=" layout-top-nav">
       <?php echo $__env->make('component.alert', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
+      <?php echo $__env->make('component.nav2', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
+
 
   <div class="wrapper bg-def" >
       <div class="container-fluid" >
