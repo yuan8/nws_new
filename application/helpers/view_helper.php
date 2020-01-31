@@ -21,6 +21,16 @@ if(!function_exists('CIV')){
 }
 
 
+if(!function_exists('TAHUN')){
+  function TAHUN(){
+    
+    return (int) isset($_SESSION['fokus_tahun'])?$_SESSION['fokus_tahun']:2020; 
+  
+  }
+}
+
+
+
 if(!function_exists('withInput')){
   function withInput(){
       $data=[];

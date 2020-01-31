@@ -17,7 +17,7 @@
         <h1 style="margin-bottom:-5px;"><b>NUWSP</b></h1>
         <p style="font-size:14px;">National Urban Water Supply Project</p>
         <p>
-          <img src="http://localhost/nws/dist/images/logo.png" alt="" style="max-width:50%;">
+          <img src="{{rt('/dist/images/logo.png')}}" alt="" style="max-width:50%;">
         </p>
         <p style="font-size:20px; margin-bottom:0px;"><b>Direktorat Jendal</b> </p>
         <p style="font-size:20px;"><b>Bina Pembangunan Daerah</b>  </p>

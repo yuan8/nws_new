@@ -2,8 +2,7 @@
 <?php $__env->startSection('content'); ?>
 <div class="row">
 
-</div>
-<div class="col-md-12 text-dark mt-4" style="padding-top:15px;">
+<div class="col-md-8 text-dark mt-4 mb-4" style="padding-top:15px;">
     <div class="card mb-4">
         <div class="card-body">
             <table class="table table-bordered table-feedback">
@@ -670,5 +669,20 @@
     </div>
 
 </div>
+<div class="col-md-4 mt-4 mb-4">
+    <h5><b>Archive Laporan</b> </h5>
+    <hr class="text-white bg-default" style="background: #fff">
+    <?php $__currentLoopData = $archive; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $ar): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+
+       <div class="box ">
+           <div class="box-body">
+               <h5></h5>
+           </div>
+       </div>
+
+    <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
+</div>
+</div>
+
 <?php $__env->stopSection(); ?>
 <?php echo $__env->make('template.lay1', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH C:\xampp\htdocs\nws\application\views/pages/pdam_detail.blade.php ENDPATH**/ ?>

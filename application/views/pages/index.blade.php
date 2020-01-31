@@ -3,6 +3,8 @@
 
 @section('content')
 <script src="{{rt('dist/map_source/map.idn.js?v='.date('h:i'))}}" charset="utf-8"></script>
+<script src="{{rt('dist/map_p/idn_p_17.js?v='.date('h:i'))}}" charset="utf-8"></script>
+
 <div class="bg-def">
 
   <div class="row no-gutters ">
@@ -114,7 +116,7 @@ Highcharts.setOptions({
 
 Highcharts.mapChart('map-container', {
   chart: {
-      map: 'custome_idn',
+      map: 'idn_p_17',
       borderWidth: 0,
       backgroundColor:'transparent',
       borderColor:'transparent',
@@ -147,8 +149,8 @@ Highcharts.mapChart('map-container', {
       point:{
         events:{
           click:function(e){
-              window.location='{{rt('pdam')}}';
-              console.log(e);
+              // window.location='{{rt('pdam')}}';
+              console.log(this);
             }
          },
 
@@ -159,7 +161,7 @@ Highcharts.mapChart('map-container', {
     animation: {
        duration: 500
      },
-    data:  [['33','#007bff',3,2]],
+    data:  [['1402','#007bff',3,2]],
     keys: ['id_daerah', 'color','value','anggaran'],
     name: '',
     borderColor:'#d2d2d2',
@@ -170,12 +172,12 @@ Highcharts.mapChart('map-container', {
     zoomLevel:9,
     color:'red',
     tooltip: {
-        headerFormat: '{point.name}',
-        pointFormat: '<b>{point.name}</b><hr><br> {point.value} PDAM Sehat <br>  {point.anggaran} PDAM Sakit'
+        headerFormat: '{point.properties.WA}',
+        pointFormat: '<b>{point.properties.WA}</b><hr><br> {point.value} PDAM Sehat <br>  {point.anggaran} PDAM Sakit'
     },
     dataLabels: {
             enabled: true,
-              format: '{point.name}',
+              format: '{point.properties.WA}',
              color: '#fff',
              style: {
                         fontSize: 8,

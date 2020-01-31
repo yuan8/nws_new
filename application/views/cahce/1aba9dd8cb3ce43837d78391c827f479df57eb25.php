@@ -191,6 +191,15 @@
               </li>
             </ul>
           </li>
+
+          <li class="nav-item ">
+            <a href="<?php echo e(rt('admin/profile-daerah')); ?>" class="nav-link">
+              <i class="nav-icon fas fa-tachometer-alt"></i>
+              <p>
+                Profile Daerah
+              </p>
+            </a>
+          </li>
      
          
         </ul>

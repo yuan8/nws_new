@@ -52,7 +52,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 $route['default_controller'] = 'welcome';
 
 $route['test'] = 'Test';
+$route['admin/profile_daerah/'] = 'admin/profile-daerah';
 
 
 $route['404_override'] = 'Error404';
 $route['translate_uri_dashes'] = FALSE;
+

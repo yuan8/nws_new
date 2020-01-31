@@ -2,8 +2,7 @@
 @section('content')
 <div class="row">
 
-</div>
-<div class="col-md-12 text-dark mt-4" style="padding-top:15px;">
+<div class="col-md-8 text-dark mt-4 mb-4" style="padding-top:15px;">
     <div class="card mb-4">
         <div class="card-body">
             <table class="table table-bordered table-feedback">
@@ -668,4 +667,19 @@
     </div>
 
 </div>
+<div class="col-md-4 mt-4 mb-4">
+    <h5><b>Archive Laporan</b> </h5>
+    <hr class="text-white bg-default" style="background: #fff">
+    @foreach($archive as $ar)
+
+       <div class="box ">
+           <div class="box-body">
+               <h5></h5>
+           </div>
+       </div>
+
+    @endforeach
+</div>
+</div>
+
 @stop
