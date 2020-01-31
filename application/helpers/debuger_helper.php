@@ -19,8 +19,18 @@ if(!function_exists('last_query')){
 
 
 if(!function_exists('query')){
-  function query($t,$data){
-    $data=($t->db->query($data));
+  function query($t,$data,$db=null){
+
+    if($db!=null){
+       $k=$t->load->database($db,TRUE);
+       $data=($k->query($data));
+
+
+    }else{
+       $data=($t->db->query($data));
+
+    }
+
     $data=json_decode(json_encode($data->result()), True);
     return $data;
   }

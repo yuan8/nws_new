@@ -4,7 +4,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 class Data extends CI_Controller {
 
 
+	 public function __construct()
+	    {
+	            parent::__construct();
 
+	    }
 
 	public function index(){
 
@@ -27,7 +31,7 @@ class Data extends CI_Controller {
 			 as jumlah_kegiatan
 
 		from program as p where p.tahun=".$tahun;
-		$rekap_program_kegiatan=query($this,$pie)[0];
+		$rekap_program_kegiatan=query($this,$pie,'con2')[0];
 
 
 		$pendukung="select 
@@ -36,7 +40,7 @@ class Data extends CI_Controller {
 		SUM(CASE WHEN k.id_sdgs is not null THEN 1 ELSE 0 END ) as SDGS,
 		SUM(CASE WHEN k.id_spm is not null THEN 1 ELSE 0 END ) as SPM 
 		from kegiatan as k where k.tahun=".$tahun;
-		$rekap_program_kegiatan_pendukung=query($this,$pendukung)[0];
+		$rekap_program_kegiatan_pendukung=query($this,$pendukung,'con2')[0];
 
 		$query="
 		select 
@@ -55,7 +59,7 @@ class Data extends CI_Controller {
 		";
 
 
-		$data=query($this,$query);
+		$data=query($this,$query,'con2');
 
 		echo view('helper.chart',[
 			'data'=>$data,
@@ -75,7 +79,7 @@ class Data extends CI_Controller {
 
 		$title="select nama from master_daerah where id='".$daerah."'";
 
-		$title=query($this,$title)[0]['nama'];
+		$title=query($this,$title,'con2')[0]['nama'];
 
 		$pie="select count(DISTINCT(p.kode_program)) as jumlah_program ,
 
@@ -87,7 +91,7 @@ class Data extends CI_Controller {
 			 as jumlah_kegiatan
 
 		from program as p where p.tahun=".$tahun." and p.kode_daerah like '".$daerah."' || '%'";
-		$rekap_program_kegiatan=query($this,$pie)[0];
+		$rekap_program_kegiatan=query($this,$pie,'con2')[0];
 
 
 		$pendukung="select 
@@ -97,7 +101,7 @@ class Data extends CI_Controller {
 		SUM(CASE WHEN k.id_spm is not null THEN 1 ELSE 0 END ) as SPM 
 		from kegiatan as k where k.tahun=".$tahun." and k.kode_daerah  like '".$daerah."' || '%'";
 
-		$rekap_program_kegiatan_pendukung=query($this,$pendukung)[0];
+		$rekap_program_kegiatan_pendukung=query($this,$pendukung,'con2')[0];
 
 
 
@@ -120,7 +124,7 @@ class Data extends CI_Controller {
 		";
 
 
-		$data=query($this,$query);
+		$data=query($this,$query,'con2');
 
 		echo view('helper.chart',[
 			'data'=>$data,
@@ -141,7 +145,7 @@ class Data extends CI_Controller {
 
 		$title="select CONCAT('PERURUSAN ',nama) as nama from master_daerah where id='".$daerah."'";
 
-		$title=query($this,$title)[0]['nama'];
+		$title=query($this,$title,'con2')[0]['nama'];
 
 
 		$pie="select count(DISTINCT(p.kode_program)) as jumlah_program ,
@@ -154,7 +158,7 @@ class Data extends CI_Controller {
 			 as jumlah_kegiatan
 
 		from program as p where p.tahun=".$tahun." and p.kode_daerah ='".$daerah."'";
-		$rekap_program_kegiatan=query($this,$pie)[0];
+		$rekap_program_kegiatan=query($this,$pie,'con2')[0];
 
 
 		$pendukung="select 
@@ -164,7 +168,7 @@ class Data extends CI_Controller {
 		SUM(CASE WHEN k.id_spm is not null THEN 1 ELSE 0 END ) as SPM 
 		from kegiatan as k where k.tahun=".$tahun." and k.kode_daerah ='".$daerah."'";
 
-		$rekap_program_kegiatan_pendukung=query($this,$pendukung)[0];
+		$rekap_program_kegiatan_pendukung=query($this,$pendukung,'con2')[0];
 
 
 
@@ -188,7 +192,7 @@ class Data extends CI_Controller {
 		";
 
 
-		$data=query($this,$query);
+		$data=query($this,$query,'con2');
 
 		echo view('helper.chart',[
 			'data'=>$data,
@@ -210,7 +214,7 @@ class Data extends CI_Controller {
 
 		$title="select UPPER(CONCAT('PERSUBURUSAN ',nama)) as nama from master_urusan where id='".$urusan."'";
 
-		$title=query($this,$title)[0]['nama'];
+		$title=query($this,$title,'con2')[0]['nama'];
 
 
 		$pie="select count(DISTINCT(p.kode_program)) as jumlah_program ,
@@ -225,7 +229,7 @@ class Data extends CI_Controller {
 		from program as p where p.tahun=".$tahun." and p.kode_daerah ='".$daerah."' 
 		and p.id_urusan=".$urusan.""
 		 ;
-		$rekap_program_kegiatan=query($this,$pie)[0];
+		$rekap_program_kegiatan=query($this,$pie,'con2')[0];
 
 
 		$pendukung="select 
@@ -235,7 +239,7 @@ class Data extends CI_Controller {
 		SUM(CASE WHEN k.id_spm is not null THEN 1 ELSE 0 END ) as SPM 
 		from kegiatan as k where k.tahun=".$tahun." and k.kode_daerah ='".$daerah."' and k.id_urusan=".$urusan;
 
-		$rekap_program_kegiatan_pendukung=query($this,$pendukung)[0];
+		$rekap_program_kegiatan_pendukung=query($this,$pendukung,'con2')[0];
 
 
 		$query="
@@ -256,7 +260,7 @@ class Data extends CI_Controller {
 
 		// echo $query;
 
-		$data=query($this,$query);
+		$data=query($this,$query,'con2');
 
 		echo view('helper.chart',[
 			'data'=>$data,

@@ -6,19 +6,19 @@ class Data extends CI_Controller {
 	public function Detail($kode_daerah=null,$id_urusan=null,$id_sub_urusan=null){
 
 		$provinsi="select * from master_daerah where id='".$kode_daerah."'";
-		$provinsi=query($this,$provinsi)[0];
+		$provinsi=query($this,$provinsi,'con2')[0];
 
 		$urusan=null;
 		$suburusan=null;
 		if($id_urusan!=null){
 			$urusan="select * from master_urusan where id=".$id_urusan."";
-			$urusan=query($this,$urusan)[0];
+			$urusan=query($this,$urusan,'con2')[0];
 			$urusan=$urusan['nama'];
 		}
 
 		if($id_sub_urusan!=null){
 			$suburusan="select * from master_sub_urusan where id=".$id_sub_urusan."";
-			$suburusan=query($this,$suburusan)[0];
+			$suburusan=query($this,$suburusan,'con2')[0];
 			$suburusan=$suburusan['nama'];
 
 		}
@@ -75,7 +75,7 @@ class Data extends CI_Controller {
 		;
 
 
-		$data=query($this,$query);
+		$data=query($this,$query,'con2');
 
 
 		return view('helper.table_daerah',['data'=>$data,'nama'=>$nama]);
@@ -85,7 +85,7 @@ class Data extends CI_Controller {
 	public function detail_provinsi($kode_daerah){
 
 		$provinsi="select * from master_daerah where id='".$kode_daerah."'";
-		$provinsi=query($this,$provinsi)[0];
+		$provinsi=query($this,$provinsi,'con2')[0];
 
 
 
@@ -131,7 +131,7 @@ class Data extends CI_Controller {
 		;
 
 
-		$data=query($this,$query);
+		$data=query($this,$query,'con2');
 
 
 		return view('helper.table',['data'=>$data,'provinsi'=>$provinsi]);
@@ -145,19 +145,19 @@ class Data extends CI_Controller {
 			$tahun=TAHUN();
 
 			$provinsi="select * from master_daerah where id='".$kode_daerah."'";
-			$provinsi=query($this,$provinsi)[0];
+			$provinsi=query($this,$provinsi,'con2')[0];
 
 			$urusan=null;
 			$suburusan=null;
 			if($id_urusan!=null){
 				$urusan="select * from master_urusan where id=".$id_urusan."";
-				$urusan=query($this,$urusan)[0];
+				$urusan=query($this,$urusan,'con2')[0];
 				$urusan=$urusan['nama'];
 			}
 
 			if($id_sub_urusan!=null){
 				$suburusan="select * from master_sub_urusan where id=".$id_sub_urusan."";
-				$suburusan=query($this,$suburusan)[0];
+				$suburusan=query($this,$suburusan,'con2')[0];
 				$suburusan=$suburusan['nama'];
 
 			}
@@ -168,7 +168,7 @@ class Data extends CI_Controller {
 
 
 			$program='select * from program where id ='.$_GET['id_program'];
-			$program=query($this,$program)[0];
+			$program=query($this,$program,'con2')[0];
 
 
 
@@ -205,7 +205,7 @@ class Data extends CI_Controller {
 			;
 
 
-		$data=query($this,$query);
+		$data=query($this,$query,'con2');
 
 		return view('helper.table_daerah_kegiatan',['data'=>$data,'program'=>$program,'nama'=>$nama]);
 	}
