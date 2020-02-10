@@ -7,46 +7,45 @@
   <!-- Tell the browser to be responsive to screen width -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- Font Awesome -->
-  <link rel="stylesheet" href="{{base_url('dist/plugins/fontawesome-free/css/all.min.css')}}">
+  <link rel="stylesheet" href="{{rt('dist/plugins/fontawesome-free/css/all.min.css')}}">
   <!-- Ionicons -->
   <link rel="stylesheet" href="{{rt('dist/css/ionicon.css')}}">
   <!-- Tempusdominus Bbootstrap 4 -->
-  <script src="{{base_url('dist/plugins/jquery/jquery.min.js')}}"></script>
-  <script src="{{rt('dist/map_source/hi.js')}}" charset="utf-8"></script>
+  <script src="{{rt('L_MAP/asset/jq.js')}}"></script>
 
 
- <!-- <script src="https://code.highcharts.com/maps/highmaps.js"></script> -->
-<script src="https://code.highcharts.com/modules/exporting.js"></script>
-<script src="https://code.highcharts.com/modules/offline-exporting.js"></script>
-  <link rel="stylesheet" href="{{base_url('dist/plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css')}}">
+
+  <link rel="stylesheet" href="{{rt('dist/plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css')}}">
   <!-- iCheck -->
-  <link rel="stylesheet" href="{{base_url('dist/plugins/icheck-bootstrap/icheck-bootstrap.min.css')}}">
+  <link rel="stylesheet" href="{{rt('dist/plugins/icheck-bootstrap/icheck-bootstrap.min.css')}}">
   <!-- JQVMap -->
-  <!-- <link rel="stylesheet" href="{{base_url('dist/plugins/jqvmap/jqvmap.min.css')}}"> -->
   <!-- Theme style -->
-  <link rel="stylesheet" href="{{base_url('dist/css/adminlte.min.css')}}">
+  <link rel="stylesheet" href="{{rt('dist/css/adminlte.min.css')}}">
   <!-- overlayScrollbars -->
-  <link rel="stylesheet" href="{{base_url('dist/plugins/overlayScrollbars/css/OverlayScrollbars.min.css')}}">
+  <link rel="stylesheet" href="{{rt('dist/plugins/overlayScrollbars/css/OverlayScrollbars.min.css')}}">
   <!-- Daterange picker -->
-  <link rel="stylesheet" href="{{base_url('dist/plugins/daterangepicker/daterangepicker.css')}}">
+  <link rel="stylesheet" href="{{rt('dist/plugins/daterangepicker/daterangepicker.css')}}">
   <!-- summernote -->
-  <link rel="stylesheet" href="{{base_url('dist/plugins/summernote/summernote-bs4.css')}}">
-  <!-- <script src="{{rt('dist/fs/highcharts.js')}}" charset="utf-8"></script> -->
+  <link rel="stylesheet" href="{{rt('dist/plugins/summernote/summernote-bs4.css')}}">
+  <link rel="stylesheet" href="{{rt('dist/css/animated.css')}}">
+
 
   <!-- jQuery UI 1.11.4 -->
-  <script src="{{base_url('dist/plugins/jquery-ui/jquery-ui.min.js')}}"></script>
- <!-- <script src="{{rt('dist/fs/highcharts-3d.js')}}" charset="utf-8"></script> -->
- <!-- <script src="{{rt('dist/fs/modules/exporting.js')}}" charset="utf-8"></script> -->
- <!-- <script src="{{rt('dist/fs//modules/export-data.js')}}" charset="utf-8"></script> -->
+  <script src="{{rt('dist/plugins/jquery-ui/jquery-ui.min.js')}}"></script>
+
  <script src="{{rt('dist/map_source/treer9.js')}}" charset="utf-8"></script>
- <link rel="stylesheet" href="{{rt('dist/css/custome.css?v='.date('h:i'))}}">
- <script src="{{base_url('dist/js/adminlte.js')}}"></script>
+ <link rel="stylesheet" href="{{rt('dist/css/custome.css?v='.date('h:i.u'))}}">
+ <script src="{{rt('dist/js/adminlte.js')}}"></script>
 
 
  <script src="{{rt('dist/vendor/toas/toas.js')}}"></script>
-<link rel="stylesheet" type="text/css" href="{{rt('dist/vendor/toas/toas.css')}}">
+  <link rel="stylesheet" type="text/css" href="{{rt('dist/vendor/toas/toas.css')}}">
 
-
+  <!-- map -->
+  <script src="{{rt('L_MAP/asset/proj4.js')}}"></script>
+  <script src="{{rt('dist/map_source/hi.js')}}"></script>
+<script type="text/javascript" src="{{rt('dist/js/datatable.js')}}"></script>
+<link rel="stylesheet" type="text/css" href="{{rt('dist/css/datatable.css')}}">
 
 
 
@@ -77,11 +76,11 @@
   <!-- Google Font: Source Sans Pro -->
   <!-- <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet"> -->
 </head>
-<body class=" layout-top-nav">
+<body class=" layout-top-nav ">
       @include('component.nav')
       @include('component.alert')
 
-  <div class="wrapper bg-def" >
+  <div class="wrapper bg-def animated fadeInDown" >
       <div class="container-fluid" >
         @yield('content')
       </div>
@@ -95,31 +94,32 @@
   $.widget.bridge('uibutton', $.ui.button)
 </script>
 <!-- Bootstrap 4 -->
-<script src="{{base_url('dist/plugins/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
+<script src="{{rt('dist/plugins/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
 <!-- ChartJS -->
-<script src="{{base_url('dist/plugins/chart.js/Chart.min.js')}}"></script>
+<script src="{{rt('dist/plugins/chart.js/Chart.min.js')}}"></script>
 <!-- Sparkline -->
-<script src="{{base_url('dist/plugins/sparklines/sparkline.js')}}"></script>
+<script src="{{rt('dist/plugins/sparklines/sparkline.js')}}"></script>
 <!-- JQVMap -->
-<!-- <script src="{{base_url('dist/plugins/jqvmap/jquery.vmap.min.js')}}"></script> -->
-<!-- <script src="{{base_url('dist/plugins/jqvmap/maps/jquery.vmap.usa.js')}}"></script> -->
+<!-- <script src="{{rt('dist/plugins/jqvmap/jquery.vmap.min.js')}}"></script> -->
+<!-- <script src="{{rt('dist/plugins/jqvmap/maps/jquery.vmap.usa.js')}}"></script> -->
 <!-- jQuery Knob Chart -->
-<script src="{{base_url('dist/plugins/jquery-knob/jquery.knob.min.js')}}"></script>
+<script src="{{rt('dist/plugins/jquery-knob/jquery.knob.min.js')}}"></script>
 <!-- daterangepicker -->
-<script src="{{base_url('dist/plugins/moment/moment.min.js')}}"></script>
-<script src="{{base_url('dist/plugins/daterangepicker/daterangepicker.js')}}"></script>
+<script src="{{rt('dist/plugins/moment/moment.min.js')}}"></script>
+<script src="{{rt('dist/plugins/daterangepicker/daterangepicker.js')}}"></script>
 <!-- Tempusdominus Bootstrap 4 -->
-<script src="{{base_url('dist/plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js')}}"></script>
+<script src="{{rt('dist/plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js')}}"></script>
 <!-- Summernote -->
-<script src="{{base_url('dist/plugins/summernote/summernote-bs4.min.js')}}"></script>
+<script src="{{rt('dist/plugins/summernote/summernote-bs4.min.js')}}"></script>
 <!-- overlayScrollbars -->
-<script src="{{base_url('dist/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js')}}"></script>
+<script src="{{rt('dist/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js')}}"></script>
 <!-- AdminLTE App -->
+
 
 @yield('script')
 
 <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
-<!-- <script src="{{base_url('dist/js/pages/dashboard.js')}}"></script> -->
+<!-- <script src="{{rt('dist/js/pages/dashboard.js')}}"></script> -->
 <!-- AdminLTE for demo purposes -->
 
 <style media="screen">
@@ -290,6 +290,24 @@ function getDetailKegiatan(dm){
   window.location=url;
 
 }
+
+
+setTimeout(function(){
+
+$('.fixed-top').css( {
+    'position': 'fixed',
+    'top': 0,
+    'right': 0,
+    'left': 0,
+    'z-index': 1030,
+});
+
+$('body').css('margin-top',0);
+$(window).css('overflow-x','scroll');
+
+
+
+},500);
 
 </script>
 </html>

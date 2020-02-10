@@ -2,7 +2,7 @@
 
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class DataPerUrusan extends CI_Controller {
+class Dataperurusan extends CI_Controller {
 
 	public function Detail($id_urusan=null,$id_sub_urusan=null){
 

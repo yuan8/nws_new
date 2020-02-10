@@ -34,7 +34,6 @@ class Login extends CI_Controller{
 				'name'=>$cek->name,
 				'email'=>$cek->email,
 				'time_login'=>date('Y-m-d h:i'),
-
 				);
 
  

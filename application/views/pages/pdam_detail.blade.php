@@ -2,7 +2,7 @@
 @section('content')
 <div class="row">
 
-<div class="col-md-8 text-dark mt-4 mb-4" style="padding-top:15px;">
+<div class="col-md-7 text-dark mt-4 mb-4" style="padding-top:15px;">
     <div class="card mb-4">
         <div class="card-body">
             <table class="table table-bordered table-feedback">
@@ -667,18 +667,46 @@
     </div>
 
 </div>
-<div class="col-md-4 mt-4 mb-4">
+<div class="col-md-5 mt-4 mb-4">
     <h5><b>Archive Laporan</b> </h5>
     <hr class="text-white bg-default" style="background: #fff">
-    @foreach($archive as $ar)
+   <div class="card">
+       <div class="card-body text-dark">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Periode</th>
+                        <th>Nilai Kinerja Total</th>
+                        <th>Nilai Aspek Keuangan</th>
+                        <th>Nilai Aspek Pelayanan</th>
+                        <th>Nilai Aspek Oprasional</th>
+                        <th>Nilai Aspek SDM</th>
 
-       <div class="box ">
-           <div class="box-body">
-               <h5></h5>
-           </div>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach($archive as $ar)
+                   <tr>
+                       <td>{{$ar['tahun']}}</td>
+                       <td>{{$ar['nilai_kinerja_total']}}</td>
+                       <td>{{$ar['nilai_aspek_keuangan']}}</td>
+                       <td>{{$ar['nilai_aspek_pelayanan']}}</td>
+                       <td>{{$ar['nilai_aspek_operasional']}}</td>
+                       <td>{{$ar['nilai_aspek_sdm']}}</td>
+                   </tr>
+                   <tr class="bg bg-primary">
+                        <td colspan="5">{{$ar['kabkota'].' ('.$ar['tahun'].')'}}</td>
+                        <td>
+                            <a href="{{rt('pdam/detail/'.$ar['id'])}}" class="btn btn-warning">
+                                <i class="fa fa-eye"></i>
+                            </a>
+                        </td>
+                    </tr>
+                @endforeach
+                </tbody>
+            </table>
        </div>
-
-    @endforeach
+   </div>
 </div>
 </div>
 

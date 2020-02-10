@@ -1,0 +1,26 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2020-02-05 09:33:29 --> Severity: Warning --> pg_query(): Query failed: ERROR:  relation &quot;anggaran_kegiatan_perdaerah&quot; does not exist
+LINE 1: select * from anggaran_kegiatan_perdaerah where kode_daerah=...
+                      ^ C:\xampp\htdocs\nws\system\database\drivers\postgre\postgre_driver.php 242
+ERROR - 2020-02-05 09:33:29 --> Query error: ERROR:  relation "anggaran_kegiatan_perdaerah" does not exist
+LINE 1: select * from anggaran_kegiatan_perdaerah where kode_daerah=...
+                      ^ - Invalid query: select * from anggaran_kegiatan_perdaerah where kode_daerah='32' and tahun =2020
+ERROR - 2020-02-05 09:41:48 --> Severity: Warning --> pg_query(): Query failed: ERROR:  relation &quot;anggaran_kegiatan_perdaerah&quot; does not exist
+LINE 1: select * from anggaran_kegiatan_perdaerah where kode_daerah=...
+                      ^ C:\xampp\htdocs\nws\system\database\drivers\postgre\postgre_driver.php 242
+ERROR - 2020-02-05 09:41:48 --> Query error: ERROR:  relation "anggaran_kegiatan_perdaerah" does not exist
+LINE 1: select * from anggaran_kegiatan_perdaerah where kode_daerah=...
+                      ^ - Invalid query: select * from anggaran_kegiatan_perdaerah where kode_daerah='32' and tahun =2020
+ERROR - 2020-02-05 09:43:31 --> Severity: Warning --> pg_query(): Query failed: ERROR:  relation &quot;anggaran_kegiatan_perdaerah&quot; does not exist
+LINE 1: select * from anggaran_kegiatan_perdaerah where kode_daerah=...
+                      ^ C:\xampp\htdocs\nws\system\database\drivers\postgre\postgre_driver.php 242
+ERROR - 2020-02-05 09:43:31 --> Query error: ERROR:  relation "anggaran_kegiatan_perdaerah" does not exist
+LINE 1: select * from anggaran_kegiatan_perdaerah where kode_daerah=...
+                      ^ - Invalid query: select * from anggaran_kegiatan_perdaerah where kode_daerah='32' and tahun =2020
+ERROR - 2020-02-05 09:43:41 --> Severity: Warning --> pg_query(): Query failed: ERROR:  relation &quot;anggaran_kegiatan_perdaerah&quot; does not exist
+LINE 1: select * from anggaran_kegiatan_perdaerah where kode_daerah=...
+                      ^ C:\xampp\htdocs\nws\system\database\drivers\postgre\postgre_driver.php 242
+ERROR - 2020-02-05 09:43:41 --> Query error: ERROR:  relation "anggaran_kegiatan_perdaerah" does not exist
+LINE 1: select * from anggaran_kegiatan_perdaerah where kode_daerah=...
+                      ^ - Invalid query: select * from anggaran_kegiatan_perdaerah where kode_daerah='32' and tahun =2020

@@ -39,7 +39,7 @@
  <!-- <script src="{{rt('dist/fs/modules/exporting.js')}}" charset="utf-8"></script> -->
  <!-- <script src="{{rt('dist/fs//modules/export-data.js')}}" charset="utf-8"></script> -->
  <script src="{{rt('dist/map_source/treer9.js')}}" charset="utf-8"></script>
- <link rel="stylesheet" href="{{rt('dist/css/custome.css?v='.date('h:i'))}}">
+ <!-- <link rel="stylesheet" href="{{rt('dist/css/custome.css?v='.date('h:i'))}}"> -->
  <script src="{{base_url('dist/js/adminlte.js')}}"></script>
 
 
@@ -162,19 +162,20 @@
         <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
           <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
+          @if($_SESSION['role']==3)
           <li class="nav-item has-treeview">
             <a href="#" class="nav-link">
-              <i class="nav-icon fas fa-tachometer-alt"></i>
+              <i class="nav-icon fas fa-file"></i>
               <p>
-                Dashboard
+                Upload File
                 <i class="right fas fa-angle-left"></i>
               </p>
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="../../index.html" class="nav-link">
+                <a href="{{rt('dash/file/rpjmd')}}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Dashboard v1</p>
+                  <p>RPJMD</p>
                 </a>
               </li>
               <li class="nav-item">
@@ -192,6 +193,7 @@
             </ul>
           </li>
 
+          @endif
           <li class="nav-item ">
             <a href="{{rt('admin/profile-daerah')}}" class="nav-link">
               <i class="nav-icon fas fa-tachometer-alt"></i>

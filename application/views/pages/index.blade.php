@@ -2,8 +2,7 @@
 @extends('template.lay1')
 
 @section('content')
-<script src="{{rt('dist/map_source/map.idn.js?v='.date('h:i'))}}" charset="utf-8"></script>
-<script src="{{rt('dist/map_p/idn_p_17.js?v='.date('h:i'))}}" charset="utf-8"></script>
+<script src="{{rt('L_MAP/idn.js')}}" charset="utf-8"></script>
 
 <div class="bg-def">
 
@@ -73,7 +72,7 @@
   </div>
 
   <div class="row" >
-    <div class="col-md-12">
+    <div class="col-md-12 animated fadeInUp" id="content-map-canvas" style="background-image: url('{{rt('dist/images/back_map.jpg')}}'); ">
       <div class="chart" id="map-container" style="max-width:calc(100vw - 20px);">
       </div>
     </div>
@@ -82,6 +81,31 @@
 </div>
 
   <style media="screen">
+      div#content-map-canvas{
+        margin-top: 40px;
+      }
+
+  div#content-map-canvas:before
+/*  div#content-map-canvas:after*/ {
+   content: "Jumlah Anggaran Total Per Provisi";
+   margin-top: 10px;
+   text-align: center;
+   position: absolute;
+   left: 0; right: 0;
+   bottom: 100%;
+   font-weight: bold;
+   border-bottom: 25px solid #f1f1f1;
+   border-left: 25px solid transparent;
+   border-right: 25px solid transparent;
+  }
+/*
+  div#content-map-canvas:after {
+   bottom: auto;
+   top: 100%;
+   border-bottom: none;
+   border-top: 20px solid #f1f1f1;
+  }*/
+
   #map-container{
     /* min-height: 35vw; */
   }
@@ -116,86 +140,152 @@ Highcharts.setOptions({
 
 Highcharts.mapChart('map-container', {
   chart: {
-      map: 'idn_p_17',
+      map: 'idn',
       borderWidth: 0,
       backgroundColor:'transparent',
       borderColor:'transparent',
-
-  },
-  title: {
-      text: 'Kategori PDAM Daerah Khusus NUWAS (12 Daerah)',
-      style:{
-        color:'#fff'
+      events:{
+        render:function(){
+          $('path').each(function(key,value){
+            if($(value).attr('fill')=='rgb(NaN,NaN,NaN)'){
+              $(value).attr('fill','#fff');
+            }
+          });
+          return true;
+        }
       }
 
   },
+  title: {
+      text: '',
+      style:{
+        // color:'#fff'
+      }
+
+  },
+  colors:['#fff'],
   subtitle: {
       text: 'BANGDA KEMENDAGRI (2020)',
       style:{
-        color:'#fff'
+        // color:'#fff'
       }
   },
   legend: {
       enabled: false
   },
-  // mapNavigation: {
-  //      enabled: true
-  //    },
+  mapNavigation: {
+       enabled: true
+     },
+    colorAxis: {
+              min: {{$min_anggran}},
+              max:{{$max_anggran}},
+              type: 'logarithmic',
+              minColor: '#CA4626',
+              maxColor: '#3ACA26'
+              
+            
+            
+      },
+      legend: {
+            layout: 'horizontal',
+            borderWidth: 0,
+            backgroundColor: 'rgba(255,255,255,0.85)',
+            floating: true,
+            verticalAlign: 'top',
+            y: 25
+        },
+      mapNavigation: {
+            enabled: true,
+            buttonOptions: {
+                verticalAlign: 'bottom'
+            }
+        },
+
   plotOptions: {
     map: {
-      color:'green'
+      color:'green',
+      states:{
+        hover:function(){
+           $('path').each(function(key,value){
+            if($(value).attr('fill')=='rgb(NaN,NaN,NaN)'){
+              $(value).attr('fill','#fff');
+            }
+          });
+          return true;
+
+        }
+      }
     },
     series:{
       point:{
+        color:'#fff',
         events:{
           click:function(e){
-              // window.location='{{rt('pdam')}}';
-              console.log(this);
+            $('path').each(function(key,value){
+              if($(value).attr('fill')=='rgb(NaN,NaN,NaN)'){
+                $(value).attr('fill','#fff');
+              }
+            });
+            
+            var url='{{rt('program-kegiatan/per-daerah/data_rkpd/index/')}}'+this.options.id;
+            $('#content-map-canvas').addClass('animated fadeOutLeft');
+              setTimeout(function(){
+                window.location=(url);
+              },1000);
             }
          },
 
+      },
+      states:{
+        hover:function(){
+           $('path').each(function(key,value){
+            if($(value).attr('fill')=='rgb(NaN,NaN,NaN)'){
+              $(value).attr('fill','#fff');
+            }
+          });
+          return true;
+
+        }
       }
     }
   },
   series: [{
+    type:'map',
     animation: {
        duration: 500
      },
-    data:  [['1402','#007bff',3,2]],
-    keys: ['id_daerah', 'color','value','anggaran'],
-    name: '',
-    borderColor:'#d2d2d2',
-    borderWidth:1,
-    opacity:1,
-
-    joinBy: 'id_daerah',
-    zoomLevel:9,
+    data:  <?php echo json_encode($anggaran);  ?>,
+    keys: ['id', 'value'],
+    name: 'aa',
     color:'red',
+    borderWidth:1,
+    color:'#fff',
+    opacity:1,
+    joinBy: 'id',
+
     tooltip: {
-        headerFormat: '{point.properties.WA}',
-        pointFormat: '<b>{point.properties.WA}</b><hr><br> {point.value} PDAM Sehat <br>  {point.anggaran} PDAM Sakit'
+        headerFormat: '{point.properties.name}',
+        pointFormat: '<b>{point.properties.name}</b><hr><br> Rp. {point.value}  '
     },
     dataLabels: {
             enabled: true,
-              format: '{point.properties.WA}',
-             color: '#fff',
+              format: '({point.index}) {point.properties.name}',
+               color: '#fff',
              style: {
                         fontSize: 8,
                     },
-        },
+    },
     states: {
-        // backgroundColor:'red',
-        hover: {
+        hover:{
             color: '#BADA55'
         }
     }
-}
+  }
 ]
 
-
-
-
 });
+
+
 
 
 

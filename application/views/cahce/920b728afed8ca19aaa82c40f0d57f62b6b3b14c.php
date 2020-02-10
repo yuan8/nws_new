@@ -64,7 +64,7 @@
       <ul class="navbar-nav ml-auto">
         <li class="  nav-item d-none d-sm-inline-block dropdown">
           <a href="javascript:void(0)"  data-toggle="dropdown" class="nav-link text-white  dropdown-toggle"><i class="fas fa-user-circle"></i> <?php echo e(auth('name')); ?></a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <div class="dropdown-menu user-menu" aria-labelledby="navbarDropdown">
             <a class="dropdown-item" href="<?php echo e(rt('admin')); ?>"><i class="fas fa-tachometer-alt"></i> Dashboard Admin</a>
             <div class="dropdown-divider"></div>
 

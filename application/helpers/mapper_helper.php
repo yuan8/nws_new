@@ -105,12 +105,50 @@ if(!function_exists('return_json')){
 
 
 if(!function_exists('request')){
-  function request($data){
-    if((isset($_GET[$data])) OR (isset($_POST[$data]))){
-        return isset($_GET[$data])?$_GET[$data]:$_POST[$data];
-    }else{
+  function request($data=null){
+    if(isset($data)){
+      if((isset($_GET[$data])) OR (isset($_POST[$data]))){
+          if(isset($_GET[$data])){
+            return $_GET[$data];
+          }else{
+            if(isset($_FILES[$data])){
+              return $_FILES[$data];
+            }else{
+              return $_POST[$data];
+            }
+          }
 
-      return '';
+          // return isset($_GET[$data])?$_GET[$data]:$_POST[$data];
+      }else{
+
+        return '';
+      }
+     }else{
+
+        if(count($_GET)>0){
+          return $_GET;
+        }else{
+          $data_array=[];
+          foreach ($_POST as $data => $value) {
+               if(isset($_FILES[$data])){
+                  $data_array[$data]= $_FILES[$data];
+                }else{
+                  $data_array[$data]=$value;
+                }
+          }
+
+          foreach ($_FILES as $data => $value) {
+               if(isset($_FILES[$data])){
+                  $data_array[$data]= $_FILES[$data];
+                }else{
+                  $data_array[$data]=$value;
+                }
+          }
+
+          return $data_array;
+        }
+
+        
     }
   }
 }

@@ -7,26 +7,13 @@ class Dashboard extends CI_Controller {
 	  //       parent::__construct();
 	  //       auth();
 	  //   }
-	/**
-	 * Index Page for this controller.
-	 *
-	 * Maps to the following URL
-	 * 		http://example.com/index.php/welcome
-	 *	- or -
-	 * 		http://example.com/index.php/welcome/index
-	 *	- or -
-	 * Since this controller is set as the default controller in
-	 * config/routes.php, it's displayed at http://example.com/
-	 *
-	 * So any other public methods not prefixed with an underscore will
-	 * map to /index.php/welcome/<method_name>
-	 * @see https://codeigniter.com/user_guide/general/urls.html
-	 */
+
 	public function index()
 	{
 		$tahun=2020;
 
-		$query='select count(*) jumlah_kegiatan, sum(anggaran) as jumlah_anggaran from program_kegiatan_sipd2 where tag_air_minum = true and  tahun='.$tahun;
+		$query='select count(*) jumlah_kegiatan, sum(anggaran) as jumlah_anggaran from kegiatan where  tahun='.$tahun;
+
 		$data=query($this,$query);
 		if(count($data)>0){
 			$data=$data[0];
@@ -34,16 +21,33 @@ class Dashboard extends CI_Controller {
 
 		$data_return=[];
 
-		$query='select count(*) jumlah_pdam from data_sat_nuwas where tahun='.$tahun;
+		$query='select count(*) jumlah_pdam from sat where period_tahun='.$tahun;
 
 		$data2=query($this,$query);
 		if(count($data2)>0){
 			$data2=$data2[0];
 		}
+		$query="select  d.id,(select CASE WHEN sum(k.anggaran) > 0 THEN sum(k.anggaran) ELSE 0 END from kegiatan as k where k.kode_daerah ilike  d.id || '%' and k.tahun = ".$tahun.")::numeric as value from master_daerah as d where d.kode_daerah_parent is null order by value DESC";
+		$data5=query($this,$query);
+		foreach ($data5 as $key => $value) {
+			$data5[$key]=[$value['id'],$value['value']];
+		}
+
+		$max=$data5[0][1];
+		$min=$data5[0][1];
+
+		array_walk($data5,function($value) use(&$min) {
+			if($value[1]!=0){
+				$min=min($value[1],$min);
+			}
+		});
+
+		$d=array('title'=>'Dashboard','data'=>$data,'data2'=>$data2,'anggaran'=>$data5,'tahun'=>$tahun,'max_anggran'=> $max,'min_anggran'=> $min);
+
+	   $d=view('pages.index',$d
+	   	);
 
 
-
-	   return view('pages.index',['title'=>'Dashboard','data'=>$data,'data2'=>$data2,'tahun'=>$tahun]);
 	}
 
 	public function t(){

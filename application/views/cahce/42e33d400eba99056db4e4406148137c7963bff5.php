@@ -1,90 +1,106 @@
-<hr style="background: #fff" class="mt-4">
+<div class="animated fadeInUp">
+    <hr style="background: #fff" class="mt-4">
 <h5 class="text-center text-uppercase"><b> DATA REKAP <?php echo e($title); ?></b></h5>
-<div class="row">
-	<div class="col-md-4 ">
-		<div class="card bg-special same_height">
-			<div class="card-body" id="<?php echo e($id_dom); ?>pie">
-				
-			</div>
-		</div>
-	</div>
-	<div class="col-md-4 ">
-		<div class="card bg-special same_height">
-			<div class="card-body" id="<?php echo e($id_dom); ?>pie_pendukung">
-				
-			</div>
-		</div>
-		
-	</div>
-	<div class="col-md-4 ">
-		<div class="card bg-special-2 same_height">
-			<div class="card-body text-center" id="">
-				<hr style=" border-bottom:2px solid #222;">
+<div class="row" class="animated fadeInUp">
+    <div class="col-md-4 ">
+        <div class="card bg-special same_height">
+            <div class="card-body" id="<?php echo e($id_dom); ?>pie">
+                
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4 ">
+        <div class="card bg-special same_height">
+            <div class="card-body" id="<?php echo e($id_dom); ?>pie_pendukung">
+                
+            </div>
+        </div>
+        
+    </div>
+    <div class="col-md-4 ">
+        <div class="card bg-special-2 same_height">
+            <div class="card-body text-center" id="">
+                <hr style=" border-bottom:2px solid #222;">
                 <h6 class="text-center text-dark"><b><?php echo e($title); ?></b></h6>
-				<h4 class="text-white"><b>SUMBER DATA</b> </h4>
-				<h5 class="text-white"><b>RKPD 2020</b> </h5>
-				<div class="btn-group">
-					<button class="btn btn-warning"><b>Download PDF</b></button>
-					<button class="btn btn-primary"><b> EXCEL</b></button>
-				</div>
-				<hr style=" border-bottom:2px solid #222;">
+                <h4 class="text-white"><b>SUMBER DATA</b> </h4>
+                <h5 class="text-white"><b>RKPD 2020</b> </h5>
+                <div class="btn-group">
+                    <button class="btn btn-warning"><b>Download PDF</b></button>
+                    <button class="btn btn-primary"><b> EXCEL</b></button>
+                </div>
+                <hr style=" border-bottom:2px solid #222;">
 
 
 
-			</div>
-		</div>
-		
-	</div>
+            </div>
+        </div>
+        
+    </div>
 </div>
 <div class="row">
-	<div class="col-md-12">
-		<div class="card bg-special">
-			<div class="card-body" id="<?php echo e($id_dom); ?>container"></div>
-		</div>
-	</div>
+    <div class="col-md-12">
+        <div class="card bg-special">
+            <div class="card-body" id="<?php echo e($id_dom); ?>container"></div>
+        </div>
+    </div>
 
 </div>
 <div class="" id="<?php echo e($id_dom); ?>_next_container">
-	<div class="row">
-		<div class="col-md-12">
-		<div class="card bg-special-2">
-			<div class="card-body  table-renponsive text-dark">
-				<h5 class="text-center"><b>DETAIL <?php echo e($title); ?></b></h5>
-				<hr>
-				<table class="table table-striped " style="background: #f1f1f1" id="<?php echo e($id_dom); ?>table">
-					<thead>
-						<tr>
-							<th>No</th>
-							<th>Daetail</th>
+    <div class="row">
+        <div class="col-md-12">
+        <div class="card bg-special-2">
+            <div class="card-body  table-renponsive text-dark">
+                <h5 class="text-center"><b>DETAIL <?php echo e($title); ?></b></h5>
+                <hr>
+                <table class="table table-striped " style="background: #f1f1f1" id="<?php echo e($id_dom); ?>table">
+                    <thead>
+                        <tr>
+                            <th>No</th>
+                            <th>Daetail</th>
 
-							<th>Category</th>
-							<th>Jumlah Program</th>
-							<th>Jumlah Kegiatan</th>
-
-
+                            <th>Category</th>
+                            <th>Jumlah Program</th>
+                            <th>Jumlah Kegiatan</th>
 
 
-						</tr>
-					</thead>
-					<tbody>
-						<?php foreach ($data as $key => $value): ?>
-							<tr>
-								<td><?php echo e($key+1); ?></td>
-								<td><a href="<?php echo e($value['link']); ?>" target="_blank" class="btn btn-sm btn-warning">Detail Proram</a></td>
-								<td><?php echo e($value['nama']); ?></td>
-								<td><?php echo e($value['jumlah_program']); ?></td>
-								<td><?php echo e($value['jumlah_kegiatan']); ?></td>
 
-							</tr>
-						<?php endforeach ?>
-					</tbody>
-				</table>
-			</div>
-		</div>
-	</div>
-		
-	</div>
-	
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <?php foreach ($data as $key => $value): ?>
+                            <tr>
+                                <td><?php echo e($key+1); ?></td>
+                                <td class="btn-group">
+                                    <a href="<?php echo e($value['link']); ?>" target="_blank" class="btn btn-sm btn-warning">Detail Proram</a>
+                                    <button class="btn btn-primary btn-sm" onclick="
+                                     clickPoint(<?php echo e($id_dom); ?>_data,<?php echo e($key); ?>,'#<?php echo e($id_dom); ?>_next_container');">Detail</button>
+                                    <?php
+                                        if(isset($link_laporan)?$link_laporan:false){
+                                    ?>
+                                              <a href="<?php echo e($value['link_laporan']); ?>" target="_blank" class="btn btn-sm btn-info">View</a>
+
+                                    <?php
+
+                                        }
+
+                                     ?>
+
+                                </td>
+                                <td><?php echo e($value['nama']); ?></td>
+                                <td><?php echo e($value['jumlah_program']); ?></td>
+                                <td><?php echo e($value['jumlah_kegiatan']); ?></td>
+
+                            </tr>
+                        <?php endforeach ?>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+        
+    </div>
+    
 </div>
 
 
@@ -100,13 +116,13 @@ var <?php echo e($id_dom); ?>_data_pie_pendukung=<?php echo json_encode($rekap_p
 <?php
 $series=[
 [
-	'name'=>'JUMLAH KEGIATAN',
-	'data'=>[]
+    'name'=>'JUMLAH KEGIATAN',
+    'data'=>[]
 
 ],
 [
-	'name'=>'JUMLAH PROGRAM',
-	'data'=>[]
+    'name'=>'JUMLAH PROGRAM',
+    'data'=>[]
 
 ],
 
@@ -115,12 +131,12 @@ $category=[]
 ?>
 
 <?php $__currentLoopData = $data; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $d): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
-	<?php
-		$category[]=$d['nama'];
-		$series[0]['data'][]=(int) $d['jumlah_kegiatan'];
-		$series[1]['data'][]=(int) $d['jumlah_program'];
+    <?php
+        $category[]=$d['nama'];
+        $series[0]['data'][]=(int) $d['jumlah_kegiatan'];
+        $series[1]['data'][]=(int) $d['jumlah_program'];
 
-	?>
+    ?>
 
 <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
 
@@ -216,8 +232,8 @@ Highcharts.chart('<?php echo e($id_dom); ?>pie', {
     title: {
         text: 'REKAP JUMLAH PROGRAM KEGIATAN',
          style:{
-        	fontSize:10,
-        	fontWeight:'bold'
+            fontSize:10,
+            fontWeight:'bold'
         }
     },
     tooltip: {
@@ -261,8 +277,8 @@ Highcharts.chart('<?php echo e($id_dom); ?>pie_pendukung', {
     title: {
         text: 'REKAP JUMLAH  KEGIATAN PENDUKUNG PUSAT',
         style:{
-        	fontSize:10,
-        	fontWeight:'bold'
+            fontSize:10,
+            fontWeight:'bold'
         }
     },
     tooltip: {
@@ -300,9 +316,13 @@ Highcharts.chart('<?php echo e($id_dom); ?>pie_pendukung', {
 
 
 setTimeout(function(){
-	$('#<?php echo e($id_dom); ?>table').DataTable();
+    $('#<?php echo e($id_dom); ?>table').DataTable({
+        "ordering": false
+    });
 },400);
 
 
 
-</script><?php /**PATH C:\xampp\htdocs\nws\application\views/helper/chart.blade.php ENDPATH**/ ?>
+</script>
+
+</div><?php /**PATH C:\xampp\htdocs\nws\application\views/helper/chart.blade.php ENDPATH**/ ?>

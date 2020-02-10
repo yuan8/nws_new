@@ -111,7 +111,7 @@ class Data extends CI_Controller {
 			CONCAT('{kode_daerah:',d.id,'}') as selected,
 			CONCAT('".rt('/program-kegiatan/per-daerah/data/detail/')."',d.id) as link,
 			CONCAT('".rt('/program-kegiatan/data/perurusan/')."',d.id) as next,
-
+			CONCAT('".rt('/program-kegiatan/laporan/data/')."',d.id) as link_laporan,
 
 			min(d.nama) as nama,
 			(select count(DISTINCT(p.kode_program)) from program as p where p.kode_daerah = (d.id) and p.tahun=".$tahun.") as jumlah_program,
@@ -131,7 +131,8 @@ class Data extends CI_Controller {
 			'title'=>$title,
 			'rekap_program_kegiatan'=>$rekap_program_kegiatan,
 			'rekap_program_kegiatan_pendukung'=>$rekap_program_kegiatan_pendukung,
-			'id_dom'=>'perkota_1_'
+			'id_dom'=>'perkota_1_',
+			'link_laporan'=>true
 		]);
 
 
