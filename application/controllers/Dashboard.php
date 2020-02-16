@@ -8,6 +8,57 @@ class Dashboard extends CI_Controller {
 	  //       auth();
 	  //   }
 
+
+	static function simbol($nilai){
+		switch ($nilai) {
+			case 1:
+				return 'triangle';
+				break;
+			case 0:
+				return 'circle';
+				break;
+			case -1:
+				return 'triangle-down';
+				break;
+			
+			default:
+				# code...
+				break;
+		}
+	}
+
+	static function color($nilai){
+		switch ($nilai) {
+			case 'SAKIT':
+			return 'red';
+				# code...
+				break;
+
+			case 'KURANG SEHAT':
+			return 'orange';
+				# code...
+				break;
+
+			case 'POTENSIAL UNTUK SEHAT':
+			return 'warning';
+				# code...
+				break;
+			
+			case 'SEHAT':
+			return 'green';
+				# code...
+				break;
+			case 'SEHAT BERKELANJUTAN':
+			return 'blue';
+				# code...
+				break;
+			
+			default:
+				# code...
+				break;
+		}
+	}
+
 	public function index()
 	{
 		$tahun=2020;
@@ -19,11 +70,44 @@ class Dashboard extends CI_Controller {
 			$data=$data[0];
 		}
 
+	
 		$data_return=[];
 
-		$query='select count(*) jumlah_pdam from sat where period_tahun='.$tahun;
+		
+
+		$query="select * from  pdam_profile where kordinat is not null and kordinat != '' ";
+		$pdam=[];
+		$pdam_db=query($this,$query);
+		foreach ($pdam_db as $key => $value) {
+			# code...
+
+			$kor=explode(',', $value['kordinat']);
+			if(!isset($kor[1])){
+			}
+			$pdam[]=array(
+				'name'=>$value['nama_pdam'],
+				'id'=>$value['kode_daerah'],
+				'lat'=>(float)isset($kor[1])?$kor[0]:null,
+				'lon'=>(float)isset($kor[1])?$kor[1]:null,
+				'value'=>(int) $value['kode_penilaian_nuwas'],
+				'penilaian'=>$value['penilaian_nuwas'],
+				'color'=>static::color($value['penilaian_nuwas']),
+				'marker'=>array(
+					"enabled"=>true,
+					"symbol"=>static::simbol($value['traffic_penilaian_nuwas'])
+				)
+
+				
+			);
+		}
+
+
+		$query='select count(*) as jumlah_pdam from sat';
 
 		$data2=query($this,$query);
+
+
+
 		if(count($data2)>0){
 			$data2=$data2[0];
 		}
@@ -42,7 +126,7 @@ class Dashboard extends CI_Controller {
 			}
 		});
 
-		$d=array('title'=>'Dashboard','data'=>$data,'data2'=>$data2,'anggaran'=>$data5,'tahun'=>$tahun,'max_anggran'=> $max,'min_anggran'=> $min);
+		$d=array('title'=>'Dashboard','data'=>$data,'data2'=>$data2,'anggaran'=>$data5,'tahun'=>$tahun,'max_anggran'=> $max,'min_anggran'=> $min,'pdam'=>$pdam);
 
 	   $d=view('pages.index',$d
 	   	);

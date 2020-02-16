@@ -4,6 +4,24 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Test extends CI_Controller {
 
+
+  public function node(){
+    $command='node '.APPPATH.'cronFuntionNodeJs\init.js';
+     if (substr(php_uname(), 0, 7) == "Windows")
+    {
+        //windows
+        $d=  pclose(popen($command, "r")); 
+    }else
+    {
+        //linux
+        $d=shell_exec( $command  );
+    }
+   
+    // return false;
+    // $d=shell_exec();
+    dd($d);
+  }
+
   public function anu(){
 //     $query='select a.id as kode,b.nama as nama_urusan ,a.nama from master_sub_urusan as a 
 //     left join master_urusan b on a.id_urusan= b.id

@@ -30,8 +30,8 @@
 							<th>Anggaran</th>
 							<th>Proporsi Angaaran</th>
 							<th>Indikator</th>
-							<th>Capaian</th>
 							<th>Target</th>
+							<th></th>
 
 						</tr>
 					</thead>
@@ -55,7 +55,7 @@
 								<tr class="bg bg-primary">
 									<td colspan="4"><span class="badge badge-danger" onclick="minimize(this,'.u-<?php echo e($urusan); ?>')">-</span> <b>(Urusan)</b> <?php echo e($d['urusan']); ?></td>
 									<td colspan="1">Rp. <?php echo e(($d['total_anggaran_urusan'])?number_format($d['total_anggaran_urusan'],0,',','.'):0); ?></td>
-									<td colspan="4">
+									<td colspan="3">
 										<?php if($proporsi_approve): ?>
 											<?php echo e(number_format(($d['total_anggaran_urusan']/ $anggaran_total)* 100,2,',','.')); ?> %
 										<?php else: ?>
@@ -80,7 +80,7 @@
 									<td></td>
 									<td colspan="3"><span class="badge badge-danger" onclick="minimize(this,'.su-<?php echo e($sub_urusan); ?>')">-</span> <b>(Sub Urusan)</b> <?php echo e($d['sub_urusan']); ?></td>
 									<td colspan="1">Rp. <?php echo e(($d['total_anggaran_sub_urusan'])?number_format($d['total_anggaran_sub_urusan'],0,',','.'):0); ?></td>
-									<td colspan="4" class="text-primary">
+									<td colspan="3" class="text-primary">
 										<?php if($proporsi_approve and ($proporsi_urusan!=0)): ?>
 
 											<?php echo e(number_format(($d['total_anggaran_sub_urusan']/ $proporsi_urusan)* 100,2,',','.')); ?> %
@@ -105,7 +105,7 @@
 									<td colspan="2"></td>
 									<td colspan="2"><span class="badge badge-danger" onclick="minimize(this,'.p-<?php echo e($program); ?>')">-</span> <b>(Program)</b> <?php echo e($d['program']); ?></td>
 									<td colspan="1">Rp. <?php echo e(($d['total_anggaran_program'])?number_format($d['total_anggaran_program'],0,',','.'):0); ?></td>
-									<td colspan="4" class="text-warning">
+									<td colspan="3" class="text-warning">
 										<?php if($proporsi_approve and ($proporsi_sub_urusan!=0)): ?>
 											<?php echo e(number_format(($d['total_anggaran_program'] / $proporsi_sub_urusan)* 100,2,',','.')); ?> %
 										<?php else: ?>
@@ -126,7 +126,7 @@
 												<tr class="u-<?php echo e($urusan); ?> su-<?php echo e($sub_urusan); ?> p-<?php echo e($program); ?>">
 													<td colspan="6"></td>
 													<td class="text-success"><b>(IP)</b> <?php echo e($value[1]); ?></td>
-													<td><?php echo e($value[2]); ?> <?php echo e($value[4]); ?></td>
+													<!-- <td><?php echo e($value[2]); ?> <?php echo e($value[4]); ?></td> -->
 													<td><?php echo e($value[3]); ?> <?php echo e($value[4]); ?></td>
 												</tr>
 
@@ -154,7 +154,7 @@
 								</td>
 								<td></td>
 								<td></td>
-								<td></td>
+								<!-- <td></td> -->
 							</tr>
 							<?php 
 									$indikator=$d['indikator_kegiatan'];
@@ -168,7 +168,7 @@
 												<tr class="u-<?php echo e($urusan); ?> su-<?php echo e($sub_urusan); ?> p-<?php echo e($program); ?>">
 													<td colspan="6"></td>
 													<td class="text-dark"><b>(IK)</b> <?php echo e($value[1]); ?></td>
-													<td><?php echo e($value[2]); ?> <?php echo e($value[4]); ?></td>
+													<!-- <td><?php echo e($value[2]); ?> <?php echo e($value[4]); ?></td> -->
 													<td><?php echo e($value[3]); ?> <?php echo e($value[4]); ?></td>
 												</tr>
 

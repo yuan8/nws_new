@@ -574,3 +574,294 @@ LINE 15:       join program_kegiatan_sipd2 as  a on a.id_urusan = p.i...
       group by p.id  order by count(a.kode_kegiatan) desc
 
     
+ERROR - 2020-02-10 14:35:16 --> Severity: Warning --> pg_query(): Query failed: ERROR:  relation &quot;provinsi&quot; does not exist
+LINE 17:       from provinsi as p
+                    ^ C:\xampp\htdocs\nws\system\database\drivers\postgre\postgre_driver.php 242
+ERROR - 2020-02-10 14:35:16 --> Query error: ERROR:  relation "provinsi" does not exist
+LINE 17:       from provinsi as p
+                    ^ - Invalid query: select p.id_provinsi as key,p.nama as key_name,
+      CONCAT('[[',
+        '`a.kode_daerah`',
+        ',',
+        '` ilike `',
+        ',','`',
+        p.id_provinsi,
+        '%`',
+        ',',
+        '`string`]]'
+        ) as where_add,
+     	
+     sum(a.anggaran) as data_Total_Anggaran_kegiatan,
+     sum(t.total_anggaran) as data_anggaran_daerah,
+
+     CASE WHEN (sum(t.total_anggaran) is NULL) THEN 100 ELSE SUM(a.anggaran)*100 /sum(t.total_anggaran)  END  as data_Persentase_anggaran_kegiatan
+      from provinsi as p
+       join program_kegiatan_sipd2 as a on a.kode_daerah ILIKE p.id_provinsi || '%' 
+        join total_anggaran as t on t.tahun = a.tahun and  t.kodepemda ILIKE p.id_provinsi || '%' 
+
+        where  a.tag_air_minum  =  true
+      group by p.id_provinsi order by sum(a.anggaran) desc
+    
+ERROR - 2020-02-10 14:35:17 --> Severity: Warning --> pg_query(): Query failed: ERROR:  relation &quot;program_kegiatan_sipd2&quot; does not exist
+LINE 16:       join program_kegiatan_sipd2 as  a on a.id_urusan = p.i...
+                    ^ C:\xampp\htdocs\nws\system\database\drivers\postgre\postgre_driver.php 242
+ERROR - 2020-02-10 14:35:17 --> Query error: ERROR:  relation "program_kegiatan_sipd2" does not exist
+LINE 16:       join program_kegiatan_sipd2 as  a on a.id_urusan = p.i...
+                    ^ - Invalid query: 
+      select p.id as key, p.nama as key_name,
+       CONCAT('[[',
+        '`a.id_urusan`',
+        ',',
+        '` =`',
+        ',','`',
+        p.id,
+        '`',
+        ',',
+        '`numberic`]]'
+        ) as where_add,
+     sum(a.anggaran) as data_Total_Anggaran_kegiatan
+      
+      from master_urusan as p
+      join program_kegiatan_sipd2 as  a on a.id_urusan = p.id 
+       where  a.kode_kegiatan  is not  null and  a.tag_air_minum  =  true 
+      group by p.id  order by sum(a.anggaran) desc
+
+    
+ERROR - 2020-02-10 14:37:22 --> Severity: Warning --> pg_query(): Query failed: ERROR:  relation &quot;program_kegiatan_sipd2&quot; does not exist
+LINE 15:       join program_kegiatan_sipd2 as  a on a.id_urusan = p.i...
+                    ^ C:\xampp\htdocs\nws\system\database\drivers\postgre\postgre_driver.php 242
+ERROR - 2020-02-10 14:37:22 --> Query error: ERROR:  relation "program_kegiatan_sipd2" does not exist
+LINE 15:       join program_kegiatan_sipd2 as  a on a.id_urusan = p.i...
+                    ^ - Invalid query: 
+      select p.id as key, p.nama as key_name,
+       CONCAT('[[',
+        '`a.id_urusan`',
+        ',',
+        '` =`',
+        ',','`',
+        p.id,
+        '`',
+        ',',
+        '`numberic`]]'
+        ) as where_add,
+      count(DISTINCT(a.kode_program)) as data_jumlah_program,count(a.kode_kegiatan) as data_jumlah_kegiatan
+      from master_urusan as p
+      join program_kegiatan_sipd2 as  a on a.id_urusan = p.id 
+       where  a.kode_kegiatan  is not  null and  a.tag_air_minum  =  true 
+      group by p.id  order by count(a.kode_kegiatan) desc
+
+    
+ERROR - 2020-02-10 14:37:22 --> Severity: Warning --> pg_query(): Query failed: ERROR:  relation &quot;provinsi&quot; does not exist
+LINE 12: ...unt(a.kode_kegiatan) as data_jumlah_kegiatan from provinsi a...
+                                                              ^ C:\xampp\htdocs\nws\system\database\drivers\postgre\postgre_driver.php 242
+ERROR - 2020-02-10 14:37:22 --> Query error: ERROR:  relation "provinsi" does not exist
+LINE 12: ...unt(a.kode_kegiatan) as data_jumlah_kegiatan from provinsi a...
+                                                              ^ - Invalid query: select p.id_provinsi as key,p.nama as key_name,
+      CONCAT('[[',
+        '`a.kode_daerah`',
+        ',',
+        '` ilike `',
+        ',','`',
+        p.id_provinsi,
+        '%`',
+        ',',
+        '`string`]]'
+        ) as where_add,
+      count(DISTINCT(a.kode_program)) as data_jumlah_program,count(a.kode_kegiatan) as data_jumlah_kegiatan from provinsi as p
+       join program_kegiatan_sipd2 as a on a.kode_daerah ILIKE p.id_provinsi || '%'  where  a.tag_air_minum  =  true
+      group by p.id_provinsi order by count(a.kode_kegiatan) desc
+    
+ERROR - 2020-02-10 14:43:22 --> Severity: Warning --> pg_query(): Query failed: ERROR:  relation &quot;program_kegiatan_sipd2&quot; does not exist
+LINE 16:       join program_kegiatan_sipd2 as  a on a.id_urusan = p.i...
+                    ^ C:\xampp\htdocs\nws\system\database\drivers\postgre\postgre_driver.php 242
+ERROR - 2020-02-10 14:43:22 --> Query error: ERROR:  relation "program_kegiatan_sipd2" does not exist
+LINE 16:       join program_kegiatan_sipd2 as  a on a.id_urusan = p.i...
+                    ^ - Invalid query: 
+      select p.id as key, p.nama as key_name,
+       CONCAT('[[',
+        '`a.id_urusan`',
+        ',',
+        '` =`',
+        ',','`',
+        p.id,
+        '`',
+        ',',
+        '`numberic`]]'
+        ) as where_add,
+     sum(a.anggaran) as data_Total_Anggaran_kegiatan
+      
+      from master_urusan as p
+      join program_kegiatan_sipd2 as  a on a.id_urusan = p.id 
+       where  a.kode_kegiatan  is not  null and  a.tag_air_minum  =  true 
+      group by p.id  order by sum(a.anggaran) desc
+
+    
+ERROR - 2020-02-10 14:43:22 --> Severity: Warning --> pg_query(): Query failed: ERROR:  relation &quot;provinsi&quot; does not exist
+LINE 17:       from provinsi as p
+                    ^ C:\xampp\htdocs\nws\system\database\drivers\postgre\postgre_driver.php 242
+ERROR - 2020-02-10 14:43:22 --> Query error: ERROR:  relation "provinsi" does not exist
+LINE 17:       from provinsi as p
+                    ^ - Invalid query: select p.id_provinsi as key,p.nama as key_name,
+      CONCAT('[[',
+        '`a.kode_daerah`',
+        ',',
+        '` ilike `',
+        ',','`',
+        p.id_provinsi,
+        '%`',
+        ',',
+        '`string`]]'
+        ) as where_add,
+     	
+     sum(a.anggaran) as data_Total_Anggaran_kegiatan,
+     sum(t.total_anggaran) as data_anggaran_daerah,
+
+     CASE WHEN (sum(t.total_anggaran) is NULL) THEN 100 ELSE SUM(a.anggaran)*100 /sum(t.total_anggaran)  END  as data_Persentase_anggaran_kegiatan
+      from provinsi as p
+       join program_kegiatan_sipd2 as a on a.kode_daerah ILIKE p.id_provinsi || '%' 
+        join total_anggaran as t on t.tahun = a.tahun and  t.kodepemda ILIKE p.id_provinsi || '%' 
+
+        where  a.tag_air_minum  =  true
+      group by p.id_provinsi order by sum(a.anggaran) desc
+    
+ERROR - 2020-02-10 14:43:27 --> Severity: Warning --> pg_query(): Query failed: ERROR:  relation &quot;provinsi&quot; does not exist
+LINE 12: ...unt(a.kode_kegiatan) as data_jumlah_kegiatan from provinsi a...
+                                                              ^ C:\xampp\htdocs\nws\system\database\drivers\postgre\postgre_driver.php 242
+ERROR - 2020-02-10 14:43:27 --> Query error: ERROR:  relation "provinsi" does not exist
+LINE 12: ...unt(a.kode_kegiatan) as data_jumlah_kegiatan from provinsi a...
+                                                              ^ - Invalid query: select p.id_provinsi as key,p.nama as key_name,
+      CONCAT('[[',
+        '`a.kode_daerah`',
+        ',',
+        '` ilike `',
+        ',','`',
+        p.id_provinsi,
+        '%`',
+        ',',
+        '`string`]]'
+        ) as where_add,
+      count(DISTINCT(a.kode_program)) as data_jumlah_program,count(a.kode_kegiatan) as data_jumlah_kegiatan from provinsi as p
+       join program_kegiatan_sipd2 as a on a.kode_daerah ILIKE p.id_provinsi || '%'  where  a.tag_air_minum  =  true
+      group by p.id_provinsi order by count(a.kode_kegiatan) desc
+    
+ERROR - 2020-02-10 14:43:27 --> Severity: Warning --> pg_query(): Query failed: ERROR:  relation &quot;program_kegiatan_sipd2&quot; does not exist
+LINE 15:       join program_kegiatan_sipd2 as  a on a.id_urusan = p.i...
+                    ^ C:\xampp\htdocs\nws\system\database\drivers\postgre\postgre_driver.php 242
+ERROR - 2020-02-10 14:43:27 --> Query error: ERROR:  relation "program_kegiatan_sipd2" does not exist
+LINE 15:       join program_kegiatan_sipd2 as  a on a.id_urusan = p.i...
+                    ^ - Invalid query: 
+      select p.id as key, p.nama as key_name,
+       CONCAT('[[',
+        '`a.id_urusan`',
+        ',',
+        '` =`',
+        ',','`',
+        p.id,
+        '`',
+        ',',
+        '`numberic`]]'
+        ) as where_add,
+      count(DISTINCT(a.kode_program)) as data_jumlah_program,count(a.kode_kegiatan) as data_jumlah_kegiatan
+      from master_urusan as p
+      join program_kegiatan_sipd2 as  a on a.id_urusan = p.id 
+       where  a.kode_kegiatan  is not  null and  a.tag_air_minum  =  true 
+      group by p.id  order by count(a.kode_kegiatan) desc
+
+    
+ERROR - 2020-02-10 14:44:51 --> Severity: Warning --> pg_query(): Query failed: ERROR:  relation &quot;provinsi&quot; does not exist
+LINE 17:       from provinsi as p
+                    ^ C:\xampp\htdocs\nws\system\database\drivers\postgre\postgre_driver.php 242
+ERROR - 2020-02-10 14:44:51 --> Query error: ERROR:  relation "provinsi" does not exist
+LINE 17:       from provinsi as p
+                    ^ - Invalid query: select p.id_provinsi as key,p.nama as key_name,
+      CONCAT('[[',
+        '`a.kode_daerah`',
+        ',',
+        '` ilike `',
+        ',','`',
+        p.id_provinsi,
+        '%`',
+        ',',
+        '`string`]]'
+        ) as where_add,
+     	
+     sum(a.anggaran) as data_Total_Anggaran_kegiatan,
+     sum(t.total_anggaran) as data_anggaran_daerah,
+
+     CASE WHEN (sum(t.total_anggaran) is NULL) THEN 100 ELSE SUM(a.anggaran)*100 /sum(t.total_anggaran)  END  as data_Persentase_anggaran_kegiatan
+      from provinsi as p
+       join program_kegiatan_sipd2 as a on a.kode_daerah ILIKE p.id_provinsi || '%' 
+        join total_anggaran as t on t.tahun = a.tahun and  t.kodepemda ILIKE p.id_provinsi || '%' 
+
+        where  a.tag_air_minum  =  true
+      group by p.id_provinsi order by sum(a.anggaran) desc
+    
+ERROR - 2020-02-10 14:44:51 --> Severity: Warning --> pg_query(): Query failed: ERROR:  relation &quot;program_kegiatan_sipd2&quot; does not exist
+LINE 16:       join program_kegiatan_sipd2 as  a on a.id_urusan = p.i...
+                    ^ C:\xampp\htdocs\nws\system\database\drivers\postgre\postgre_driver.php 242
+ERROR - 2020-02-10 14:44:51 --> Query error: ERROR:  relation "program_kegiatan_sipd2" does not exist
+LINE 16:       join program_kegiatan_sipd2 as  a on a.id_urusan = p.i...
+                    ^ - Invalid query: 
+      select p.id as key, p.nama as key_name,
+       CONCAT('[[',
+        '`a.id_urusan`',
+        ',',
+        '` =`',
+        ',','`',
+        p.id,
+        '`',
+        ',',
+        '`numberic`]]'
+        ) as where_add,
+     sum(a.anggaran) as data_Total_Anggaran_kegiatan
+      
+      from master_urusan as p
+      join program_kegiatan_sipd2 as  a on a.id_urusan = p.id 
+       where  a.kode_kegiatan  is not  null and  a.tag_air_minum  =  true 
+      group by p.id  order by sum(a.anggaran) desc
+
+    
+ERROR - 2020-02-10 14:45:03 --> Severity: Warning --> pg_query(): Query failed: ERROR:  relation &quot;program_kegiatan_sipd2&quot; does not exist
+LINE 15:       join program_kegiatan_sipd2 as  a on a.id_urusan = p.i...
+                    ^ C:\xampp\htdocs\nws\system\database\drivers\postgre\postgre_driver.php 242
+ERROR - 2020-02-10 14:45:03 --> Query error: ERROR:  relation "program_kegiatan_sipd2" does not exist
+LINE 15:       join program_kegiatan_sipd2 as  a on a.id_urusan = p.i...
+                    ^ - Invalid query: 
+      select p.id as key, p.nama as key_name,
+       CONCAT('[[',
+        '`a.id_urusan`',
+        ',',
+        '` =`',
+        ',','`',
+        p.id,
+        '`',
+        ',',
+        '`numberic`]]'
+        ) as where_add,
+      count(DISTINCT(a.kode_program)) as data_jumlah_program,count(a.kode_kegiatan) as data_jumlah_kegiatan
+      from master_urusan as p
+      join program_kegiatan_sipd2 as  a on a.id_urusan = p.id 
+       where  a.kode_kegiatan  is not  null and  a.tag_air_minum  =  true 
+      group by p.id  order by count(a.kode_kegiatan) desc
+
+    
+ERROR - 2020-02-10 14:45:03 --> Severity: Warning --> pg_query(): Query failed: ERROR:  relation &quot;provinsi&quot; does not exist
+LINE 12: ...unt(a.kode_kegiatan) as data_jumlah_kegiatan from provinsi a...
+                                                              ^ C:\xampp\htdocs\nws\system\database\drivers\postgre\postgre_driver.php 242
+ERROR - 2020-02-10 14:45:03 --> Query error: ERROR:  relation "provinsi" does not exist
+LINE 12: ...unt(a.kode_kegiatan) as data_jumlah_kegiatan from provinsi a...
+                                                              ^ - Invalid query: select p.id_provinsi as key,p.nama as key_name,
+      CONCAT('[[',
+        '`a.kode_daerah`',
+        ',',
+        '` ilike `',
+        ',','`',
+        p.id_provinsi,
+        '%`',
+        ',',
+        '`string`]]'
+        ) as where_add,
+      count(DISTINCT(a.kode_program)) as data_jumlah_program,count(a.kode_kegiatan) as data_jumlah_kegiatan from provinsi as p
+       join program_kegiatan_sipd2 as a on a.kode_daerah ILIKE p.id_provinsi || '%'  where  a.tag_air_minum  =  true
+      group by p.id_provinsi order by count(a.kode_kegiatan) desc
+    

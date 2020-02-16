@@ -1,0 +1,15 @@
+{
+  "name": "nuwas",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yuan yuanputra9@gmail.com",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "nightmare": "^3.0.2"
+  }
+}

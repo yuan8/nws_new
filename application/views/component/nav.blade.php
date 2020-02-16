@@ -16,27 +16,32 @@
           <a href="javascript:void(0)" data-toggle="dropdown" class="nav-link text-white dropdown-toggle"><i class="ion ion-cash"></i> Perencanaan Kegiatan</a>
 
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="{{rt('air_minum')}}">Air Minum</a>
+                <a class="dropdown-item" href="{{rt('program_kegiatan_nuwas')}}">Per-Daerah</a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="{{rt('program_kegiatan_nuwas')}}">NUWAS</a>
+                <a class="dropdown-item" href="">Per-Urusan</a>
               </div>
         </li>
         <li class="  nav-item d-none d-sm-inline-block dropdown">
           <a href="javascript:void(0)"  data-toggle="dropdown" class="nav-link text-white  dropdown-toggle"><i class="ion ion-cash"></i> Anggaran</a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="{{rt('Keuangan')}}">Anggaran Air Minum</a>
+            <a class="dropdown-item" href="{{rt('Keuangan')}}">Per-Daerah</a>
             <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="{{rt('Keuangan/nuwas')}}">Aanggaran NUWAS</a>
+            <a class="dropdown-item" href="{{rt('Keuangan/nuwas')}}">Per-Urusan</a>
           </div>
         </li>
-        <li class="dropdown nav-item d-none d-sm-inline-block">
+        <li class=" nav-item d-none d-sm-inline-block">
+            <a href="{{rt('h-pdam/data')}}" class="nav-link text-white  ">
+              <i class=" fa fa-industry"></i> Profil PDAM
+            </a>
+        </li>
+       <!--  <li class="dropdown nav-item d-none d-sm-inline-block">
           <a  href="javascript:void(0)"  data-toggle="dropdown" class="nav-link text-white  dropdown-toggle"><i class=" fa fa-industry"></i> Profile PDAM</a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
             <a class="dropdown-item" href="{{rt('pdam')}}">Seluruhnya</a>
             <div class="dropdown-divider"></div>
             <a class="dropdown-item" href="{{rt('pdam/nuwas')}}">Daerah NUWAS</a>
           </div>
-        </li>
+        </li> -->
         <li class=" nav-item d-none d-sm-inline-block">
           <a href="{{rt('Kebijakan')}}" class="nav-link text-white "><i class=" fa fa-list"></i> Profile Kebijakan </a>
 

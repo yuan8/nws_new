@@ -30,8 +30,8 @@
 							<th>Anggaran</th>
 							<th>Proporsi Angaaran</th>
 							<th>Indikator</th>
-							<th>Capaian</th>
 							<th>Target</th>
+							<th></th>
 
 						</tr>
 					</thead>
@@ -55,7 +55,7 @@
 								<tr class="bg bg-primary">
 									<td colspan="4"><span class="badge badge-danger" onclick="minimize(this,'.u-{{$urusan}}')">-</span> <b>(Urusan)</b> {{$d['urusan']}}</td>
 									<td colspan="1">Rp. {{($d['total_anggaran_urusan'])?number_format($d['total_anggaran_urusan'],0,',','.'):0}}</td>
-									<td colspan="4">
+									<td colspan="3">
 										@if($proporsi_approve)
 											{{number_format(($d['total_anggaran_urusan']/ $anggaran_total)* 100,2,',','.') }} %
 										@else
@@ -80,7 +80,7 @@
 									<td></td>
 									<td colspan="3"><span class="badge badge-danger" onclick="minimize(this,'.su-{{$sub_urusan}}')">-</span> <b>(Sub Urusan)</b> {{$d['sub_urusan']}}</td>
 									<td colspan="1">Rp. {{($d['total_anggaran_sub_urusan'])?number_format($d['total_anggaran_sub_urusan'],0,',','.'):0}}</td>
-									<td colspan="4" class="text-primary">
+									<td colspan="3" class="text-primary">
 										@if($proporsi_approve and ($proporsi_urusan!=0))
 
 											{{number_format(($d['total_anggaran_sub_urusan']/ $proporsi_urusan)* 100,2,',','.') }} %
@@ -105,7 +105,7 @@
 									<td colspan="2"></td>
 									<td colspan="2"><span class="badge badge-danger" onclick="minimize(this,'.p-{{$program}}')">-</span> <b>(Program)</b> {{$d['program']}}</td>
 									<td colspan="1">Rp. {{($d['total_anggaran_program'])?number_format($d['total_anggaran_program'],0,',','.'):0}}</td>
-									<td colspan="4" class="text-warning">
+									<td colspan="3" class="text-warning">
 										@if($proporsi_approve and ($proporsi_sub_urusan!=0))
 											{{number_format(($d['total_anggaran_program'] / $proporsi_sub_urusan)* 100,2,',','.') }} %
 										@else
@@ -126,7 +126,7 @@
 												<tr class="u-{{$urusan}} su-{{$sub_urusan}} p-{{$program}}">
 													<td colspan="6"></td>
 													<td class="text-success"><b>(IP)</b> {{$value[1]}}</td>
-													<td>{{$value[2]}} {{$value[4]}}</td>
+													<!-- <td>{{$value[2]}} {{$value[4]}}</td> -->
 													<td>{{$value[3]}} {{$value[4]}}</td>
 												</tr>
 
@@ -154,7 +154,7 @@
 								</td>
 								<td></td>
 								<td></td>
-								<td></td>
+								<!-- <td></td> -->
 							</tr>
 							<?php 
 									$indikator=$d['indikator_kegiatan'];
@@ -168,7 +168,7 @@
 												<tr class="u-{{$urusan}} su-{{$sub_urusan}} p-{{$program}}">
 													<td colspan="6"></td>
 													<td class="text-dark"><b>(IK)</b> {{$value[1]}}</td>
-													<td>{{$value[2]}} {{$value[4]}}</td>
+													<!-- <td>{{$value[2]}} {{$value[4]}}</td> -->
 													<td>{{$value[3]}} {{$value[4]}}</td>
 												</tr>
 

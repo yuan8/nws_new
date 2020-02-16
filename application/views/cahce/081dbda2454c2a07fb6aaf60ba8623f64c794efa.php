@@ -190,16 +190,16 @@
 			        headerFormat: '{point.properties.name}',
 			        pointFormat: '<b>{point.properties.name}</b><hr><br> Rp. {point.value}  '
 			    },
-					    point:{
+				point:{
 		        color:'#fff',
 		        events:{
 		          click:function(e){
 		          	console.log(this);
-		            $('path').each(function(key,value){
-		              if($(value).attr('fill')=='rgb(NaN,NaN,NaN)'){
-		                $(value).attr('fill','#fff');
-		              }
-		            });
+		            // $('path').each(function(key,value){
+		            //   if($(value).attr('fill')=='rgb(NaN,NaN,NaN)'){
+		            //     $(value).attr('fill','#fff');
+		            //   }
+		            // });
 			            
 			            var url='<?php echo e(rt('program-kegiatan/laporan/data/')); ?>'+this.options.id;
 			            $('#cc').removeClass('animated rubberBand');

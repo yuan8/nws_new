@@ -21,6 +21,7 @@
   <!-- JQVMap -->
   <!-- Theme style -->
   <link rel="stylesheet" href="<?php echo e(rt('dist/css/adminlte.min.css')); ?>">
+  <link rel="stylesheet" type="text/css" href="<?php echo e(rt('dist/css/popover.css')); ?>">
   <!-- overlayScrollbars -->
   <link rel="stylesheet" href="<?php echo e(rt('dist/plugins/overlayScrollbars/css/OverlayScrollbars.min.css')); ?>">
   <!-- Daterange picker -->
@@ -38,6 +39,7 @@
  <script src="<?php echo e(rt('dist/js/adminlte.js')); ?>"></script>
 
 
+
  <script src="<?php echo e(rt('dist/vendor/toas/toas.js')); ?>"></script>
   <link rel="stylesheet" type="text/css" href="<?php echo e(rt('dist/vendor/toas/toas.css')); ?>">
 
@@ -46,6 +48,8 @@
   <script src="<?php echo e(rt('dist/map_source/hi.js')); ?>"></script>
 <script type="text/javascript" src="<?php echo e(rt('dist/js/datatable.js')); ?>"></script>
 <link rel="stylesheet" type="text/css" href="<?php echo e(rt('dist/css/datatable.css')); ?>">
+ <script src="<?php echo e(rt('dist/js/popover.js?v=1')); ?>"></script>
+
 
 
 
@@ -95,6 +99,8 @@
 </script>
 <!-- Bootstrap 4 -->
 <script src="<?php echo e(rt('dist/plugins/bootstrap/js/bootstrap.bundle.min.js')); ?>"></script>
+ <!-- <script src="<?php echo e(rt('dist/js/popover.js?v=1')); ?>"></script> -->
+
 <!-- ChartJS -->
 <script src="<?php echo e(rt('dist/plugins/chart.js/Chart.min.js')); ?>"></script>
 <!-- Sparkline -->
@@ -178,7 +184,7 @@
 
 
 <script type="text/javascript">
-
+ $('[data-toggle="popover"]').popover();
 function buildDataChart(datas,next='',map=[]){
   var datalist=datas['data'];
   datas['where_def']=datas['where_def'].reverse();
