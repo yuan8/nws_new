@@ -31,7 +31,6 @@
 							<th>Proporsi Angaaran</th>
 							<th>Indikator</th>
 							<th>Target</th>
-							<th></th>
 
 						</tr>
 					</thead>
