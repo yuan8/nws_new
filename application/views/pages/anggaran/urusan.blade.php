@@ -1,4 +1,6 @@
-<?php $__env->startSection('content'); ?>
+@extends('template.lay1')
+
+@section('content')
 
 <style type="text/css">
 	
@@ -53,7 +55,7 @@
 
 
 	function init(){
-		clickPoint([{'next':'<?php echo e(rt('/program-kegiatan/dataperurusan/perurusan')); ?>'}],0,'#cnt');
+		clickPoint([{'next':'{{rt('/anggaran/urusan/perurusan')}}'}],0,'#cnt');
 	}
 
 	init();
@@ -64,5 +66,4 @@
 
 </script>
 
-<?php $__env->stopSection(); ?>
-<?php echo $__env->make('template.lay1', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH C:\xampp\htdocs\nws\application\views/helper/map2.blade.php ENDPATH**/ ?>
+@stop

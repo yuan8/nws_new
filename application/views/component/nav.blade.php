@@ -18,15 +18,15 @@
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <a class="dropdown-item" href="{{rt('program_kegiatan_nuwas')}}">Per-Daerah</a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="">Per-Urusan</a>
+                <a class="dropdown-item" href="{{rt('program-kegiatan/dataperurusan')}}">Per-Urusan</a>
               </div>
         </li>
         <li class="  nav-item d-none d-sm-inline-block dropdown">
           <a href="javascript:void(0)"  data-toggle="dropdown" class="nav-link text-white  dropdown-toggle"><i class="ion ion-cash"></i> Anggaran</a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="{{rt('Keuangan')}}">Per-Daerah</a>
+            <a class="dropdown-item" href="{{rt('anggaran/data')}}">Per-Daerah</a>
             <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="{{rt('Keuangan/nuwas')}}">Per-Urusan</a>
+            <a class="dropdown-item" href="{{rt('anggaran/urusan')}}">Per-Urusan</a>
           </div>
         </li>
         <li class=" nav-item d-none d-sm-inline-block">

@@ -72,7 +72,7 @@
                             <tr>
                                 <td>{{$key+1}}</td>
                                 <td class="btn-group">
-                                    <a href="{{$value['link']}}" target="_blank" class="btn btn-sm btn-warning">Detail Proram</a>
+                                   <!--  <a href="{{$value['link']}}" target="_blank" class="btn btn-sm btn-warning">Detail Proram</a> -->
                                     <button class="btn btn-primary btn-sm" onclick="
                                      clickPoint({{$id_dom}}_data,{{$key}},'#{{$id_dom}}_next_container');">Detail</button>
                                     <?php

@@ -26,7 +26,7 @@
         <p>
           <img src="{{rt('dist/images/logo.png')}}" alt="" style="max-width:10%;">
         </p>
-        <p style="font-size:20px; margin-bottom:0px;"><b>Direktorat Jendal</b> </p>
+        <p style="font-size:20px; margin-bottom:0px;"><b>Direktorat Jenderal</b> </p>
         <p style="font-size:20px;"><b>Bina Pembangunan Daerah</b>  </p>
 
     </div>

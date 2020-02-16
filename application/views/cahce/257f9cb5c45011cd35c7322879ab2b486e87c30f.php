@@ -3,9 +3,16 @@
 <h5 class="text-center text-uppercase"><b> DATA REKAP <?php echo e($title); ?></b></h5>
 <div class="row" class="animated fadeInUp">
     <div class="col-md-4 ">
-        <div class="card bg-special same_height">
-            <div class="card-body" id="<?php echo e($id_dom); ?>pie">
-                
+        <div class="card bg-special-2 same_height text-dark">
+            <div class="card-body text-center" id="<?php echo e($id_dom); ?>pie">
+                <h6 class="text-center text-dark"><b>Jumlah Anggaran Total</b></h6>
+                <h4 class=""><b>TAHUN <?php echo e($tahun); ?></b> </h4>
+               
+                <hr style=" border-bottom:2px solid #222;">
+
+                <h5 class="text-center text-white">Rp.<?php echo e(number_format($rekap_program_kegiatan['jumlah_anggaran_kegiatan'],0,',','.')); ?></h5>
+                <hr style=" border-bottom:2px solid #222;">
+
             </div>
         </div>
     </div>
@@ -59,8 +66,7 @@
                             <th>Daetail</th>
 
                             <th>Category</th>
-                            <th>Jumlah Program</th>
-                            <th>Jumlah Kegiatan</th>
+                            <th>Jumlah Anggran</th>
 
 
 
@@ -88,8 +94,7 @@
 
                                 </td>
                                 <td><?php echo e($value['nama']); ?></td>
-                                <td><?php echo e($value['jumlah_program']); ?></td>
-                                <td><?php echo e($value['jumlah_kegiatan']); ?></td>
+                                <td><?php echo e(number_format($value['anggaran_kegiatan'],0,',',' ')); ?></td>
 
                             </tr>
                         <?php endforeach ?>
@@ -116,15 +121,11 @@ var <?php echo e($id_dom); ?>_data_pie_pendukung=<?php echo json_encode($rekap_p
 <?php
 $series=[
 [
-    'name'=>'JUMLAH KEGIATAN',
+    'name'=>'Aanggaran',
     'data'=>[]
 
 ],
-[
-    'name'=>'JUMLAH PROGRAM',
-    'data'=>[]
 
-],
 
 ];
 $category=[]
@@ -133,8 +134,7 @@ $category=[]
 <?php $__currentLoopData = $data; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $d): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
     <?php
         $category[]=$d['nama'];
-        $series[0]['data'][]=(int) $d['jumlah_kegiatan'];
-        $series[1]['data'][]=(int) $d['jumlah_program'];
+        $series[0]['data'][]=(int) $d['anggaran_kegiatan'];
 
     ?>
 
@@ -220,50 +220,7 @@ Highcharts.chart('<?php echo e($id_dom); ?>container', {
 
 
 // Build the chart
-Highcharts.chart('<?php echo e($id_dom); ?>pie', {
-    chart: {
-        plotBackgroundColor: null,
-        backgroundColor:'transparent',
-        plotBorderWidth: null,
-        plotShadow: false,
-        type: 'pie',
-        height:200
-    },
-    title: {
-        text: 'REKAP JUMLAH PROGRAM KEGIATAN',
-         style:{
-            fontSize:10,
-            fontWeight:'bold'
-        }
-    },
-    tooltip: {
-        pointFormat: '{series.name}: <b>{point.y}</b>'
-    },
-    accessibility: {
-        point: {
-            valueSuffix: '%'
-        }
-    },
-    plotOptions: {
-        pie: {
-            allowPointSelect: true,
-            cursor: 'pointer',
-            dataLabels: {
-                enabled: true,
-                format: '<b>{point.name}</b>: {point.y} ',
-                connectorColor: 'silver'
-            }
-        }
-    },
-    series: [{
-        name: 'JUMLAH',
-        data: [
-            { name: 'JUMLAH PROGRAM', y: <?php echo e($rekap_program_kegiatan['jumlah_program']); ?> },
-            { name: 'JUMLAH KEGIATAN', y: <?php echo e($rekap_program_kegiatan['jumlah_kegiatan']); ?> },
-          
-        ]
-    }]
-});
+
 
 Highcharts.chart('<?php echo e($id_dom); ?>pie_pendukung', {
     chart: {
@@ -325,4 +282,4 @@ setTimeout(function(){
 
 </script>
 
-</div><?php /**PATH C:\xampp\htdocs\nws\application\views/helper/chart.blade.php ENDPATH**/ ?>
+</div><?php /**PATH C:\xampp\htdocs\nws\application\views/pages/anggaran/chart.blade.php ENDPATH**/ ?>

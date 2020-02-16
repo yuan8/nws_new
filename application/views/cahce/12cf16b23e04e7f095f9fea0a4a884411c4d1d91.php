@@ -72,6 +72,33 @@
     <div class="col-md-12 animated fadeInUp" id="content-map-canvas" style="background-image: url('<?php echo e(rt('dist/images/back_map.jpg')); ?>'); ">
       <div class="chart" id="map-container" style="max-width:calc(100vw - 20px);">
       </div>
+      <div class="card text-dark">
+       
+
+          <table class="table table-bordered" style="font-size: 10px;">
+            <tbody>
+              <tr>
+                <td><b>PDAM</b> </td>
+                <td> <div style="width:10px!important; border:1px solid #222; height: 10px; border-radius: 100%; background: red; "></div> Sakit</td>
+                <td> <div style="width:10px!important; border:1px solid #222; height: 10px; border-radius: 100%; background: orange; "></div> Kurang Sehat</td>
+                <td> <div style="width:10px!important;  border:1px solid #222; height: 10px; border-radius: 100%; background: yellow; "></div> Potensial Untuk</td>
+                <td> <div style="width:10px!important;  border:1px solid #222; height: 10px; border-radius: 100%; background: green; "></div> Sehat</td>
+                <td><div style="width:10px!important;  border:1px solid #222; height: 10px; border-radius: 100%; background: blue; "></div> Sehat Bekelanjutan</td>
+                <td><b>Trafik PDAM</b> </td>
+                <td><div><i class="far fa-caret-square-up"></i></div> Naik</td>
+                <td><div><i class="far fa-circle"></i></div> Stabil</td>
+                <td><div ><i class="far fa-caret-square-down"></i></div> Turun</td>
+
+                <style type="text/css">
+                  
+
+                </style>
+
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
     </div>
   </div>
   <div class="row">
