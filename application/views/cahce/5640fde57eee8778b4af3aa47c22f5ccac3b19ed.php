@@ -17,7 +17,7 @@
         <p>
           <img src="<?php echo e(rt('/dist/images/logo.png')); ?>" alt="" style="max-width:50%;">
         </p>
-        <p style="font-size:20px; margin-bottom:0px;"><b>Direktorat Jendal</b> </p>
+        <p style="font-size:20px; margin-bottom:0px;"><b>Direktorat Jenderal</b> </p>
         <p style="font-size:20px;"><b>Bina Pembangunan Daerah</b>  </p>
 
     	</div>

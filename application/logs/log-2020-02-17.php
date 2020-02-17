@@ -926,3 +926,4 @@ LINE 9:    from anggaran_kegiatan as su
 
 		GROUP BY su.id ORDER BY anggaran_kegiatan DESC
 		
+ERROR - 2020-02-17 19:17:18 --> Severity: Notice --> Undefined property: stdClass::$username C:\xampp\htdocs\nws\application\controllers\Login.php 32
